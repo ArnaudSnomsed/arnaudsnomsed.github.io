@@ -43,8 +43,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 See the [open issues](https://github.com/evanca/machine-learning_optimizing-app-offers-with-starbucks/issues) for a list of proposed features (and known issues).
 
-### Test
-<div id="flickrembed_96"></div><div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"><a  href="https://uk-facts.co.uk/car-painting/">https://uk-facts.co.uk/car-painting/</a></div><script src='https://flickrembed.com/embed_v2.js.rand.php?container=flickrembed_96&source=flickr&layout=responsive&input=www.flickr.com/photos/arnauddesmons/&sort=0&by=user&theme=tilesgrid&scale=fill&speed=3000&limit=10&skin=default&autoplay=true'></script><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script><small style="display: block; text-align: center; margin: 0 auto;">Powered by <a href="https://flickrembed.com">flickr embed</a>.</small>
+
 
 ___
 
