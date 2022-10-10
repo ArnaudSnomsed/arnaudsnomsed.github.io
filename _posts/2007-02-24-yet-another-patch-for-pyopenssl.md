@@ -8,10 +8,10 @@ categories:
     - Informatique
 ---
 
-[This patch](http://arnaud.desmons.free.fr/pyOpenSSL-0.6-pkcs12_cafile.patch) (to be applied just after the pkcs12 one and before the CRL one) will allow you to add the CA certificat into a pkcs12.  
+[This patch](/assets/pyOpenSSL-0.6-pkcs12_cafile.patch) (to be applied just after the pkcs12 one and before the CRL one) will allow you to add the CA certificat into a pkcs12.  
    
-[pyOpenSSL-0.6-pkcs12\_cafile.patch](http://arnaud.desmons.free.fr/pyOpenSSL-0.6-pkcs12_cafile.patch)  
-[pyOpenSSL-0.8-pkcs12\_cafile.patch](http://arnaud.desmons.free.fr/pyOpenSSL-0.8-pkcs12_cafile.patch)  
+[pyOpenSSL-0.6-pkcs12\_cafile.patch](/assets/pyOpenSSL-0.6-pkcs12_cafile.patch)  
+[pyOpenSSL-0.8-pkcs12\_cafile.patch](/assets/pyOpenSSL-0.8-pkcs12_cafile.patch)  
 
 ```
 p12 = crypto.PKCS12()
