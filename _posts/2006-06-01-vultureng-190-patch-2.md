@@ -2,7 +2,7 @@
 id: 63
 title: 'VultureNG 1.90 patch #2'
 date: '2006-06-01T06:24:39+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Vulture

@@ -2,7 +2,7 @@
 id: 78
 title: 'Compil&rsquo; de détournements'
 date: '2006-08-08T06:57:14+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Humour

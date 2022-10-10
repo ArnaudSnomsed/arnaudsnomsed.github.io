@@ -2,7 +2,7 @@
 id: 64
 title: 'My united states of&#8230;.WHATEVA !'
 date: '2006-06-04T07:56:21+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Humour

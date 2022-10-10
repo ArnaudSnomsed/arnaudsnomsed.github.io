@@ -2,7 +2,7 @@
 id: 60
 title: 'How to feed Bogofilter with ham and spam thanks to IMP'
 date: '2006-07-11T05:45:26+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

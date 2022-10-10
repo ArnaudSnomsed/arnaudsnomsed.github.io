@@ -2,7 +2,7 @@
 id: 85
 title: 'pyOpenSSL patch for CRL'
 date: '2006-12-28T22:20:34+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

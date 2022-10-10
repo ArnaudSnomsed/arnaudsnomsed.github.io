@@ -2,7 +2,7 @@
 id: 40
 title: 'Freaking cars'
 date: '2006-04-25T06:37:50+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

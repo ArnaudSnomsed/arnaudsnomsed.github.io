@@ -2,7 +2,7 @@
 id: 59
 title: 'Stone Ridge'
 date: '2006-06-04T03:39:33+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

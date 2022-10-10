@@ -2,7 +2,7 @@
 id: 83
 title: 'Geek Music'
 date: '2006-10-07T23:35:41+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - General

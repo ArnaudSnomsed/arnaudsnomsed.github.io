@@ -2,7 +2,7 @@
 id: 15
 title: 'IMail passwords'
 date: '2006-03-07T03:55:21+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

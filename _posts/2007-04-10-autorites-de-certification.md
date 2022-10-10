@@ -2,7 +2,7 @@
 id: 88
 title: 'Autorités de certification'
 date: '2007-04-10T16:47:08+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

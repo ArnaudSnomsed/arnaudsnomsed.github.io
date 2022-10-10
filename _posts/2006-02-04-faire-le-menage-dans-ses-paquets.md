@@ -2,7 +2,7 @@
 id: 8
 title: 'Faire le ménage dans ses paquets'
 date: '2006-02-04T15:27:51+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

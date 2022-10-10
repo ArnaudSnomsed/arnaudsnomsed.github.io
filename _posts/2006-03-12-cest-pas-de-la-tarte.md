@@ -2,7 +2,7 @@
 id: 16
 title: 'C&rsquo;est pas de la tarte'
 date: '2006-03-12T23:37:21+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

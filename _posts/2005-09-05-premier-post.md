@@ -1,7 +1,7 @@
 ---
 title: 'Une clé de contact pour portable'
 date: '2005-09-05T00:32:28+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

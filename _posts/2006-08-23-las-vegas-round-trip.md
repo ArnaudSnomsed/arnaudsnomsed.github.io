@@ -2,7 +2,7 @@
 id: 81
 title: 'Las Vegas Round Trip'
 date: '2006-08-23T02:34:24+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

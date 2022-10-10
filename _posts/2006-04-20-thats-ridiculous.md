@@ -2,7 +2,7 @@
 id: 39
 title: 'That&rsquo;s ridiculous'
 date: '2006-04-20T06:39:13+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

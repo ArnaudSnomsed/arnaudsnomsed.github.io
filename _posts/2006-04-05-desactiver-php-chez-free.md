@@ -2,7 +2,7 @@
 id: 34
 title: 'Désactiver PHP chez free'
 date: '2006-04-05T19:24:49+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

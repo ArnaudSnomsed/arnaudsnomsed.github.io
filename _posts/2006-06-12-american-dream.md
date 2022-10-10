@@ -2,7 +2,7 @@
 id: 66
 title: 'American dream'
 date: '2006-06-12T05:10:03+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

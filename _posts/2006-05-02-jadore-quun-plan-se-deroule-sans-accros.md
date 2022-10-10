@@ -2,7 +2,7 @@
 id: 45
 title: 'J&rsquo;adore qu&rsquo;un plan se déroule sans accros !'
 date: '2006-05-02T04:36:23+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

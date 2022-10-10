@@ -2,7 +2,7 @@
 id: 80
 title: 'Une page se tourne&#8230;'
 date: '2006-08-15T03:23:31+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

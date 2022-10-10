@@ -2,7 +2,7 @@
 id: 61
 title: 'Week-end à San Francisco'
 date: '2006-05-23T05:55:49+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

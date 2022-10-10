@@ -2,7 +2,7 @@
 id: 138
 title: 'Grabit sous unix en mode console'
 date: '2005-12-04T21:00:19+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

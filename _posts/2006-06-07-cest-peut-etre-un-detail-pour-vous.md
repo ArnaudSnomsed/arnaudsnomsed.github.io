@@ -2,7 +2,7 @@
 id: 65
 title: 'C&rsquo;est peut être un détail pour vous&#8230;'
 date: '2006-06-07T05:14:14+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

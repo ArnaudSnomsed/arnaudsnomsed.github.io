@@ -2,7 +2,7 @@
 id: 86
 title: 'Yet another patch for pyOpenSSL'
 date: '2007-02-24T15:18:37+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

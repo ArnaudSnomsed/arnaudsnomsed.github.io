@@ -2,7 +2,7 @@
 id: 52
 title: 'Fin des stages aux USA ?'
 date: '2006-05-13T20:42:37+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - General

@@ -2,7 +2,7 @@
 id: 73
 title: 'Lava Beds National Monument'
 date: '2006-07-24T08:11:11+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - USA

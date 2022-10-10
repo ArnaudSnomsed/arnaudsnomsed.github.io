@@ -2,7 +2,7 @@
 id: 84
 title: 'pyOpenSSL patch for PKCS12'
 date: '2006-11-29T23:02:27+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

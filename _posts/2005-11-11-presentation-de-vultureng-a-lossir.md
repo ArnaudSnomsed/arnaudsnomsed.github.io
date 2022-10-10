@@ -2,7 +2,7 @@
 id: 137
 title: 'Présentation de VultureNG à l&rsquo;OSSIR'
 date: '2005-11-11T20:05:00+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

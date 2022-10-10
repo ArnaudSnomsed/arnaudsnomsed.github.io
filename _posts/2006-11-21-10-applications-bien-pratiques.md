@@ -2,7 +2,7 @@
 id: 79
 title: '10 applications bien pratiques'
 date: '2006-11-21T22:59:56+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

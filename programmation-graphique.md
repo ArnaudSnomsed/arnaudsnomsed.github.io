@@ -15,7 +15,7 @@ Les exemples de ce tutorial doivent être compilés avec Djgpp, le portage DOS d
 
 VGA
 
-- [ Modes graphiques](http://arnaud.desmons.free.fr/wikini/wakka.php?wiki=TutorialDeProgrammationGraphique#modes)
+- [ Modes graphiques](#modes)
 - [ Palette de couleur](#pallet)
 - [ Double buffering](#buffering)
 - [ Texte en mode graphique](#text)
@@ -82,7 +82,7 @@ void set_video_mode(int mode)
 
 ####  Palette de couleur 
 
-[palette.zip](http://arnaud.desmons.free.fr/djgfx/palette.zip)
+[palette.zip](/assets/palette.zip)
 
 VGA permet d’afficher 63^3 = 220000 couleurs, mais un nombre limité de couleurs en simultané qui dépend de la résolution couleur du mode ou bpp (bits per pixel), il est de 256 (8bpp) pour le mode 13h. Cela signifie que vous stockez 256 couleurs (16bits) différentes que votre image utilisera dans une zone de mémoire correspondant à la palette, et vous accédez à l’écran comme un tableau. Mais au lieu de spécifier la couleur du pixel dans la table, vous y placez l’index. La valeur va de 0 à 255, chacun se referant à une couleur de la palette. Cela permet d’utiliser toutes les couleurs de la carte dans un mode 8 bits au depend du nombre de couleurs simultanees.
 
@@ -121,7 +121,7 @@ void vsync(unsigned char *buffer)
 
 #### Texte en mode graphique
 
-[texte.zip](http://arnaud.desmons.free.fr/djgfx/texte.zip)
+[texte.zip](/assets/texte.zip)
 
 Il existe une police de caractere stockée en ROM à l’adresse 0xffa6e, c’est un tableau qui contient une série de caractères de résolution 8×8 bits. On obtient donc un caractère en multipliant sa valeur ASCII par 8; on ajoute alors cette valeur au pointeur initialisé à 0xffa6e. On transfère ensuite, vers l’ecran, la portion 8×8 qui débute la où est notre pointeur.
 
@@ -151,7 +151,7 @@ void text(unsigned char *buffer,char *string,int x,int y,unsigned char color)
 
 ####  Pixel 
 
-[pixel.zip](http://arnaud.desmons.free.fr/djgfx/pixel.zip)
+[pixel.zip](/assets/pixel.zip)
 
 On allume un pixel en envoyantl’indice de sa couleur aux coordonnées souhaitées vers lamemoire de l’ecran, representé par un pointeur à l’adresse0xa0000. En mode 13h elle represente 320\*200 octets soit 64 Ko etest lineaire (bitmap). L’ordre d’affichage des pixel commence en haut agauche, puis arrivé en bout de ligne on recommence à la lignesuivante, etc. Le calcul de la position en 2 dimensions est : 320 \* y+ x
 
@@ -167,7 +167,7 @@ void put_pixel(unsigned char *buffer,int x,int y,unsigned char color)
 
 #### Ligne
 
-[ligne.zip](http://arnaud.desmons.free.fr/djgfx/ligne.zip)
+[ligne.zip](/assets/ligne.zip)
 
 On écrit des pixels dans la direction de l'axe à plus forte
 dénivellation en mettant à jour une variable qui est l'écart entre le
@@ -228,7 +228,7 @@ void ligne(unsigned char *bitmap, int x1,int y1, int x2,int y2, unsigned char co
 
 ####  Cercle
 
-[cercle.zip](http://arnaud.desmons.free.fr/djgfx/cercle.zip)
+[cercle.zip](/assets/cercle.zip)
 
 La distance d'un point du cercle à son centre sera toujours égale au
 rayon. Or en faisant varier x, qui est la distance en abscisse qui le
@@ -269,7 +269,7 @@ void	circle(unsigned char *bitmap, int Ox, int Oy, int r, int color)
 
 #### Projection perspective
 
-<a href="http://arnaud.desmons.free.fr/djgfx/projection.zip">http://arnaud.desmons.free.fr/djgfx/projection.zip</a>
+<a href="/assets/projection.zip">projection.zip</a>
 
 ```
 
@@ -305,7 +305,7 @@ void	projection(void)
 
 #### Rotation 
 
-<p><a href="http://arnaud.desmons.free.fr/djgfx/rotation.zip">http://arnaud.desmons.free.fr/djgfx/rotation.zip</a></p>
+<p><a href="/assets/rotation.zip">rotation.zip</a></p>
 <p align="justify">Soit un repère de l'espace (x,y,z), si l'on considère une rotation autour de l'axe x d'angle alpha dans le sens trigonometrique (inverse des aiguillesd'une montre), y(0,1,0) a pour image y'(0,cos(alpha),-sin(alpha)) et z(0,0,1): z'(0,sin(alpha),cos(alpha)), x restant invariant. cette transformation s'écrit analytiquement :</p>
 
 ```
@@ -472,8 +472,8 @@ for(x=scanboard[y].debut;x
 
 #### Projection de texture 
 
-<p><a href="http://arnaud.desmons.free.fr/djgfx/texture.zip">http://arnaud.desmons.free.fr/djgfx/texture.zip</a>
-<a href="http://arnaud.desmons.free.fr/djgfx/bump.tgz">http://arnaud.desmons.free.fr/djgfx/bump.tgz</a></p>
+<p><a href="/assets/texture.zip">texture.zip</a>
+<a href="/assets/bump.tgz">bump.tgz</a></p>
 <p align="justify"><img src="http://logarno.planet-d.net/djgfxfr/texture.jpg" style="float: right; margin: 1em"></img>A chaque sommet du polygone à texturer est associé une valeur x,y sur l'écran mais aussi les cordonnées u,v correspondant dans la texture.Comme pour le remplissage de polygone lorsque l'on initialise les segmentsdu polygone on stocke non seulement la valeur de x qui est associées à y selon l'algorithme de tracé de ligne mais aussi l'abscisse et l'ordonnée de la correspondance du point dans la texture selon le meme principe (double interpolation).</p>
 <p></p>
 
@@ -580,7 +580,7 @@ On trie les sommes des coordonnées Z des sommets des faces. Et on dessine dans 
 
 #### Bmp (320x200x256) 
 
-<p><a href="http://arnaud.desmons.free.fr/djgfx/bmp.zip">http://arnaud.desmons.free.fr/djgfx/bmp.zip</a></p>
+<p><a href="/assets/bmp.zip">bmp.zip</a></p>
 <table>
 <tr>
 <td>Signification du champs<br>Signature = BM<br>Taille fichier<br>Inconnu<br>Offset de l'image dans le fichier</td>
@@ -654,9 +654,9 @@ return;
 
 #### Bump mapping 
 
-<p><a href="http://arnaud.desmons.free.fr/djgfx/bump.zip">http://arnaud.desmons.free.fr/djgfx/bump.zip</a>
-<a href="http://arnaud.desmons.free.fr/djgfx/bump.tgz">http://arnaud.desmons.free.fr/djgfx/bump.tgz</a>
-<a href="http://arnaud.desmons.free.fr/djgfx/gba_bump.zip">http://arnaud.desmons.free.fr/djgfx/gba_bump.zip</a></p>
+<p><a href="/assets/bump.zip">bump.zip</a>
+<a href="/assets/bump.tgz">bump.tgz</a>
+<a href="/assets/gba_bump.zip">gba_bump.zip</a></p>
 
 <p align="justify"><img src="http://arnaud.desmons.free.fr/logarno/djgfxfr/bump.jpg" style="margin: 1em; float: right"></img>Créer un effet de relief sur une texture sous entends des differences d'altitudes sur celle-ci. On détermine l'altitude de chaque pixel par son intensité, plus elle est importante plus le point est haut. On calcule ensuite "l'inclinaison" d'un pixel par rapport à la source de lumiere par l'intermediaire de sa normale. Les normales sont des vecteurs unitaires dont on peut calculer la composante z si l'on a x et y d'après l'équation norme^2 = x^2 + y^2 + z^2 donc z = 1 - racine(x^2 + y^2). Ce calcule ne peut se faire en temps réel on stocke donc au préalable dans un tableau, appelé environnement map, la composante z qui correspond aux composantes x et y normalisées entre 1 et -1. X et y sont respectivement le degré d'inclinaison par rapportà la source lumineuse en abscisse et en ordonné, on l'obtient en comparant l'altitude donc l'intensité des pixels avoisinants et en soustrayant la distance qui sépare le pixel de la source de lumière. En effet si l'on cherche à ce qu'un pixel soit de forte intensité il faut que les composantes x et y soient faibles pour que la composante z tende vers 1 or si un pixel est incliné de x unité(s) a droite il faudra que la source lumineuse soit à x unités à droite du pixel pour que la soustraction donne un resultat faible et que la composante z s'en trouve augmenté.</p>
 
@@ -698,7 +698,7 @@ for (y=0;y<200;y++){
 
 #### Feu
 
-<p><a href="http://arnaud.desmons.free.fr/djgfx/feu.zip">http://arnaud.desmons.free.fr/djgfx/feu.zip</a></p>
+<p><a href="/assets/feu.zip">feu.zip</a></p>
 
 ```
 for(i=0; ijaune
@@ -726,7 +726,7 @@ unsigned char color;
 ### Liens 
 
 <p>Tutorial de "l'Artiste Digital"
-<a href="http://arnaud.desmons.free.fr/djgfx/2d3dfx.zip">http://arnaud.desmons.free.fr/djgfx/2d3dfx.zip</a></p>
+<a href="/assets/2d3dfx.zip">2d3dfx.zip</a></p>
 <p>Programmation 3D en C (génialissime) :
 <a href="http://membres.lycos.fr/heulin/">http://membres.lycos.fr/heulin/</a></p>
 <p>Algorithmique de base de l'infographie

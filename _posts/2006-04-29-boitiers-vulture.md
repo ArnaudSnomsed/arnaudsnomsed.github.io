@@ -2,7 +2,7 @@
 id: 43
 title: 'Appliance Vulture'
 date: '2006-04-29T20:07:00+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique

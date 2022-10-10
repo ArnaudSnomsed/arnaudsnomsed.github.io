@@ -2,7 +2,7 @@
 id: 92
 title: 'Stage de voile aux Glenans'
 date: '2009-05-05T12:08:08+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - General

@@ -2,7 +2,7 @@
 id: 17
 title: 'Humour américain'
 date: '2006-03-14T10:41:44+01:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Humour

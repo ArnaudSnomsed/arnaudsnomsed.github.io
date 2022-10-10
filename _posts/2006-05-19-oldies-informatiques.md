@@ -2,7 +2,7 @@
 id: 54
 title: 'Oldies informatiques'
 date: '2006-05-19T06:16:03+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: post
 categories:
     - Informatique
