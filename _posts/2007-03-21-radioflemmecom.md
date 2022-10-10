@@ -4,11 +4,12 @@ title: Radioflemme.com
 date: '2007-03-21T00:38:11+01:00'
 author: arnaudsnomsed
 layout: post
+image: /assets/images/noxon.png
 categories:
     - General
 ---
 
-![](/img/noxon.png)
+![](/assets/images/noxon.png)
 
 J’ai fait recemment l’acquisition d’un [NOXON](http://entertainfr.terratec.net/modules.php?op=modload&name=News&file=article&sid=237). Cela me permet d’écouter tout un tas de radios internet sans allumer mon ordinateur. La bête se connecte toute seule à internet via le wifi. On peut aussi parcourir les mp3 d’un ordinateur connecté au reseau via le protocol [UPnP](http://fr.wikipedia.org/wiki/Universal_Plug_and_Play)
 
