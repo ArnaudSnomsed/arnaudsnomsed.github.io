@@ -117,7 +117,7 @@ password = gates</font>
 passwd = coucou</font>  
 </span>
 
-![](/vulture.png)
+![](/assets/images/vulture.png)
 
 </div>
 <img src="http://arnaud.desmons.free.fr/vulture.png">
