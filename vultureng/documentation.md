@@ -2,12 +2,11 @@
 id: 36
 title: Documentation
 date: '2006-04-11T05:02:46+02:00'
-author: arnaud.desmons
+author: arnaudsnomsed
 layout: page
-guid: 'http://arnaud.desmons.free.fr/wordpress/?page_id=36'
 ---
 
-This is the I N P R O G R E S S administrator documentation. For a general overview of vulture or the installation documentation click respectively on [Vulture](http://arnaud.desmons.free.fr/wordpress/?page_id=19) or [Installation](http://arnaud.desmons.free.fr/wordpress/?page_id=24) in the right menu.
+This is the I N P R O G R E S S administrator documentation. For a general overview of vulture or the installation documentation click respectively on [Vulture](/vultureng/vulture) or [Installation](/vultureng/install) in the right menu.
 
 Vulture is an HTTP reverse proxy. It does many security checks (authentication, rewriting, filtering) before proxying request from Internet to your web applications. With authentication enabled, vulture will open flows only to authenticated users. It also allows to your users to use only one password to access many different applications by learning and forwarding their different accounts.
 
@@ -36,7 +35,7 @@ Vulture includes :
 <span style="background: #efefef;  padding: 5px; border: 1px solid black; position: absolute; top:200px;left:75px"><font size="-1">Content filtering and encryption</font>  
 </span></div>
 
-<img src="http://arnaud.desmons.free.fr/vulture.png">
+<img src="/assets/images/vulture.png">
 
 
 ### Administration logging in
@@ -47,7 +46,7 @@ listening on another IP if you don’t run your browser from the host
 running vulture. The default password for admin is admin
 
    
-![](/img/vulture-1.2.png)
+![](/assets/images/vulture-1.2.png)
 
 ### Modifying the administrator password
 
@@ -58,9 +57,9 @@ be usefull. Click on ![](/img/vulture/edit.png) to change the password
 of “admin”.
 
    
-![](/img/vulture-1.2-1.png)  
+![](/assets/images/vulture-1.2-1.png)  
    
-![](/wordpress/wp-content/themes/connections/img/divider.gif)
+![](/assets/images/divider.gif)
 
 ### Adding an interface
 
@@ -73,10 +72,10 @@ interface and look at SSL and « SSO portal » features.
 
 Back to the interface list you can see thoses icons :  
 
-![](/img/vulture/button_ok.png) : interface is up and running  
-![](/img/vulture/button_cancel.png) : interface is down  
-![](/img/vulture/stop.png) : click on it to stop an interface  
-![](/img/vulture/reload.png) : click on it to commit changes and start or restart the interface  
+![](/assets/images/button_ok.png) : interface is up and running  
+![](/assets/images/button_cancel.png) : interface is down  
+![](/assets/images/stop.png) : click on it to stop an interface  
+![](/assets/images/reload.png) : click on it to commit changes and start or restart the interface  
   
 Leave the interface stopped as we dont have an application configured on it yet.
 
@@ -87,7 +86,7 @@ Leave the interface stopped as we dont have an application configured on it yet.
 
 An application is mainly represented by its internet name. This is what users will type in the URL bar to join our application. Vulture will answer by providing content from the private URL. This is reverse proxying. We will see thereafter how vulture can require authentication before providing anything from the private URL. Add an application as shown below and start the interface.
 
-![](/img/vulture/Capture-2.png)
+![](/assets/images/Capture-2.png)
 
 Go back to the interface menu and start the interface. You should be able to type http://test or whatever you set the application name to and see your application. If you don’t, go to the FAQ menu.
 
@@ -129,11 +128,11 @@ passwd = coucou</font>
 
 Below is an example of informations needed by Vulture to do its query for authentication using SQL. Vulture support three encrytion algoritms for password comparaison besides plain text : SHA1, MD5 and Crypt.
 
-![](/img/vulture/sql.png)
+![](/assets/images/sql.png)
 
 Actually, you already have an SQL authentication method configured by default which is called « vultureng ». This is the own SQL user database of the administration interface. To enable it on an application just edit the « authentication method » of this application.
 
-![](/img/vulture/app_vultureng.png)
+![](/assets/images/app_vultureng.png)
 
 No need to restart the interface. It’s taken into account on the fly ;-).
 
@@ -141,11 +140,11 @@ No need to restart the interface. It’s taken into account on the fly ;-).
 
 So, now, go on http://test or whatever you set the application name to and you will see this authentication form and should be able to connect using your admin account.
 
-![](/img/vulture/mire.png)
+![](/assets/images/mire.png)
 
 You can now add more users using the Users menu of the administration interface and experiment ACL by clicking on « ACL administration » in the application edition action menu.
 
-![](/img/vulture/acl_user.png)
+![](/assets/images/acl_user.png)
 
 ### LDAP
 
@@ -162,13 +161,13 @@ would be respectively samacountname, samaccountname and member.
 Otherwise, for a common OpenLDAP configuration it would be something
 like shown below :
 
-![](/img/vulture/ldap.png)
+![](/assets/images/ldap.png)
 
 ### SSO Forward
 
    
-![](/img/vulture/htaccess_forward.png)  
-![](/img/vulture/post_forward.png)
+![](/assets/images/htaccess_forward.png)  
+![](/assets/images/post_forward.png)
 
 ### Redirections
 
@@ -190,5 +189,5 @@ like shown below :
 
 ### Headers rewriting
 
-![](/img/vulture/headers_rewriting.png)
+![](/assets/images/headers_rewriting.png)
 
