@@ -120,7 +120,7 @@ passwd = coucou</font>
 ![](/assets/images/vulture.png)
 
 </div>
-<img src="http://arnaud.desmons.free.fr/vulture.png">
+<img src="/assets/images/vulture.png">
 
 </fieldset>
 
