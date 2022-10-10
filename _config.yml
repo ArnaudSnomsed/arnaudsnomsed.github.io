@@ -18,7 +18,7 @@ github_username:  arnaudsnomsed
 # Build settings
 markdown: kramdown
 
-paginate: 3
+paginate: 6
 
 remote_theme: yous/whiteglass
 #theme: jekyll-whiteglass
