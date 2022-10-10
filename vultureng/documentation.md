@@ -6,7 +6,7 @@ author: arnaudsnomsed
 layout: page
 ---
 
-This is the I N P R O G R E S S administrator documentation. For a general overview of vulture or the installation documentation click respectively on [Vulture](/vultureng/vulture) or [Installation](/vultureng/install) in the right menu.
+This is the I N P R O G R E S S administrator documentation. For a general overview of vulture or the installation documentation click respectively on [Vulture](/vultureng/documentation) or [Installation](/vultureng/compiling) in the right menu.
 
 Vulture is an HTTP reverse proxy. It does many security checks (authentication, rewriting, filtering) before proxying request from Internet to your web applications. With authentication enabled, vulture will open flows only to authenticated users. It also allows to your users to use only one password to access many different applications by learning and forwarding their different accounts.
 
