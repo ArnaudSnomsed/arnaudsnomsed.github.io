@@ -11,7 +11,7 @@ categories:
 
 En pliant un billet de 20$ en forme d’avion on obtient les twins towers d’un coté et le pentagone de l’autre…
 
-![](http://arnaud.desmons.free.fr/img/20_dollars1.jpg)
+![](/assets/images/20_dollars1.jpg)
 
   
-![](http://arnaud.desmons.free.fr/img/20_dollars2.jpg)
+![](/assets/images/20_dollars2.jpg)
