@@ -1,6 +1,6 @@
 ---
 id: 39
-title: 'That&rsquo;s ridiculous'
+title: 'That's ridiculous'
 date: '2006-04-20T06:39:13+02:00'
 author: arnaudsnomsed
 layout: post
