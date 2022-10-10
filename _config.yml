@@ -26,3 +26,4 @@ remote_theme: yous/whiteglass
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-paginate
+- jekyll-seo-tag
