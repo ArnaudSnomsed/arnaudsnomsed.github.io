@@ -315,7 +315,7 @@ y' = y * cos(alpha) - z * sin(alpha)
 z' = y * sin(alpha) + z * cos(alpha)
 ```
 
-<p><img src="http://arnaud.desmons.free.fr/logarno/djgfxfr/rotation.jpg" style="float: right; margin: 1em"></p>
+<p><img src="/assets/images/rotation.jpg" style="float: right; margin: 1em"></p>
 <p align="justify">Lorsque l'on désire effecuter une rotation autour de plusieurs axes successivement, les rotations dependent des précédentes. Si l'on fait subire respectivement une rotation autour de x, y puis z cela donne analytiquement:</p>
 
 ```
@@ -475,7 +475,7 @@ for(x=scanboard[y].debut;x
 
 <p><a href="/assets/texture.zip">texture.zip</a>
 <a href="/assets/bump.tgz">bump.tgz</a></p>
-<p align="justify"><img src="http://logarno.planet-d.net/djgfxfr/texture.jpg" style="float: right; margin: 1em"></img>A chaque sommet du polygone à texturer est associé une valeur x,y sur l'écran mais aussi les cordonnées u,v correspondant dans la texture.Comme pour le remplissage de polygone lorsque l'on initialise les segmentsdu polygone on stocke non seulement la valeur de x qui est associées à y selon l'algorithme de tracé de ligne mais aussi l'abscisse et l'ordonnée de la correspondance du point dans la texture selon le meme principe (double interpolation).</p>
+<p align="justify"><img src="/assets/images/texture.jpg" style="float: right; margin: 1em"></img>A chaque sommet du polygone à texturer est associé une valeur x,y sur l'écran mais aussi les cordonnées u,v correspondant dans la texture.Comme pour le remplissage de polygone lorsque l'on initialise les segmentsdu polygone on stocke non seulement la valeur de x qui est associées à y selon l'algorithme de tracé de ligne mais aussi l'abscisse et l'ordonnée de la correspondance du point dans la texture selon le meme principe (double interpolation).</p>
 <p></p>
 
 ```
@@ -659,7 +659,7 @@ return;
 <a href="/assets/bump.tgz">bump.tgz</a>
 <a href="/assets/gba_bump.zip">gba_bump.zip</a></p>
 
-<p align="justify"><img src="http://arnaud.desmons.free.fr/logarno/djgfxfr/bump.jpg" style="margin: 1em; float: right"></img>Créer un effet de relief sur une texture sous entends des differences d'altitudes sur celle-ci. On détermine l'altitude de chaque pixel par son intensité, plus elle est importante plus le point est haut. On calcule ensuite "l'inclinaison" d'un pixel par rapport à la source de lumiere par l'intermediaire de sa normale. Les normales sont des vecteurs unitaires dont on peut calculer la composante z si l'on a x et y d'après l'équation norme^2 = x^2 + y^2 + z^2 donc z = 1 - racine(x^2 + y^2). Ce calcule ne peut se faire en temps réel on stocke donc au préalable dans un tableau, appelé environnement map, la composante z qui correspond aux composantes x et y normalisées entre 1 et -1. X et y sont respectivement le degré d'inclinaison par rapportà la source lumineuse en abscisse et en ordonné, on l'obtient en comparant l'altitude donc l'intensité des pixels avoisinants et en soustrayant la distance qui sépare le pixel de la source de lumière. En effet si l'on cherche à ce qu'un pixel soit de forte intensité il faut que les composantes x et y soient faibles pour que la composante z tende vers 1 or si un pixel est incliné de x unité(s) a droite il faudra que la source lumineuse soit à x unités à droite du pixel pour que la soustraction donne un resultat faible et que la composante z s'en trouve augmenté.</p>
+<p align="justify"><img src="/assets/images/bump.jpg" style="margin: 1em; float: right"></img>Créer un effet de relief sur une texture sous entends des differences d'altitudes sur celle-ci. On détermine l'altitude de chaque pixel par son intensité, plus elle est importante plus le point est haut. On calcule ensuite "l'inclinaison" d'un pixel par rapport à la source de lumiere par l'intermediaire de sa normale. Les normales sont des vecteurs unitaires dont on peut calculer la composante z si l'on a x et y d'après l'équation norme^2 = x^2 + y^2 + z^2 donc z = 1 - racine(x^2 + y^2). Ce calcule ne peut se faire en temps réel on stocke donc au préalable dans un tableau, appelé environnement map, la composante z qui correspond aux composantes x et y normalisées entre 1 et -1. X et y sont respectivement le degré d'inclinaison par rapportà la source lumineuse en abscisse et en ordonné, on l'obtient en comparant l'altitude donc l'intensité des pixels avoisinants et en soustrayant la distance qui sépare le pixel de la source de lumière. En effet si l'on cherche à ce qu'un pixel soit de forte intensité il faut que les composantes x et y soient faibles pour que la composante z tende vers 1 or si un pixel est incliné de x unité(s) a droite il faudra que la source lumineuse soit à x unités à droite du pixel pour que la soustraction donne un resultat faible et que la composante z s'en trouve augmenté.</p>
 
 
 ```
