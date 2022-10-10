@@ -1,6 +1,6 @@
 ---
 id: 49
-title: 'Le son de l&rsquo;espace'
+title: "Le son de l'espace"
 date: '2006-05-09T08:38:06+02:00'
 author: arnaudsnomsed
 layout: post
