@@ -1,6 +1,6 @@
 ---
 id: 74
-title: 'Lionel 6 ans nous parle de&#8230;'
+title: 'Lionel 6 ans nous parle de...'
 date: '2006-07-24T08:47:53+02:00'
 author: arnaudsnomsed
 layout: post
