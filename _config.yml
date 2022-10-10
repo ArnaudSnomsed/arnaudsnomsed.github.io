@@ -11,7 +11,7 @@ title: ArnaudSnomsed's blog
 description: > # this means to ignore newlines until "baseurl:"
   J'ai une vie somme toute assez normale
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://arnaudsnomsed.github.io" # the base hostname & protocol for your site
 twitter_username: arnaudsnomsed
 github_username:  arnaudsnomsed
 
