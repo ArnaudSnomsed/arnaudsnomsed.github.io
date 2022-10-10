@@ -9,8 +9,8 @@ categories:
 ---
 
 I wrote a second patch for pyOpenSSL (to be applied just after pkcs12 one) :  
-[pyOpenSSL-0.6-crl.patch](http://arnaud.desmons.free.fr/pyOpenSSL-0.6-crl.patch)  
-[pyOpenSSL-0.8-crl.patch](http://arnaud.desmons.free.fr/pyOpenSSL-0.8-crl.patch)
+[pyOpenSSL-0.6-crl.patch](/assets/pyOpenSSL-0.6-crl.patch)  
+[pyOpenSSL-0.8-crl.patch](/assets/pyOpenSSL-0.8-crl.patch)
 
 This allows generation of CRL like this :  
 ```
