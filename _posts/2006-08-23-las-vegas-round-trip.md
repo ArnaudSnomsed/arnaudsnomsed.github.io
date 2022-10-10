@@ -9,7 +9,7 @@ categories:
 ---
 
 
-<iframe height="376" src="http://arnaud.desmons.free.fr/las_vegas_round_trip.html" style="border: 0" width="501">  
+<iframe height="376" src="/assets/las_vegas_round_trip.html" style="border: 0" width="501">  
 Désolé mais votre navigateur ne supporte pas les cadres locaux.  
 </iframe>
 
