@@ -2,8 +2,9 @@
 id: 47
 title: 'Programmation graphique'
 date: '2006-05-06T05:46:16+02:00'
-author: arnaud.desmons
-layout: page
+author: arnaudsnomsed
+layout: default
+
 ---
 
 Les exemples de ce tutorial doivent être compilés avec Djgpp, le portage DOS du célèbre GCC (GNU C Compilateur) de la Free Software Foundation.
