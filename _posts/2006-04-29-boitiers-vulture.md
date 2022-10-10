@@ -9,4 +9,4 @@ categories:
     - Vulture
 ---
 
-![wrap.png](http://arnaud.desmons.free.fr/wordpress/wp-content/wrap.png)Ceux qui seraient interessés par une appliance avec [Vulture](http://arnaud.desmons.free.fr/wordpress/?page_id=19) préinstallé peuvent me contacter (<arnaud.desmons@free.fr>). Cela serait de l’ordre de 450$. Nous pourrons convenir de tarifs pour des mises à jours etc. J’ai d’abord besoin d’estimer le nombre de personnes potentiellement interessées.
+Ceux qui seraient interessés par une appliance avec Vulture préinstallé peuvent me contacter. Cela serait de l’ordre de 450$. Nous pourrons convenir de tarifs pour des mises à jours etc. J’ai d’abord besoin d’estimer le nombre de personnes potentiellement interessées.
