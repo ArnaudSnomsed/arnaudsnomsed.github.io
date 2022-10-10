@@ -4,7 +4,7 @@ title: 'Autorités de certification'
 date: '2007-04-10T16:47:08+02:00'
 author: arnaudsnomsed
 layout: post
-page.twitter_image: http://arnaud.desmons.free.fr/img/lock-bottom.png
+largeimage: http://arnaud.desmons.free.fr/img/lock-bottom.png
 categories:
     - Informatique
 ---
