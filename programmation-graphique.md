@@ -3,7 +3,7 @@ id: 47
 title: 'Programmation graphique'
 date: '2006-05-06T05:46:16+02:00'
 author: arnaudsnomsed
-layout: default
+layout: page
 
 ---
 
