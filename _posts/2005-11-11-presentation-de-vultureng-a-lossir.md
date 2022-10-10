@@ -1,6 +1,6 @@
 ---
 id: 137
-title: 'Présentation de VultureNG à l&rsquo;OSSIR'
+title: "Présentation de VultureNG à l'OSSIR"
 date: '2005-11-11T20:05:00+01:00'
 author: arnaudsnomsed
 layout: post
