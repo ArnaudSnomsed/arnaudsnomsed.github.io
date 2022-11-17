@@ -17,7 +17,7 @@ github_username:  arnaudsnomsed
 
 # Build settings
 markdown: kramdown
-
+comments: true
 paginate: 6
 
 remote_theme: yous/whiteglass
