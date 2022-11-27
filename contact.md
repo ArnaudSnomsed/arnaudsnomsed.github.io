@@ -6,5 +6,5 @@ layout: page
 
 ---
 
-Twitter : [](https://twitter.com/ArnaudSnomsed)
+[https://twitter.com/ArnaudSnomsed](https://twitter.com/ArnaudSnomsed)
 
