@@ -1,7 +1,9 @@
 # If you want to link only specific pages in your header, add the path to the
 # pages in order as they should show up.
 main:
-  - title: "Programmation Graphique"
+  - title: "Contact"
+    url: /contact.html
+  - title: "Programmation graphique"
     url: /programmation-graphique.html
   - title: "Vulture 1.99"
     url: /vultureng/documentation.html
