@@ -15,23 +15,32 @@ et sur la photographie.
 ![](/assets/surphoto.jpg)
 
 ## Slow photo
-Sophie Howarth
+de Sophie Howarth à 20€
+
+Test
 
 
 ## A beautiful anarchy
-David duChemin
+de David duChemin à 14€ sur Kindle
 
 ## Le plaisir des images
-Maxime Coulombe
+de Maxime Coulombe à 8€
 
 
 ## PhotoWork
+au éditions Aperture, en anglais, à 25€
+
+
+
+## Errance 
+de Raymond Depardon à 8€
+
+Petit livre de poche avec une alternance de photos et de pages de texte écrites au kilomètre, sans aucune structure, mais très profond et authentique. Beaucoup de photographes peuvent ressentir cette solitude et cette errance dans leur pratique photo. Je m'y suis bien reconnu. Certains passages écrits sont magnifiques. Cela m'a aussi démontré qu'on pouvait commencer à écrire sans forcement savoir où notre écriture nous mène, comme en photo...
 
 ## On landscapes interiors and nudes
 Todd Hido 
 
-## Errance 
-Raymond Depardon
+Ce livre est à cheval entre les deux catégories de cet article car c'est un livre DE photos avec des photos bien imprimées et une super masterclass de Todd Hido sur son processus créatif (en anglais).
 
 # Livres de photographies
 
