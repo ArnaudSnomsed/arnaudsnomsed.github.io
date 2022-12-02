@@ -15,19 +15,23 @@ et sur la photographie.
 ![](/assets/surphoto.jpg)
 
 ## Slow photo
-
+Sophie Howarth
 
 
 ## A beautiful anarchy
+David duChemin
 
 ## Le plaisir des images
+Maxime Coulombe
+
 
 ## PhotoWork
 
-## Aperture Todd Hido 
+## On landscapes interiors and nudes
+Todd Hido 
 
 ## Errance 
-
+Raymond Depardon
 
 # Livres de photographies
 
@@ -35,17 +39,23 @@ et sur la photographie.
 
 
 ## An intimate distance
+Todd Hido
 
 contraste flous
 
 ## ZZYZX
+Gregory Halpern
 
 [https://lephotographeminimaliste.fr/zzyzx-gregory-halpern/](https://lephotographeminimaliste.fr/zzyzx-gregory-halpern/)
 
-## In my room : Saul leiter
+## In my room
+Saul Leiter
 
-## Illuminance 
+## Illuminance
+Rinko Kawaushi
 
-## Tirage fresson
+## Tirages Fresson
+Bernard Plossu
 
 ## En l'état
+Franck Gerard
