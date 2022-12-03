@@ -111,7 +111,7 @@ m'a fait changer d'avis pour ce livre.
 de Rinko Kawaushi, à 53€
 
 Encore un livre très poétique et minimaliste avec des sujets
-relativements banals mais si traités au niveau des couleurs et de la
+relativements banals mais si bien traités au niveau des couleurs et de la
 lumière. Beaucoup de détails esthétiques dans la reliure, le papier,
 la couverture subliment ce beau livre.
 
