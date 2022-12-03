@@ -17,8 +17,8 @@ et sur la photographie.
 ## Slow photo
 de Sophie Howarth à 20€
 
-Test
 
+Il se lit vite car il va vraiment à l'essentiel. J'ai juste du mal avec certains mots utilisés qui sont complètement galvaudés par les coachs en développement personnel  (par exemple "gratitude"). Les exercices aussi sont très clichés (par exemple : faire une lettre à vos peurs). Comme je suis convaincu par cette approche, j'ai réussi à passer outre, et j'ai même plaisir à relire certains chapitres. C'est aussi un beau livre avec une belle mise en page et des photos qui collent bien à l'esprit du livre
 
 ## A beautiful anarchy
 de David duChemin à 14€ sur Kindle
