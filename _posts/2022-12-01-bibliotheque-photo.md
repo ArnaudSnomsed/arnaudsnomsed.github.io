@@ -86,11 +86,11 @@ et le flou par exemple grâce à la pluie sur son pare-brise, grâce aux
 différents plans et la profondeur de champs ou grâce au
 mouvement. Dans cette édition, les magnifiques textes de Katya
 Tylevich qui commentent les périodes et la démarche de Todd Hido m'ont
-beaucoup parlé.
+beaucoup parlés.
 
 
 ## ZZYZX
-Gregory Halpern
+de Gregory Halpern, à 50€
 
 Sans doute mon livre préféré tant au niveau de l'esthétique, de la
 poésie et surtout de la narration !
