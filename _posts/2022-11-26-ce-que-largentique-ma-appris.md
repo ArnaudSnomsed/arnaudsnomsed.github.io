@@ -7,7 +7,7 @@ categories:
     - Photographie
 ---
 
-Dans cet article je liste ce qui influencera aussi à ma pratique en numérique.
+Dans cet article je liste ce qui, en argentique, a influencé ma pratique en numérique.
 
 ![](/assets/argentique.jpg)
 
