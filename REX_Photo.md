@@ -70,9 +70,9 @@ Saul Leiter, photographe, disait
 ## Autres "boitiers"
 
 - [ ] Numériques à objectif fixe de type zoom (compact)
-- [ ] Numériques à un ou plusieurs objectifs fixes (smartphone)
-- [ ] Argentiques à objectifs interchangeables
-- [ ] Boitiers à objectif fixe et focal fixe (jetable)
+- [ ] Numériques à un ou plusieurs objectifs fixes (bridge, smartphone)
+- [ ] Argentiques à objectifs interchangeables (reflex)
+- [ ] Argentiques à objectif fixe et focal fixe (point and shoot, jetables)
 
 ---
 
