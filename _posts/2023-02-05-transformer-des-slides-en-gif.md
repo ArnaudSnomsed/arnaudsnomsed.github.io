@@ -12,7 +12,7 @@ Petit pense bête pour générer un GIF a partir de "slides" au format Markdown
 ![](/assets/tty.gif)
 
 ```
-sudo snap install slides
+sudo snap install slides curl
 curl https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/Ttygif.md | /snap/bin/slides
 
 ```
