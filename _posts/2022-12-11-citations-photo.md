@@ -8,7 +8,7 @@ categories:
 ---
 
 Voici mes citations préférées sur la photo. Et vous ? Dites le moi en
-commentaire ou sur Twitter @ArnaudSnomsed
+commentaire ou en réponse à [ce tweet](https://twitter.com/ArnaudSnomsed/status/1601952892856205312)
 
 - Vous n'avez qu'à vivre et la vie vous donnera des images - Henri
   Cartier-Bresson
