@@ -17,6 +17,7 @@ github_username:  arnaudsnomsed
 
 # Build settings
 markdown: kramdown
+lang: fr
 comments: true
 paginate: 5
 excerpt_separator: "<!-- more -->"
