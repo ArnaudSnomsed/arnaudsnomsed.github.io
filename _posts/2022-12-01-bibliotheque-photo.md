@@ -38,6 +38,8 @@ même sentimentalement (et bien sûr aussi en photo). Très intéressant.
 ## Le plaisir des images
 de Maxime Coulombe à 8€
 
+<!-- more -->
+
 Il y a encore peu de littérature sur les avancées en neuroscience qui
 permettent d'affirmer aujourd'hui comment sont liés les sens, le
 cerveau et la mémoire. Je faisais beaucoup de rapprochement intuitifs

@@ -38,6 +38,7 @@ APS-C, ce qui, à cette ouverture, couterait très cher.
 Enfin, mon argentique à un viseur bien plus grand et lumineux et c'est
 encore aussi plus de confort et de plaisir à la prise de vue.
 
+<!-- more -->
 
 # La priorité à l'ouverture
 

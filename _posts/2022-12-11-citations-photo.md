@@ -19,6 +19,7 @@ commentaire ou sur Twitter @ArnaudSnomsed
   déterminé… Il faut être ambitieux. Je préfère largement boire du
   café, écouter de la musique, et peindre quand j’en ressens
   l’envie. - Saul Leiter
+<!-- more -->
 - Suggérer c'est créer. Décrire c'est détruire - Robert Doisneau
 - Je me défendrai toujours d'être un photographe : cette attraction me
   fait peur, il me semble qu'elle peut vite tourner à la folie, car
