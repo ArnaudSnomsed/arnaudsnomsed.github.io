@@ -30,9 +30,7 @@ $ sudo snap install slides
 ## Commandes
 
 ```
-$ ttyrec
-$ slides demo.md
-$ exit
+$ ttyrec -e 'slides demo.md'
 $ ttygif ttyrecord
 
 (...)
