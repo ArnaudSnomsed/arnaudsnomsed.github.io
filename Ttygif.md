@@ -29,6 +29,9 @@ $ sudo snap install slides
 
 ## Commandes
 
+Commandes à saisir dans un terminal X (avec par exemple une taille de
+police de 11 dans mon cas) :
+
 ```
 $ ttyrec -e 'slides demo.md'
 $ ttygif ttyrecord
