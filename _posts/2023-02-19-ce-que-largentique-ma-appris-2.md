@@ -25,11 +25,12 @@ expériences et illustrer cet article.
 Une belle optique de 50mm à f/1,7 était vendue avec mon argentique
 Pentax MG (40€ l'ensemble). Le nombre de lame important sur cette
 optique permet un bokeh très doux. J'avais donc un terrain de jeu
-inédit pour isoler mon sujet avec un magnifique flou d'arrière-plan mais
-on se rend compte avec le temps que l'on ne peut pas faire reposer
-toute la créativité ça. J'ai remarqué que les peintres n'utilisaient
-pas directement cette technique mais qu'on pouvait observer quand même
-plus de détails et des traits plus prononcés sur le sujet.
+inédit pour isoler mon sujet avec un magnifique flou d'arrière-plan
+mais on se rend compte avec le temps que l'on ne peut pas faire
+reposer toute la créativité sur ça. J'ai remarqué que les peintres
+n'utilisaient pas directement cette technique mais qu'on pouvait
+observer quand même plus de détails et des traits plus prononcés sur
+le sujet.
 
 # Tricher sur la profondeur de champs
 
