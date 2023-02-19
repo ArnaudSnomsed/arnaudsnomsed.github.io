@@ -13,7 +13,7 @@ article](/photographie/2022/11/26/ce-que-largentique-ma-appris.html),
 j'ai voulu parler cette fois de mes expériences sur la lumière et la
 profondeur de champs.
 
-![](assets/ambrosia.png)
+![](/assets/ambrosia.png)
 
 Pour faire des économies, j'ai acheté la chimie qui me permettra de
 développer une douzaine de pellicules. Je n'ai pas fait encore assez
