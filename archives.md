@@ -1,5 +1,7 @@
 ---
-layout: archive
-title: "Blog Archive"
-permalink: /archives/
+layout: page
+title: "Archives"
 ---
+
+- [Programmation graphique](/programmation-graphique.html)
+- [Vulture](/vultureng/documentation.html)

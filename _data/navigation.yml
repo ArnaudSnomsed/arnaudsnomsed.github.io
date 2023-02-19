@@ -3,8 +3,6 @@
 main:
   - title: "Auteur"
     url: https://linktr.ee/arnaudsnomsed/
-  - title: "Programmation graphique"
-    url: /programmation-graphique.html
-  - title: "Vulture"
-    url: /vultureng/documentation.html
+  - title: "Archives"
+    url: /archives.html
 
