@@ -30,3 +30,7 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-sitemap
+
+sass:
+    sass_dir: _sass
+
