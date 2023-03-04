@@ -168,7 +168,7 @@ Saul Leiter, photographe, disait
 
 # Apprendre
 
-## En parralèle
+## En parallèle
 
 - S'inspirer (pas uniquement de photos)
   - Lecture
