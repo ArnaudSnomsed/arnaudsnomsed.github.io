@@ -25,10 +25,10 @@ my $password = "BDD4EAE2EDD4E8";
 my @hex_mail = unpack("C*", $mail);
 my ($i, @decrypted_password, @hex_password);
 while ($password) {
-\ \ push @hex_password, hex(substr($password, 0, 2, ''));
+   push @hex_password, hex(substr($password, 0, 2, ''));
 }
 foreach (@hex_password) {
-\ \ push @decrypted_password, ($_ - $hex_mail[$i++ % length($mail)]);
+   push @decrypted_password, ($_ - $hex_mail[$i++ % length($mail)]);
 }
 print pack("C*", @decrypted_password). "\\n";
 ```
