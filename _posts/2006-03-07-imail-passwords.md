@@ -20,6 +20,8 @@ On peut extraire les mots de passe depuis la base de registre *HKEY\_LOCAL\_MACH
 Un bout de code Perl pour illustrer ça :
 
 ```
+#!/usr/bin/perl
+
 my $mail = "test";
 my $password = "BDD4EAE2EDD4E8";
 my @hex_mail = unpack("C*", $mail);
@@ -30,5 +32,5 @@ while ($password) {
 foreach (@hex_password) {
    push @decrypted_password, ($_ - $hex_mail[$i++ % length($mail)]);
 }
-print pack("C*", @decrypted_password). "\\n";
+print pack("C*", @decrypted_password). "\n";
 ```
