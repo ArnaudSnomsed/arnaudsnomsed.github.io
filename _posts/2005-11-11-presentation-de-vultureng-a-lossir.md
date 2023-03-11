@@ -14,4 +14,4 @@ Lors de la présentation mon responsable a commencé par une présentation rapid
 J’ai ensuite expliqué les concepts de cette version NG d’un point de vue technique avant d’illustrer notre présentation par un parcours moins formel de l’interface d’administration.  
 L’auditoire, remarquablement attentif, composé d’une vingtaine de personnes nous à permis de rendre cette présentation interactive grace à de nombreuses questions.
 
-Le support de la présentation : [http://arnaud.desmons.free.fr/vulture\_ossir.pdf](http://arnaud.desmons.free.fr/vulture_ossir.pdf)
+Le support de la présentation est [ici](/assets/vulture_ossir.pdf)
