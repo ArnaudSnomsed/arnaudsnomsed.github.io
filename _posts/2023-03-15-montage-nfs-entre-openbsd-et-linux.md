@@ -12,7 +12,7 @@ donc voici comment le contourner.
 # Options de montage sous linux
 
 Configurer le fichier /etc/fstab sous Linux en remplacant openbsd par
-le nom de votre serveur ci-dessous :
+le nom de votre serveur comme ci-dessous :
 
 ```
 openbsd:/mnt/WD /media/nfs  nfs noatime,nodev,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,x-systemd.idle-timeout=5min 0 0
