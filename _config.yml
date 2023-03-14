@@ -35,4 +35,4 @@ sass:
     sass_dir: _sass
 
 google_analytics: G-J2R4VJ04JL
-future: true
+future: false
