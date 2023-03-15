@@ -1,20 +1,19 @@
 ---
-title: 'Montage NFS entre OpenBSD et Linux'
+title: 'Un second cerveau avec Org-mode'
+image: /assets/orgmode.png
 author: arnaudsnomsed
 layout: post
 categories:
     - Informatique
 ---
 
-# Objectifs
-
 Il y a quelques mois j'ai fait le constat que la prise de note était
 un pivot très important pour structurer ses idées, préparer des
-réunions, envoyer differents mails (et les relances qui vont avec) ou
+réunions, envoyer différents mails (et les relances qui vont avec) ou
 même regrouper certaines actions (par exemple : en fonction de
 l'interlocuteur, du lieu, du temps ou de la concentration
-nécessaire). Cette idée me fait penser à mon passé de developpeur où
-toute l'intelligence était contenu dans quelques fichiers qui vivaient
+nécessaire). Cette idée me fait penser à mon passé de développeur où
+toute l'intelligence était contenue dans quelques fichiers qui vivaient
 tous les jours. J'étais alors décidé à trouver une solution à ma prise
 de notes avec plusieurs contraintes :
 
@@ -38,9 +37,11 @@ Curieux du org-mode d'Emacs j'ai alors découvert que le format Org
 les tableaux et permettait de planifier et archiver des taches ce qui
 est très pratique pour garder un historique au travail également.
 
+![](/assets/orgmode.png)
+
 # La gestion des taches
 
-Une action sous Org-mode se caracterise par :
+Une action sous Org-mode se caractérise par :
 - Un ou plusieurs signes "*" au début de la ligne
 - Optionnel : Le mot clé TODO ou DONE (on peut aussi selectionner d'autres
   mots clés en ajoutant une ligne #+TODO: TODO WAITING DONE dans le document Org)
@@ -84,9 +85,10 @@ Quelques raccourcis clavier :
 - Ajouter un tag à une tache : C-c C-c
 - Changer l'état d'une tache (par exemple de TODO à DONE) : S-left ou S-right
 - Nouvelle tache : C-S <RET>
+- Archiver un chapitre (il ira alors dans un fichier du même nom avec
+  l'extension .org_archive) : C-c C-x C-a
 
-
-## La vue sous forme d'agenda
+# La vue sous forme d'agenda
 
 Ouvrez avec Emacs un fichier Org contenant les exemples précédents
 puis ajoutez ce fichier dans l'agenda via le raccourci : C-c [
@@ -105,5 +107,126 @@ Monday     13 March 2023 W11
               18:00...... ----------------
               20:00...... ----------------
               22:21...... now - - - - - - - - - - - - - - - - - - - - - - - - -
-  Perso:      23:00...... Scheduled:  TODO Test                                                                              :perso:rdv::
+              23:00...... ----------------
+  Blog:       Deadline:   TODO [#A] RDV                             :perso:
+  Blog:       Scheduled:  TODO Ecrire un article [/]
+
 ```
+
+De façon à identifier plus facilement les actions non planifiées via
+la commande "M-x org-agenda t" j'ai ajouté cette ligne dans mon .emacs
+pour exclure de la liste les actions avec une date :
+
+```
+ '(org-agenda-todo-ignore-with-date t)
+```
+
+# Pour mettre ses idées sur le papier
+
+En combinant l'utilisation du format Org (et même Markdown) on se
+concentre davantage sur le fond et en structurant ses idées par
+itérations comme si on sculptait. La mise en forme ne vient alors
+qu'au moment de la transformation soit en action (mail, réunion, etc)
+soit en document avec un template via un .bat dans le répertoire pour
+transformer tous les fichiers md en docx (le repertoire "src" contient
+les images etc) et lance Word (commande start) :
+
+```
+for %%X in (*.md) do (
+  cd src
+  pandoc.exe -o ../%%~nX.docx -f markdown -t docx --file-scope --reference-doc template.docx ../%%X
+  start /w ../%%~nX.docx
+  cd ..
+)
+
+```
+
+Le fichier template.docx ci-dessus (dans le répertoire src) est un
+document ayant été généré une première fois par Pandoc puis
+personnalisé pour correspondre par exemple au template de
+l'entreprise.
+
+
+Personnellement quand je rédige mes documents j'écris les noms des
+chapitres et sous chapitres et j'écris les idées principales en
+commentaires dans les différentes sections comme ceci :
+
+```
+* Test
+** Sous chapitre
+# - Idée n°1
+# - Idée n°2
+
+Ici le texte décrivant les idées 1 et 2
+
+```
+
+
+
+Cette façon de faire permet de toujours avoir un résultat propre
+exportable à n'importe quel moment de la construction d'un document On
+peut même utiliser le mot clé COMMENT sur certains chapitres. On peut
+aussi utiliser la ligne #+OPTIONS: todo:nil au debut du document pour
+ne pas exporter les actions liés au document :
+
+```
+* TODO Finir la rédaction des chapitres de cet article [1/2]
+  DEADLINE: <2023-03-15 mer.>
+
+** DONE Chapitre 1
+** TODO Chapitre 2
+
+* COMMENT Chapitre pour plus tard
+Ici un chapitre qui ne sera pas exporté par pandoc.
+
+```
+
+
+On peut aussi relier des chapitres via des liens comme ceci :
+
+```
+[[file:c:/Users/xxxxxx/Book.org::*La conclusion][# La conclusion]]
+```
+
+Il faut ajouter la configuration suivante à son .emacs pour que les
+liens ne soient pas "rendus" et soient ainsi éditables :
+
+```
+(setq org-descriptive-links nil)
+
+```
+
+# Pour aller plus loin
+
+
+J'utilise l'application mobile Gitjournal qui permet de synchroniser
+mes notes avec un repository Git et de les avoir toujours sur moi.
+
+Une bonne pratique que j'ai mis en place consiste à créer un fichier
+Inbox.org dans lequel je mets en vrac une idée dès qu'elle me vient (y
+compris via Gitjournal). Je fais ensuite régulièrement du classement
+de cette inbox vers mes différents fichiers Org et chapitres avec une
+date quand il s'agit d'une action.
+
+J'utilise également [agenda-html](https://github.com/dantecatalfamo/agenda-html) qui permet d'exporter sous forme HTML
+mon agenda personnel via la commande suivante dans une crontab :
+
+```
+*/5 * * * * screen -d -m emacs -Q -nw -l /home/xxxxx/agenda-html/agenda-html.el --eval '(kill-emacs)'
+```
+
+Il faut aussi parfois mettre ces lignes à la fin du fichier Org de
+façon à ce que Emacs le recharge automatiquement quand il a été mis à
+jour par exemple par un git pull en dehors d'Emacs :
+
+```
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+```
+
+Voici enfin quelques liens qui m'ont été utiles :
+
+- [https://alphaalgorithms.github.io/2019/05/17/emacs-agenda-views/](https://alphaalgorithms.github.io/2019/05/17/emacs-agenda-views/)
+- [https://orgmode.org/worg/org-tutorials/org4beginners.html](https://orgmode.org/worg/org-tutorials/org4beginners.html)
+- [http://cachestocaches.com/2016/9/my-workflow-org-agenda/](http://cachestocaches.com/2016/9/my-workflow-org-agenda/)
