@@ -14,6 +14,8 @@ donc voici comment le contourner.
 Configurer le fichier /etc/fstab sous Linux en remplacant openbsd par
 le nom de votre serveur comme ci-dessous :
 
+<!-- more -->
+
 ```
 openbsd:/mnt/WD /media/nfs  nfs noatime,nodev,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,x-systemd.idle-timeout=5min 0 0
 ```

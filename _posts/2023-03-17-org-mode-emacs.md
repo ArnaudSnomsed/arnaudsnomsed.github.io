@@ -123,13 +123,13 @@ pour exclure de la liste les actions avec une date :
 
 # Pour mettre ses idées sur le papier
 
-En combinant l'utilisation du format Org (et même Markdown) on se
-concentre davantage sur le fond et en structurant ses idées par
-itérations comme si on sculptait. La mise en forme ne vient alors
-qu'au moment de la transformation soit en action (mail, réunion, etc)
-soit en document avec un template via un .bat dans le répertoire pour
-transformer tous les fichiers md en docx (le repertoire "src" contient
-les images etc) et lance Word (commande start) :
+L'utilisation d'un éditeur de texte permet de se concentrer davantage
+sur le fond de structurer ses idées par itérations comme si on
+sculptait. La mise en forme ne vient alors qu'au moment de la
+transformation soit en action (mail, réunion, etc) soit en document
+par exemple avec le .bat suivant qui transforme en docx tous les
+fichiers md du répertoire.  (le repertoire "src" contient les images
+etc et la commande start lance Word) :
 
 ```
 for %%X in (*.md) do (
