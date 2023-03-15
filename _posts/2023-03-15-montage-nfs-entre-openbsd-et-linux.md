@@ -60,7 +60,6 @@ if [ ${result} -eq 0 ] ; then
            /usr/bin/logger -s -i -p local7.notice -t ${progName} "NFS Connection is OK."
            /usr/bin/logger -s -i -p local7.error -t ${progName} "Disabling firewall to allow access to ${nfs_ip}!"
            /usr/sbin/iptables -D INPUT -s ${nfs_ip}  -j DROP
-           sudo service plexmediaserver restart
            break
        fi
    done
