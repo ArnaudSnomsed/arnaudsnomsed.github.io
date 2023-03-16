@@ -21,6 +21,7 @@ de notes avec plusieurs contraintes :
 - Reposer sur un format standard (en mode texte, structuré, supportant les tableaux)
 - Pouvoir exporter au format HTML et docx
 
+<!-- more -->
 J'ai alors commencé à utiliser le format Markdown avec un éditeur de
 texte que je connais bien en tant qu'ancien développeur : Emacs.
 
@@ -38,6 +39,52 @@ les tableaux et permettait de planifier et archiver des taches ce qui
 est très pratique pour garder un historique au travail également.
 
 ![](/assets/orgmode.png)
+
+
+
+# Les calculs sur les tableaux
+
+On peut créer un tableau simplement en écrivant quelque chose qui ressemble à ça puis en appuyant sur Tab :
+
+```
+| Test | Colonne | Total
+|--
+
+```
+
+On peut ensuite ajouter une formule de calcul sous le tableau comme ceci :
+
+```
+| Test | Colonne | Total |
+|------+---------+-------|
+|      |         |       |
+#+TBLFM: $3=vsum($1..$2)
+
+```
+
+On peut alors mettre à jour les sommes en ligne via C-c *
+
+```
+| Test | Colonne | Total |
+|------+---------+-------|
+|    2 |       3 | 5     |
+#+TBLFM: $3=vsum($1..$2)
+```
+
+On peut aussi faire la somme d'une colonne en se positionnant en bas
+de la colonne via C-c + (puis C-y pour coller le résultat dans certaines
+configuration Emacs) :
+
+```
+| Test | Colonne | Total |
+|------+---------+-------|
+|    2 |       3 |     5 |
+|    2 |         |       |
+|    4 |         |       |
+#+TBLFM: $3=vsum($1..$2)
+
+```
+
 
 # La gestion des taches
 
@@ -77,7 +124,7 @@ qui nous serviront dans la vue agenda dans la chapitre suivant
 
 ```
 
-Quelques raccourcis clavier :
+Quelques raccourcis clavier possible quand on est positionné sur un chapitre :
 
 - Modification des priorités : <kbd>S</kbd>-up et S-down
 - Planification (schedule ou deadline) : C-c C-s ou C-c C-d
@@ -85,8 +132,17 @@ Quelques raccourcis clavier :
 - Ajouter un tag à une tache : C-c C-c
 - Changer l'état d'une tache (par exemple de TODO à DONE) : S-left ou S-right
 - Nouvelle tache : C-S <RET>
-- Archiver un chapitre (il ira alors dans un fichier du même nom avec
-  l'extension .org_archive) : C-c C-x C-a
+- Archiver (il ira alors dans un fichier .org_archive) : C-c C-x C-a
+- Déplier ou replier : Tab ou S-Tab
+
+
+A propos du dernier raccourci, on peut ajouter la ligne suivante dans
+le fichier Org pour que les chapitres soient tous repliés à
+l'ouverture :
+
+```
+#+STARTUP: overview
+```
 
 # La vue sous forme d'agenda
 
