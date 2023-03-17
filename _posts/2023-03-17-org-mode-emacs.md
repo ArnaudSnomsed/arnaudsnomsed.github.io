@@ -7,7 +7,7 @@ categories:
     - Informatique
 ---
 
-Il y a quelques mois j'ai fait le constat que la prise de note était
+Il y a quelques mois j'ai fait le constat que la prise de notes était
 un pivot très important pour structurer ses idées, préparer des
 réunions, envoyer différents mails (et les relances qui vont avec) ou
 même regrouper certaines actions (par exemple : en fonction de
