@@ -184,13 +184,13 @@ sur le fond de structurer ses idées par itérations comme si on
 sculptait. La mise en forme ne vient alors qu'au moment de la
 transformation soit en action (mail, réunion, etc) soit en document
 par exemple avec le .bat suivant qui transforme en docx tous les
-fichiers md du répertoire.  (le repertoire "src" contient les images
+fichiers org du répertoire.  (le repertoire "src" contient les images
 etc et la commande start lance Word) :
 
 ```
-for %%X in (*.md) do (
+for %%X in (*.org) do (
   cd src
-  pandoc.exe -o ../%%~nX.docx -f markdown -t docx --file-scope --reference-doc template.docx ../%%X
+  pandoc.exe -o ../%%~nX.docx -f org -t docx -M "toc-title: Table des matières" --file-scope --reference-doc template.docx ../%%X
   start /w ../%%~nX.docx
   cd ..
 )
