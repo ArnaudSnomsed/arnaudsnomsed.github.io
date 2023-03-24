@@ -23,7 +23,7 @@ expériences et illustrer cet article.
 # L'ennui avec le flou d'arrière-plan
 
 Une belle optique de 50mm à f/1,7 était vendue avec mon argentique
-Pentax MG (40€ l'ensemble). Le nombre de lame important sur cette
+Pentax MG (40€ l'ensemble). Le nombre de lames important sur cette
 optique permet un bokeh très doux. J'avais donc un terrain de jeu
 inédit pour isoler mon sujet avec un magnifique flou d'arrière-plan
 mais on se rend compte avec le temps que l'on ne peut pas faire
