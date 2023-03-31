@@ -17,7 +17,7 @@ le nom de votre serveur comme ci-dessous :
 <!-- more -->
 
 ```
-openbsd:/mnt/WD /media/nfs  nfs noatime,nodev,auto,x-systemd.device-timeout=10,timeo=14,x-systemd.idle-timeout=5min 0 0
+openbsd:/mnt/WD /media/nfs  nfs noatime,nodev,x-systemd.automount,x-systemd.device-timeout=10,timeo=14,x-systemd.idle-timeout=5min 0 0
 ```
 
 Executer la commande suivante après avoir mis à jour le fichier fstab :
