@@ -254,7 +254,6 @@ liens ne soient pas "rendus" et soient ainsi éditables :
 
 # Pour aller plus loin
 
-
 J'utilise l'application mobile Gitjournal qui permet de synchroniser
 mes notes avec un repository Git et de les avoir toujours sur moi.
 
