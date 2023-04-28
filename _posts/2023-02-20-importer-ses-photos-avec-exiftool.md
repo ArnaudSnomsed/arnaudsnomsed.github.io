@@ -38,10 +38,14 @@ Les répertoires auront alors une structure du type :
 
 ```
 
-Pour les vidéos (par élminination des extensions dng, pp3, jpg, mp3) on peut utiliser la commande suivante :
+Pour les vidéos (par élminination des extensions dng, pp3, jpg, mp3)
+on peut utiliser la commande suivante :
 
 ```
 
-exiftool -progress -q -q -r --ext dng --ext pef --ext pp3 --ext xmp --ext jpg --ext mp3 -ext '*' -d /dst/Videos/%Y/%m/%%f-%H%M.%%e '-filename<filemodifydate' '-filename<createdate' '-filename<datetimeoriginal' "/src/"
+exiftool -progress -q -q -r --ext dng --ext pef --ext pp3 --ext xmp \
+	--ext jpg --ext mp3 -ext '*' -d /dst/Videos/%Y/%m/%%f-%H%M.%%e \
+	'-filename<filemodifydate' '-filename<createdate' \
+	'-filename<datetimeoriginal' "/src/"
 
 ```
