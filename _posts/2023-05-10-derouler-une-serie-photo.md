@@ -1,5 +1,5 @@
 ---
-title: 'Comment dérouler une série photo'
+title: 'Un zine pour construire une série photo'
 image: /assets/zine.png
 author: arnaudsnomsed
 layout: post
