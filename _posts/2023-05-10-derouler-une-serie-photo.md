@@ -1,5 +1,5 @@
 ---
-title: 'Un zine pour construire une série photo'
+title: 'Pourquoi faire un zine photo ?'
 image: /assets/zine.png
 author: arnaudsnomsed
 layout: post
@@ -22,7 +22,7 @@ On a raison de penser qu'une série n'a de sens que si on sait pourquoi
 <!-- more -->
 on la fait. On se met alors parfois à attendre quelque
 chose à exprimer qui puisse répondre au pourquoi :
-l'inspiration. Personnellement, je découvre le pourquoi qu'après
+l'inspiration. On peut attendre longtemps. Personnellement, je découvre le pourquoi qu'après
 m'être mis en marche, comme dans une forme "d'écriture
 automatique". Cela permet de rester ouvert à l'inattendu (notre
 imagination est bien plus limitée que la réalité) et d'utiliser notre
