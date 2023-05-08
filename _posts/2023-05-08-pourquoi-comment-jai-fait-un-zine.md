@@ -116,13 +116,11 @@ maquette, on a alors envie de soigner la communication pour partager
 son projet le plus efficacement possible.
 
 J'ai d'abord réfléchi au planning : combien de temps durera la
-campagne ? Quels évènements provoquer pendant la campagne
-(communication sur ses propres réseaux sociaux comme ceux des autres,
-envoi à des médias spécialisés, etc) ? Dans quel ordre ? A destination
-de qui précisément ? Les plateformes telles que Kisskissbankbank
-expliquent bien comment s'y prendre. En résumé, il faut préparer la
-communication avant la campagne et en ciblant différents cercles de
-populations pour avoir un effet boule de neige.
+campagne ? Quels évènements provoquer pendant la campagne ? Dans quel
+ordre ? A destination de qui précisément ? Les plateformes telles que
+Kisskissbankbank expliquent bien comment s'y prendre. En résumé, il
+faut préparer la communication avant la campagne et en ciblant
+différents cercles de populations pour avoir un effet boule de neige.
 
 En parallèle, j'ai créé la page du projet avec globalement :
 
