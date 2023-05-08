@@ -151,7 +151,7 @@ Globalement, par ordre d'importance (et aussi par ordre des commandes
 - Frais de la plateforme de financement
 
 J'avais créé une feuille de calcul pour chacun des fournisseurs pour
-optimiser les couts en fonction de l'avancement de la campagne, les
+optimiser les couts en fonction de l'avancement de la campagne, des
 frais de livraisons et aussi des offres du moment.
 
 Enfin j'ai ajouté à mon fichier de calcul, un onglet de suivi des
