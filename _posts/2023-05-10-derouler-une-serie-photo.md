@@ -1,5 +1,5 @@
 ---
-title: 'Pourquoi faire un zine photo ?'
+title: 'Pourquoi et comment faire un zine photo ?'
 image: /assets/zine.png
 author: arnaudsnomsed
 layout: post
