@@ -115,7 +115,7 @@ Quand on a fait tant d'efforts pour mener son projet jusqu'à une
 maquette, on a alors envie de soigner la communication pour partager
 son projet le plus efficacement possible.
 
-D'abord il faut réfléchir au planning : combien de temps durera la
+J'ai d'abord réfléchi au planning : combien de temps durera la
 campagne ? Quels évènements provoquer pendant la campagne
 (communication sur ses propres réseaux sociaux comme ceux des autres,
 envoi à des médias spécialisés, etc) ? Dans quel ordre ? A destination
@@ -152,9 +152,9 @@ Globalement, par ordre d'importance (et aussi par ordre des commandes
 - Timbres
 - Frais de la plateforme de financement
 
-J'avais un calcul des frais de livraison pour chacun des fournisseurs
-pour optimiser les couts en fonction de l'avancement de la campagne et
-des offres du moment.
+J'avais créé une feuille de calcul pour chacun des fournisseurs pour
+optimiser les couts en fonction de l'avancement de la campagne, les
+frais de livraisons et aussi des offres du moment.
 
 Enfin j'ai ajouté à mon fichier de calcul, un onglet de suivi des
 envois pour chaque contributeur avec les adresses et numéros de suivi
