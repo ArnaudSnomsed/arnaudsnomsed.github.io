@@ -44,8 +44,8 @@ A la prise de vue, je m'applique à faire deux choses :
   sous un autre angle (au sens propre comme au figuré). J'essaie
   d'oublier le sujet au profit de la composition. Je suis toujours
   étonné, quand je regarde mes photos quelques temps après, comme les
-  expérimentations finissent par s'assembler entre elles et refleter
-  mes pensées inconscientes.
+  expérimentations finissent par s'assembler entre elles de façon 
+  relativement cohérente et refléter mes pensées inconscientes.
 
 En appliquant cela régulièrement, à la manière d'un entrainement
 sportif, on finit par se construire une bibliothèque de contraintes
