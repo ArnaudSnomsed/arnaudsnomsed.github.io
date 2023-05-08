@@ -10,7 +10,7 @@ categories:
 ![](/assets/zine.png)
 
 Cet article décrit un fonctionnement personnel et n'a pas vocation a
-être une vérité universelle. Bien sûr j'espère que certains se
+être universel. Bien sûr j'espère que certains se
 reconnaitront ici mais je pourrai moi-même évoluer dans ma façon de
 voir. Dans tous les cas, j'ai besoin de poser les choses par écrit
 pour avancer. C'est d'ailleurs un principe qui s'applique à la photo
