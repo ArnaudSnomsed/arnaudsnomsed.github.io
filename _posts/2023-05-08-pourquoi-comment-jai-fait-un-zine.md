@@ -85,7 +85,7 @@ l'image de façon fidèle à nos ressentis du moment.
 
 Pour Hello World, la quête de sens est le sujet même de la série. Lors
 des premières prises de vue je n'avais pas d'idée sur ce que je
-voulais dire mais au fil des photos j'ai vu, ou j'ai projeté sur elle,
+voulais dire mais au fil des photos j'ai vu, ou j'ai projeté sur elles,
 ce que cela racontait. J'aime cette idée que le monde extérieur me
 "parle" et qu'il raisonne avec mon monde intérieur. Finalement je
 projette ma réalité. Et cela est permis grâce à la marche et une forme
