@@ -19,9 +19,7 @@ et que j'explique ci-dessous.
 # Pourquoi faire une série ?
 
 On a raison de penser qu'une série n'a de sens que si on sait pourquoi
-
 <!-- more -->
-
 on la fait. On se met alors parfois à attendre quelque chose à
 exprimer qui puisse répondre au pourquoi : l'inspiration. On peut
 attendre longtemps. Personnellement, je découvre le pourquoi qu'après
@@ -98,10 +96,12 @@ quête en utilisant le concept du monomythe. Cela permettait un
 équilibre entre cohérence et mystère (voyage, solitude, ombres, etc)
 et en suggérant des émotions.
 
-	       
+
+Je vous laisse feuilleter le zine ci-dessous :
+
 <iframe id="data-blurb-bookshare-11130404" data-bindattr-125="125"
 		height="400px" data-bindattr-126="126"
-		width="800px" data-bindattr-127="127"
+		width="100%" data-bindattr-127="127"
 		src="https://www.blurb.fr/bookshare/app/index.html?bookId=11130404" data-bindattr-128="128"
 		frameborder=0
 		allowfullscreen=''
@@ -111,7 +111,7 @@ et en suggérant des émotions.
 
 # Le financement participatif et la livraison
 
-Quand on a fait tant d'efforts pour mener son projet jusqu'a une
+Quand on a fait tant d'efforts pour mener son projet jusqu'à une
 maquette, on a alors envie de soigner la communication pour partager
 son projet le plus efficacement possible.
 
@@ -124,26 +124,33 @@ expliquent bien comment s'y prendre. En résumé, il faut préparer la
 communication avant la campagne et en ciblant différents cercles de
 populations pour avoir un effet boule de neige.
 
-En parallèle il faut créer la page du projet avec globalement :
+En parallèle, j'ai créé la page du projet avec globalement :
 
-- Un descriptif de la série : par exemple, la démarche, le propos,
-  l'origine du titre, etc
-- Des photos du ou des objets : il faut ici réfléchir aussi aux
-  packages proposées et la cohérence du prix par rapport à l'objectif
-  de la campagne et les volumes espérés etc (par exemple : tirage +
-  zine, signé et numéroté ou pas, etc)
-- Une vidéo (en option)
+- Un descriptif de la série : la démarche, le propos, l'origine du
+  titre, etc
+- Les photos des objets : il faut ici réfléchir aussi aux packages
+  proposées et la cohérence du prix par rapport à l'objectif de la
+  campagne et les volumes espérés etc (par exemple : tirage + zine,
+  signé et numéroté ou pas, etc)
+- Une vidéo (celle de l'interview avec Thomas Hammoudi que je vous met
+  en bas de la page).
 
 Spécifiquement pendant la campagne de Hello World, j'ai commandé des
 exemplaires en fonctions de l'avancement de la campagne car il y avait
 des promotions intéressantes à ce moment-là chez l'imprimeur.
 
-- Enveloppes
-- Film antistatique (spécifiquement pour le projet Hello World)
-- Timbres
-- Frais de la plateforme de financement
+Globalement, par ordre d'importance (et aussi par ordre des commandes
+à faire) :
+
 - Imprimeur (zines et tirages qui étaient chez des imprimeurs
   différents pour Hello World)
+- Film antistatique (spécifiquement pour mon zine Hello World)
+- Sponsoring des réseaux sociaux (j'ai essayé de mettre en avant le
+  zine avec de la publicité mais le retour sur investissement n'en
+  valait pas la peine).
+- Enveloppes
+- Timbres
+- Frais de la plateforme de financement
 
 J'avais un calcul des frais de livraison pour chacun des fournisseurs
 pour optimiser les couts en fonction de l'avancement de la campagne et
@@ -175,8 +182,10 @@ démarche trop intellectuelle simplement pour "avancer" :
   produites et on construit comment raconter une histoire avec des
   fils conducteurs sous la forme d'une série
 
+-----
+
 Pour plus de détails sur Hello World, j'en parle sur cette chaine :
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ooAYXZDruc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="90%" height="300" src="https://www.youtube.com/embed/4ooAYXZDruc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
