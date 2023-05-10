@@ -9,7 +9,7 @@ categories:
 
 Pour chiffrer de façon transparente vos notes org-mode dans emacs,
 ajoutez ceci dans votre fichier .emacs pour charger EasyPG Assitant
-qui inclus par défaut dans les dernières version d'emacs et y compris
+qui est inclus par défaut dans les dernières version d'emacs et y compris
 sous Windows :
 
 ```
