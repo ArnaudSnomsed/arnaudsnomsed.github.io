@@ -154,13 +154,15 @@ J'avais créé une feuille de calcul pour chacun des fournisseurs pour
 optimiser les couts en fonction de l'avancement de la campagne, des
 frais de livraisons et aussi des offres du moment.
 
-Enfin j'ai ajouté à mon fichier de calcul, un onglet de suivi des
-envois pour chaque contributeur avec les adresses et numéros de suivi
-pour la poste pour imprimer les étiquettes et assurer le suivi après.
+Enfin j'ai ajouté à mon fichier, un onglet de suivi des envois pour
+chaque contributeur avec les adresses pour imprimer les étiquettes et
+les numéros de suivi des lettres. Pour l'envoi à l'international, cela
+coute encore moins cher qu'en France grace à un envoi intitulé "livres
+et brochures" par La Poste.
 
-Je les ai envoyé progressivement par petits paquets pour rester
-prudent et avec un petit mot sur les tirages d'accompagnement du zine
-(car pas facile et risqué d'écrire dans le zine).
+Je les ai envoyé progressivement pour rester prudent et avec un petit
+mot sur les tirages d'accompagnement du zine (car pas facile et risqué
+d'écrire dans le zine).
 
 
 # En résumé
@@ -169,7 +171,7 @@ En résumé je dirai qu'il y a trois temps pour éviter d'avoir une
 démarche trop intellectuelle simplement pour "avancer" :
 
 - A court terme, se vider la tête, lâcher prise, marcher, pour classer
-  ses idées. A force, il y a comme de visions mnémotechniques (une
+  ses idées. A force, il y a comme des visions mnémotechniques (une
   lumière, un motif, une couleur) qui attire d'avantage notre regard
   en fonction de nos pensées. Je recommande le livre Slow Photo qui
   donne d'autres idées pour être dans un état de pleine conscience (cf
