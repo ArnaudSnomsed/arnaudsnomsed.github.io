@@ -1,5 +1,5 @@
 ---
-title: 'Pourquoi et comment j’ai fait un zine photo ?'
+title: 'Pourquoi et comment j’ai fait un zine photo?'
 image: /assets/zine.png
 author: arnaudsnomsed
 layout: post
