@@ -1,0 +1,31 @@
+--- ox-taskjuggler.el.orig	2023-05-25 00:02:26.276219500 +0200
++++ ox-taskjuggler.el	2023-05-18 20:56:56.622397400 +0200
+@@ -203,7 +203,7 @@
+   :group 'org-export-taskjuggler
+   :type 'string)
+ 
+-(defcustom org-taskjuggler-default-project-duration 280
++(defcustom org-taskjuggler-default-project-duration 500
+   "Default project duration.
+ The value will be used if no start and end date have been defined
+ in the root node of the task tree, i.e. the tree that has been
+@@ -336,7 +336,7 @@
+ 
+ (defcustom org-taskjuggler-valid-report-attributes
+   '(headline columns definitions timeformat hideresource hidetask
+-	     loadunit sorttasks formats period)
++	     loadunit sorttasks formats period start end)
+   "Valid attributes for Taskjuggler reports.
+ If one of these appears as a property for a headline, it will be
+ exported with the corresponding report."
+@@ -840,8 +840,8 @@
+          (priority
+           (let ((pri (org-element-property :priority task)))
+             (and pri
+-                 (max 1 (/ (* 1000 (- org-priority-lowest pri))
+-                           (- org-priority-lowest org-priority-highest)))))))
++                 (max 1 (/ (* 1000 (- org-lowest-priority pri))
++                           (- org-lowest-priority org-highest-priority)))))))
+     (concat
+      ;; Opening task.
+      (format "task %s \"%s\" {\n"
