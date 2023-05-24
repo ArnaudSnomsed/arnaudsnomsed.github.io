@@ -1,0 +1,152 @@
+#+PROPERTY: Effort_ALL 2d 5d 10d 20d 30d 35d 50d
+#+COLUMNS: %70ITEM(Task) %Effort %allocate %complete
+#+PROPERTY: allocate_ALL dev doc test
+#+STARTUP: overview
+
+#+begin_src elisp :var file="Resources.csv" :results raw
+  (defun csv-to-table (file)
+    (with-temp-buffer
+      (erase-buffer)
+      (insert-file file)
+      (org-table-convert-region (point-min) (point-max) ";")
+      (while (re-search-forward "\"\"" nil t)
+	(replace-match ""))
+      (buffer-string)))
+  (org-taskjuggler-export)
+  (call-process-shell-command
+   "tj3 Demo.tjp"
+   nil "*Shell Command Output*" t
+   )
+  (csv-to-table file)
+#+end_src
+#+RESULTS:
+
+#+begin_src elisp :var file="Plan2.csv" :results raw
+  (defun csv-to-table (file)
+    (with-temp-buffer
+      (erase-buffer)
+      (insert-file file)
+      (org-table-convert-region (point-min) (point-max) ";")
+      (while (re-search-forward "\"\"" nil t)
+	(replace-match ""))
+      (buffer-string)))
+  (org-taskjuggler-export)
+  (call-process-shell-command
+   "tj3 Demo.tjp"
+   nil "*Shell Command Output*" t
+   )
+  (csv-to-table file)
+#+end_src
+
+* Accounting Software                                   :taskjuggler_project:
+** Specification
+   :PROPERTIES:
+   :EFFORT:   30d
+   :ALLOCATE: dev
+   :END:
+   
+** Software Development
+:PROPERTIES:
+:ALLOCATE: test
+:END:
+
+*** Database coupling
+    :PROPERTIES:
+    :EFFORT:   30d
+    :END:
+
+*** Back-End Functions
+    :PROPERTIES:
+    :Effort:   30d
+    :END:
+
+*** Graphical User Interface
+    :PROPERTIES:
+    :Effort:   35d
+    :END:
+
+** Software testing
+:PROPERTIES:
+:ALLOCATE: test
+:END:
+*** Alpha Test
+    :PROPERTIES:
+    :Effort:   5d
+    :END:
+
+*** Beta Test
+    :PROPERTIES:
+    :Effort:   20d
+    :END:
+
+** Manual
+   :PROPERTIES:
+   :EFFORT:   10d
+   :ALLOCATE: doc
+   :END:
+
+** Milestones
+*** Project start
+*** Technology Preview
+*** Beta version
+*** Ship Product to Customer
+
+* Resources                                         :taskjuggler_resource:
+** Developers
+   :PROPERTIES:
+   :resource_id: dev
+   :END:
+*** Paul Smith
+    :PROPERTIES:
+    :resource_id: paul
+    :END:
+*** Sébastien Bono
+    :PROPERTIES:
+    :resource_id: seb
+    :END:
+*** Klaus Müller
+
+** Others
+*** Peter Murphy
+    :PROPERTIES:
+    :resource_id: doc
+    :END:
+*** Dim Sung
+    :PROPERTIES:
+    :resource_id: test
+    :END:
+
+* Report                                                 :taskjuggler_report:
+** Plan
+      :PROPERTIES:
+      :loadunit: days
+      :formats: html
+      :columns: bsi, name, resources, start, end, effort, complete, chart { width 1000 }
+      :hidetask: treelevel() > 4
+      :END:
+
+** Plan2
+      :PROPERTIES:
+      :loadunit: days
+      :formats: csv
+      :timeformat: "%b"
+      :start: 2023-1-2
+      :end: 2024-2-1
+      :columns: name, complete, monthly
+      :hidetask: treelevel() > 4
+      :END:
+
+** Resources
+      :PROPERTIES:
+      :REPORT_KIND: resourcereport
+      :loadunit: days
+      :formats: csv
+      :columns: name, effort, monthly
+      :timeformat: "%b"
+      :start: 2023-1-2
+      :end: 2023-12-31
+      :hidetask:  ~isleaf() 
+      :END:
+** Export
+
+
