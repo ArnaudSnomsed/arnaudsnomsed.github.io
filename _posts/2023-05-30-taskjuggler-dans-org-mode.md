@@ -120,7 +120,10 @@ Dans fichier Org contenant l'exemple (Demo.org) :
         (replace-match ""))
       (buffer-string)))
   (org-taskjuggler-export)
-  (shell-command "c:/Ruby32-x64/bin/tj3 Demo.tjp")
+  (call-process-shell-command
+   "tj3 Demo.tjp"
+   nil "*Shell Command Output*" t
+   )
   (csv-to-table file)
 #+end_src
 #+RESULTS:
