@@ -162,10 +162,12 @@ Org-mode avec le contenu du rapport CSV taskjuggler :
 
 Pour éviter les questions intempestives lors de la génération du
 résultat (avec le raccourci C-c C-c en se positionnant sur le code
-lisp), ajouter dans le .emacs :
+lisp) et pour augmenter la durée par défaut d'un projet ajouter dans
+le .emacs :
 
 ```
 (setq org-confirm-babel-evaluate nil)
+(setq org-taskjuggler-default-project-duration 600)
 
 ```
 
