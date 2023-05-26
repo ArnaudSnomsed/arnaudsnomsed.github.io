@@ -172,7 +172,7 @@ le .emacs :
 ```
 
 
-# Demonstration
+# Démonstration
 
 - Edition de l'effort et des dates de fin en column view avec le raccourci C-c C-x C-c
 - Mise à jour du resultat en se positionnant sur le code lisp (cf
