@@ -174,7 +174,7 @@ le .emacs :
 
 # Démonstration
 
-- Edition de l'effort et des dates de fin en column view avec le raccourci C-c C-x C-c
+- Edition de l'effort et des allocations de ressource en column view avec le raccourci C-c C-x C-c
 - Mise à jour du resultat en se positionnant sur le code lisp (cf
   chapitre précédent) et avec le raccourci C-c C-c
 
