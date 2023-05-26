@@ -16,7 +16,7 @@ souhaitez. Par exemple un espace chiffré et synchronisé pour être
 sauvegardé.
 
 ```
-nice exiftool -progress -v -r -ext PEF -ext DNG \
+exiftool -progress -v -r -ext PEF -ext DNG \
   '-Directory</home/arnaud/photos/${model;}/${datetimeoriginal}' \
   -d "%Y/%Y-%m-%d" \
   "/run/user/1000/gvfs/mtp:host=RICOH_IMAGING_COMPANY__LTD._PENTAX_K-3_Mark_III_8085888/SD1/DCIM"
