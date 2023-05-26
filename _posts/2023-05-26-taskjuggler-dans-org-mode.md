@@ -7,11 +7,11 @@ categories:
     - Informatique
 ---
 
-J'ai découvert recemment l'outil taskjuggler qui est une sorte de
-calculatrice pour construire des planning et allouer des ressources
+J'ai découvert récemment l'outil taskjuggler qui est une sorte de
+calculatrice pour construire des plannings et allouer des ressources
 sur les projets. Il n'existe plus d'interface graphique pour éditer le
 projet (avec les taches, les dépendances, les charges, les ressources
-associées). Cependant, on peut faire encore plus rapide grace à
+associées). Cependant, on peut faire encore plus rapide grâce à
 Emacs. Le fichier ox-taskjuggler.el permet de convertir une
 arborescence Org-mode dans le format taskjuggler. Cela à deux
 avantages :
@@ -128,7 +128,7 @@ Résultat (en html) :
 
 # Edition en mode colonne
 
-On peut éditer chaque attributs de chaque tache du projet dans le mode
+On peut éditer chaque attribut de chaque tâche du projet dans le mode
 "column view" de Org-mode (raccourci C-c C-x C-c)
 
 ![](/assets/ox-taskjuggler.png)
