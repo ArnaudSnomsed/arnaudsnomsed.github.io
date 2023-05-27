@@ -28,7 +28,7 @@ avantages :
 
 ## Installation de TJ3
 
-Sous Windows, après avoir installé Ruby (par exemple via [https://rubyinstaller.org/](https://rubyinstaller.org/) :
+Sous Windows, après avoir installé Ruby (par exemple via [https://rubyinstaller.org/](https://rubyinstaller.org/)) :
 
 ```
 > gem install taskjuggler
@@ -174,7 +174,7 @@ le .emacs :
 
 # Démonstration
 
-- Edition de l'effort et des allocations de ressource en column view avec le raccourci C-c C-x C-c
+- Edition de l'effort et des allocations de ressources en column view avec le raccourci C-c C-x C-c
 - Mise à jour du resultat en se positionnant sur le code lisp (cf
   chapitre précédent) et avec le raccourci C-c C-c
 
