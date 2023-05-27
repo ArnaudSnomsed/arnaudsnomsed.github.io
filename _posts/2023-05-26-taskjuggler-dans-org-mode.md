@@ -22,7 +22,9 @@ avantages :
 - On peut générer le Gantt directement dans le fichier Org sans
   quitter Emacs via quelques lignes de lisp avec Babel
 
-![](/assets/ox-taskjuggler.png)
+<center>
+<img src="/assets/ox-taskjuggler.png">
+</center>
    
 # Installation
 
@@ -131,7 +133,9 @@ Résultat (en html) :
 On peut éditer chaque attribut de chaque tâche du projet dans le mode
 "column view" de Org-mode (raccourci C-c C-x C-c)
 
-![](/assets/ox-taskjuggler-col.png)
+<center>
+<img src="/assets/ox-taskjuggler-col.png">
+</center>
 
 
 # Génération des rapports dans Org-mode avec Babel
@@ -178,7 +182,11 @@ le .emacs :
 - Mise à jour du resultat en se positionnant sur le code lisp (cf
   chapitre précédent) et avec le raccourci C-c C-c
 
-![](/assets/ox-taskjuggler.gif)
+<center>
+<img src="/assets/ox-taskjuggler.gif">
+</center>
+
+
 
 # Pour aller plus loin
 
