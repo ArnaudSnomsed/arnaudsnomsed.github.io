@@ -84,7 +84,7 @@ taskjuggler_report peut être appliqué pour intégrer des rapports personnalis�
       :loadunit: days
       :formats: csv
       :timeformat: "%b"
-      :start: 2023-1-2
+      :start: 2023-3-2
       :end: 2024-2-1
       :columns: name, resources, complete, monthly
       :hidetask: treelevel() > 4
@@ -97,7 +97,7 @@ taskjuggler_report peut être appliqué pour intégrer des rapports personnalis�
       :formats: csv
       :columns: name, effort, monthly
       :timeformat: "%b"
-      :start: 2023-1-2
+      :start: 2023-3-2
       :end: 2023-12-31
       :hidetask:  ~isleaf() 
       :END:
@@ -131,7 +131,7 @@ Résultat (en html) :
 On peut éditer chaque attribut de chaque tâche du projet dans le mode
 "column view" de Org-mode (raccourci C-c C-x C-c)
 
-![](/assets/ox-taskjuggler.png)
+![](/assets/ox-taskjuggler-col.png)
 
 
 # Génération des rapports dans Org-mode avec Babel
