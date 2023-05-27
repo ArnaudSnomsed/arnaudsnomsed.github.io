@@ -118,7 +118,7 @@ C-c C-c) :taskjuggler_report:,
 M-x org-taskjuggler-export
 ```
 
-- Générer les rappots (csv ou html) via la commande shell :
+- Générer les rapports (csv ou html) via la commande shell :
 
 ```
 $ tj3 Demo.tjp
