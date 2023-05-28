@@ -105,7 +105,7 @@ taskjuggler_report peut être appliqué pour intégrer des rapports personnalis�
       :END:
 ```
 
-# Generation manuelle des rapports
+# Génération manuelle des rapports
 
 Après avoir créé le fichier [Demo.org](/assets/Demo.org) avec les tags
 (on ajoute un tag en se placant sur l'entrée et avec les raccourcis
