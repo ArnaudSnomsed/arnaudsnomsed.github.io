@@ -8,19 +8,20 @@ categories:
     - Informatique
 ---
 
-Ci-dessous une commande permettant d'importer les photos d'un appareil
-connecté en MTP.
+Ci-dessous un script permettant d'importer les photos depuis une carte
+SD montée en H: vers E: grace au programme Exiftool.
 
-Note : le chemin /home/arnaud/photos est à remplacer par ce que vous
-souhaitez. Par exemple un espace chiffré et synchronisé pour être
-sauvegardé.
+Il est à placer sur la carte SD après avoir configuré Windows pour
+afficher le contenu lors de l'insertion de la carte (pour n'avoir qu'a
+double cliquer dessus) :
 
 ```
-exiftool -progress -v -r -ext PEF -ext DNG \
-  '-Directory</home/arnaud/photos/${model;}/${datetimeoriginal}' \
-  -d "%Y/%Y-%m-%d" \
-  "/run/user/1000/gvfs/mtp:host=RICOH_IMAGING_COMPANY__LTD._PENTAX_K-3_Mark_III_8085888/SD1/DCIM"
+#!/bin/sh
 
+cd /e/
+./exiftool -progress -v -r -ext PEF -ext DNG \
+    '-Directory</Archives2023/Photos/Pentax/${model;}/${datetimeoriginal}' \
+    -d "%Y/%Y-%m-%d" "/h/DCIM"
 ```
 
 Les répertoires auront alors une structure du type :
