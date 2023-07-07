@@ -74,7 +74,7 @@ faire, ce qu'il devrait faire, etc...
 
 Comme quand on regarde un tableau, on projette tout un tas de choses
 sur FX : "il ne s'intègre pas avec les autres" (alors que 20mn avant,
-en aparté, le directeur de l'école nous disait : 'c'est formidable. Il
+en aparté, le directeur de l'école nous disait : "c'est formidable. Il
 est hyper intégré etc"). L'enseignant dit : "non. Il ne rentre pas
 dans la classe en même temps que les autres". Moi j'essaie de faire le
 portrait tel que je vois mon fils, avec mon point de vue. Je suis
