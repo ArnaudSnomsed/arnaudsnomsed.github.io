@@ -23,7 +23,8 @@ avantages :
   quitter Emacs via quelques lignes de lisp avec Babel
 
 <center>
-<p><img src="/assets/ox-taskjuggler.png"/></p>
+<img src="/assets/ox-taskjuggler.png"/>
+<p>&nbsp;</p>
 </center>
    
 # Installation
@@ -134,7 +135,8 @@ On peut éditer chaque attribut de chaque tâche du projet dans le mode
 "column view" de Org-mode (raccourci C-c C-x C-c)
 
 <center>
-<p><img src="/assets/ox-taskjuggler-col.png"/></p>
+<img src="/assets/ox-taskjuggler-col.png"/>
+<p>&nbsp;</p>
 </center>
 
 
@@ -184,7 +186,8 @@ le .emacs :
 
 
 <center>
-<p><img src="/assets/ox-taskjuggler.gif"/></p>
+<img src="/assets/ox-taskjuggler.gif"/>
+<p>&nbsp;</p>
 </center>
 
 
