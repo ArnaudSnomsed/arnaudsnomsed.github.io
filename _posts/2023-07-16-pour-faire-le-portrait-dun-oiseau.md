@@ -1,6 +1,6 @@
 ---
 title: "Pour faire le portrait d'un oiseau"
-image: /assets/fx.jpg
+image: /assets/fx.png
 author: arnaudsnomsed
 layout: post
 ---
@@ -12,16 +12,17 @@ et sur le thème psychanalytique du "semblant".
 Mon objectif était de partager mon expérience de l'autisme et de
 l'inclusion au travers de ma définition du semblant.
 
-![](/assets/fx.jpg)
+![](/assets/fx.png)
 
-<!-- more -->
 
 # Introduction
 
 C'est vrai qu'avant de rejoindre il y a quelques années l'association
 Funambules et au moment où je t'ai appelé Betina, je "prospectais" sur
 beaucoup d'associations en lien avec l'autisme. Et c'est un peu par
-hasard que je t'ai contactée. J'étais maladroit comme quelqu'un qui se
+hasard que
+<!-- more -->
+je t'ai contactée. J'étais maladroit comme quelqu'un qui se
 présente à un entretien d'embauche sans savoir où il met les pieds. On
 cherche de l'aide mais on ne sait pas trop quelle aide en
 réalité. J'avais d'ailleurs aussi contacté et rejoint des associations
