@@ -7,6 +7,8 @@ categories:
     - Informatique
 ---
 
+![](/assets/orgmode.png)
+
 Il y a quelques mois j'ai fait le constat que la prise de notes était
 un pivot très important pour structurer ses idées, préparer des
 réunions, envoyer différents mails (et les relances qui vont avec) ou
@@ -37,8 +39,6 @@ Curieux du org-mode d'Emacs j'ai alors découvert que le format Org
 était assez similaire au format Markdown et permettait des calculs sur
 les tableaux et permettait de planifier et archiver des taches ce qui
 est très pratique pour garder un historique au travail également.
-
-![](/assets/orgmode.png)
 
 
 
