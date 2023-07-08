@@ -158,7 +158,7 @@ ce film avec la critique de Betina en tête très orientée sur le
 langage. J'étais content de pouvoir partager cette vision. C'était
 inédit pour moi. J’écrivais « Il présente différentes formes de
 communication entre hommes et femmes neurotypiques, c'est à dire comme
-la majorité d'entre nous chez Advens, ou porteurs d'autisme : le
+la majorité d'entre nous, ou porteurs d'autisme : le
 mensonge (plus simple pour un neurotypique), les pictogrammes, la
 danse, l'écriture, le verlan, les silences même. On se rend compte que
 l'on est tous embarqué dans cette complexité de communiquer » Plus
