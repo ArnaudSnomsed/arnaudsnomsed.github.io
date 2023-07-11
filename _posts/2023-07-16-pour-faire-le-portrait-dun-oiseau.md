@@ -115,31 +115,31 @@ finalement mais de comment les autres le voient.
 Toujours dans l'analogie avec le poème de Prevert, je voudrais
 compléter le tableau, en partageant une petite anecdote.
 
-J'étais en déplacement à Paris avec un collègue et je parlais des
-intérêts restreints de FX et notamment les trains. Comme toujours quand je
-parle de différence et d'autisme, j'ai un regard assez positif et je
-lui explique tout ce que FX m'a apporté en m'apprenant sur moi et sur
-les autres. C'était à l'aller dans le train. Je savais aussi que ce
-collègue voulait être pilote d'avion et également passionné de
-trains. Je lui dis aussi : on est tous fous, on a tous des délires, on
+J'étais en déplacement à Paris et je parlais avec la personne qui
+m'accompagnait des intérêts restreints de FX et notamment les
+trains. Comme toujours quand je parle de différence et d'autisme, j'ai
+un regard assez positif et je lui explique tout ce que FX m'a apporté
+en m'apprenant sur moi et sur les autres. C'était à l'aller dans le
+train. Je savais aussi que mon interlocuteur était également passionné
+de trains. Je lui dis : on est tous fous, on a tous des délires, on
 est tous passionnés de photos, de trains, de lampadaires. Il y a des
-choses plus ordinaires que d'autres mais on a tous nos
-lubies. Certains réalisateurs se sont d'ailleurs spécialisés sur le
-sujet comme Aronfsky qui parle beaucoup des obsessions. Donc je lui
-parle de tout ça sous un axe assez psychologique et positif de ce que
-ce collègue pourrait apprendre de ça.
+choses plus ordinaires que d'autres mais on a tous nos lubies
+(certains réalisateurs se sont d'ailleurs spécialisés sur le sujet
+comme Aronfsky qui parle beaucoup des obsessions). Donc je parle de
+tout ça sous un axe assez psychologique et positif de ce que cette
+personne pourrait apprendre de ça.
 
-Au retour, ce collègue me dit : t'as vu la référence du train ? C'est
-le même que ce matin !
+Au retour en fin de journée, la personne qui m'accompagnait me dit :
+t'as vu la référence du train ? C'est le même que ce matin !
 
 Alors là, c'est plus fort que moi, je lui dis : tu vois t'es autiste !
 
 Quand je dis ça, je ne projette rien de négatif. On a tous nos
 stéréotypies, nos lubies, nos obsessions. Sauf qu'un aller en train
-d'une heure n'avait pas suffi à ce que ce collègue puisse voir le
+d'une heure n'avait pas suffi à ce que cette personne puisse voir le
 positif et ce que cela nous apprend sur nous-même. Il n'était pas
-d'accord (en plus c'est mon chef ;-)). J'ai donc moi-même projeté
-quelque chose que n'acceptait pas ce collègue.
+d'accord. J'ai donc moi-même projeté quelque chose que n'acceptait pas
+ce collègue.
  
 # Peindre quelque chose d'utile pour l'oiseau
 
@@ -147,7 +147,7 @@ J'ai beaucoup appris sur moi-même avec Funambules : mettre des mots et
 partager mes émotions, le rôle du langage. Et cela m'a ouvert aux
 autres (j'ai une théorie un peu expérimentale encore sur le fait que
 ce sont les enfants qui nous font naître…)
- 
+
 Le comble c'est que cette vision autour du langage, même pour un
 ancien programmeur comme moi (ceux que ça intéresse peuvent étudier la
 biographie de Larry Wall qui s’est intéressé au langage, à la religion
