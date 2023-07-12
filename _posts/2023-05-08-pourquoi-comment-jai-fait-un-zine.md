@@ -172,7 +172,7 @@ démarche trop intellectuelle simplement pour "avancer" :
 
 - A court terme, se vider la tête, lâcher prise, marcher, pour classer
   ses idées. A force, il y a comme des visions mnémotechniques (une
-  lumière, un motif, une couleur) qui attire d'avantage notre regard
+  lumière, un motif, une couleur) qui attire davantage notre regard
   en fonction de nos pensées. Je recommande le livre Slow Photo qui
   donne d'autres idées pour être dans un état de pleine conscience (cf
   [Ma bibliothèque
