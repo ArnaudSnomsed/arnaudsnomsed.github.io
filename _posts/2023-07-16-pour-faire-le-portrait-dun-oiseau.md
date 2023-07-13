@@ -70,8 +70,8 @@ ou plutôt lui a refait le portrait (ahah) ! C'est en effet assez
 violent ce genre de réunions. Quand on a une vision de son enfant,
 entendre certaines choses peut parfois être difficile et effectivement
 il y a ce côté normatif de l'éducation nationale qui contribue
-beaucoup au fait de parler de : ce qu'il ne fait pas, ce qu'il ne sait pas
-faire, ce qu'il devrait faire, etc...
+beaucoup au fait de parler de : ce qu'il ne fait pas, ce qu'il ne sait
+pas faire, ce qu'il devrait faire, etc...
 
 Comme quand on regarde un tableau, on projette tout un tas de choses
 sur FX : "il ne s'intègre pas avec les autres" (alors que 20mn avant,
@@ -139,64 +139,114 @@ stéréotypies, nos lubies, nos obsessions. Sauf qu'un aller en train
 d'une heure n'avait pas suffi à ce que cette personne puisse voir le
 positif et ce que cela nous apprend sur nous-même. Il n'était pas
 d'accord. J'ai donc moi-même projeté quelque chose que n'acceptait pas
-ce collègue.
- 
+cette personne mais c'est mon cheval de bataille.
+
 # Peindre quelque chose d'utile pour l'oiseau
 
-J'ai beaucoup appris sur moi-même avec Funambules : mettre des mots et
-partager mes émotions, le rôle du langage. Et cela m'a ouvert aux
-autres (j'ai une théorie un peu expérimentale encore sur le fait que
-ce sont les enfants qui nous font naître…)
+Ce que FX m'a appris, je voudrais le transmettre à tout le monde. Et
+je me suis demandé si ce n'est pas pour ça que j'avais été ammené à
+m'interesser au langage. Il y'a d'abord eu l'autisme, puis la
+rencontre fortuite avec Funambules qui m'a eveillé et qui m'a permis
+de relier l'autisme et le langage. Tout ça réunit m'a aussi permis de
+m'ouvrir aux autres et m'épanouir, car si FX à ce handicap, ce n'est
+pas anodin. Je me reconnais beaucoup en lui et je pense que j'ai aussi
+cette différence.
 
-Le comble c'est que cette vision autour du langage, même pour un
-ancien programmeur comme moi (ceux que ça intéresse peuvent étudier la
-biographie de Larry Wall qui s’est intéressé au langage, à la religion
-et à l’informatique), est souvent complexe à partager à la famille,
-aux collègues et même aux professionnels.  J'ai souvenir d'avoir
-proposé une analyse du film "Hors Normes" à mes collègues. J'avais vu
-ce film avec la critique de Betina en tête très orientée sur le
-langage. J'étais content de pouvoir partager cette vision. C'était
-inédit pour moi. J’écrivais « Il présente différentes formes de
-communication entre hommes et femmes neurotypiques, c'est à dire comme
-la majorité d'entre nous, ou porteurs d'autisme : le
-mensonge (plus simple pour un neurotypique), les pictogrammes, la
-danse, l'écriture, le verlan, les silences même. On se rend compte que
-l'on est tous embarqué dans cette complexité de communiquer » Plus
-concrètement. FX a Funambules à l'habitude de faire du "théâtre
-improvisé" plutôt que du "théâtre d'improvisation".  Fanny et FX
-téléphonent à des personnages fictifs aux prénoms improbables et c'est
-l'occasion de dérouler toute la palette des émotions.  A la maison, la
-photographie est un média que j'utilise plus facilement. FX a une
-mémoire visuelle très forte. Il a appris à parler grâce à la photo
-j'en suis convaincu (ou peut être que c’est moi ?). On jouait à
-trouver telle ou telle personne dans des petits albums que je lui
-avais préparés. Il photographie également les mots dans sa mémoire. Il
-est fier d'être sur la photo. D'ailleurs il n'était pas sur sa photo
-de classe cette année, tout un symbole.  Il demande que l'on dessine
-ses rêves, ses peurs et surtout ses cauchemars (les surréalistes
-veillent ;-)) Chaque autisme est différent. FX a toujours été très
-sensible aux sourires des autres et même à leur bien-être : "Tu es
-fier de moi papa ?"  C'était donc un vrai problème au début du
+Cette curiosité pour le langage remonte à loin car j'étais avant
+développeur. J'avais remarqué que le langage de programmation pouvait
+representer une forme de poésie. Il y a des developpeurs qui en plus
+de résoudre des problèmes algorithmiques le fond de manière élégante,
+esthétique, artistique en utilisant une forme de poésie. Après j'ai
+aussi pratiqué la photographie. Donc : l'autisme, funambules, la
+programmation, la photo. Le langage draine ma vie. On ne peut pas y
+échapper. On est tous confrontés au langage.
+
+D'ailleurs cett façon de relier l'autisme et le langage me fait penser
+à la critique du film Hors Norme que Betina avait faite et que j'avais
+résumé comme ceci pour en parler dans mon entreprise :
+
+« Le film présente différentes formes de communication entre hommes et
+femmes neurotypiques, c'est à dire comme la majorité d'entre nous, ou
+porteurs d'autisme : le mensonge (plus simple pour un neurotypique),
+les pictogrammes, la danse, l'écriture, le verlan, les silences
+même. Souvent les silences en disent long. On se rend compte que l'on
+est tous embarqué dans cette complexité de communiquer »
+
+Cette question du langage avait d'ailleurs était abordé déja abordée
+par Fanny, commedienne et Funambules. En réponse à mes inquiétudes sur
+le fait que FX ne parle pas à l'école il y a quelques années, elle
+avait quelques chose comme : "pour parler il faut avoir quelque chose
+à dire".
+
+
+Plus concrètement, et pour parler davantage de FX. Depuis plusieurs
+années, je l'accompagne à l'association Funambules.  FX à l'habitude
+de faire du "théâtre improvisé". C'est à dire que c'est du théatre
+mais ce n'est pas prévu au départ. Fanny et FX téléphonent à des
+personnages fictifs aux prénoms tels que "Christine" et c'est
+l'occasion de dérouler toute la palette des émotions. Par exemple :
+"allo Christine, on a pas notre billet de train, qu'est ce qui se
+passe ?". FX est à fond dans ce jeu de role, le théatre, l'espression
+des émotions. Comme tout ça est imaginaire, c'est peut être plus
+simple pour FX et il y a aucune limite. Ca sort tout seul et il y a un
+coté un peu thérapeutique de faire sortir les mots dans l'ordre qu'il
+veut avec des personnages imaginaires.
+
+
+
+A la maison, la photographie est un média que j'utilise plus
+facilement. FX a une mémoire visuelle très forte. Il a appris à parler
+grâce à la photo j'en suis convaincu (ou peut être que c’est moi
+?). On jouait à trouver telle ou telle personne dans des petits albums
+que je lui avais préparés. Il photographie également les mots dans sa
+mémoire. Il est fier d'être sur la photo. D'ailleurs il n'était pas
+sur sa photo de classe cette année, tout un symbole.  Il demande que
+l'on dessine ses rêves, ses peurs et surtout ses cauchemars (les
+surréalistes veillent ;-)) Chaque autisme est différent. FX a toujours
+été très sensible aux sourires des autres et même à leur bien-être :
+"Tu es fier de moi papa ?"  C'était donc un vrai problème au début du
 diagnostic car en tant que parent on ne sait pas encore "le bonheur"
 qui nous attend. On est triste et fatigué. Ce qui amplifie les
 troubles et nous fait rentrer dans un cercle vicieux.
  
 # En résumé
 
-Puisque FX est en souffrance encore trop souvent dans cette prise en
-charge si « particulière » en France, j’ai envie de dire comme Samuel
-le Bihan : que c'est un bonheur (celui de découvrir le monde de FX
-comme le mien) mais que je ne souhaite à personne (ou un malheur que
-je souhaite à tout le monde ?).
+Je suis souvent un peu embété par l'idée d'être positif sur le
+handicap et l'autisme en particulier car ca serait occulter une partie
+d'une souffrance de FX.  Je ne peux pas dire simplement "c'est génial
+tout ce que nous apprend FX" car dans cette prise en charge qui est
+encore trop particulière en France, ça met FX en souffrance (ça rime).
 
-J'ai été particulièrement touché par un discours pour l'inclusion dans
-le monde du travail qui disait que : L'IA va remplacer l'humain pour
-les taches qui ne sollicitent pas notre expérience d'humain tels que
-nos émotions, notre résilience et le sens qu'on met pour la
-société. Nos forces et nos atouts seront alors nos différences par
-rapport aux machines.
+Ca pose beaucoup de questions sur l'interet de la société par rapport
+à l'interet de l'individu.
 
-Le discours de Hugo Horiot a été aussi très inspirant pour moi. Il dit
-notamment qu'il ne faut pas aborder l'autisme sous l'axe de la
-charité. La société doit comprendre son intérêt à elle d'intégrer les
-atouts des personnes avec autisme (plus simples pour les aspergers).
+Si FX n'était pas en souffrance aussi souvent j'aurai envie de dire
+que c'est un "bonheur que je ne souhaite à personne" (comme le famux
+titre du livre de Samuel LeBihan). Car je ne souhaite à personne de
+voir son enfant souffrir mais ce qui est un bonheur c'est que nous
+sommes encore qu'au tout début de la compréhension de plein de choses
+et j'ai hate d'être dans 100 ou 200 ans et on rigolera du moyen age
+dans lequel on est aujourd'hui.
+
+Je voudrai aussi sur deux types de discours qui m'ont beaucoup inspirés :
+
+Dans l'entreprise dans laquel je travaille, il a été possible
+d'accompagner des personnes dans le retour à l'emploi et il y avait un
+très beau discours de présentation de cet accompagnement. L'idée était
+qu'avec l'IA, avec la facilité d'accès à l'information, la possibilité
+de tout apprendre, de monter en compétence rapidement, tout ça allait
+boulverser les critères de recrutement plus tard dans la
+société. C'était un discours inclusif dans le sens ou on se rend
+compte que ce sont les compétences humaines, savoir ce que l'on va
+chercher chez les autres, savoir qui on est, c'est ça qui fera la
+différence et pas notre performance mais plutot notre resilience,
+rebondir sur des experiences difficiles, avoir de l'empathie, etc. Les
+nouvelles technologies nous apporterons elles la performance assez
+automatiquement. Je me suis dit que c'était un alignement des planêtes
+car c'est tout ce que je souhaite pour FX.
+
+Il y a aussi le discours de Hugo Horiot qui a été très inspirant pour
+moi. Il dit notamment qu'il ne faut pas aborder l'autisme sous l'axe
+de la charité. La société doit comprendre son intérêt à elle
+d'intégrer les atouts des personnes avec autisme (plus simples pour
+les aspergers).
