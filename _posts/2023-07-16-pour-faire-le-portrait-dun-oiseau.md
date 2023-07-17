@@ -27,7 +27,7 @@ présente à un entretien d'embauche sans savoir où il met les pieds. On
 cherche de l'aide mais on ne sait pas trop quelle aide en
 réalité. J'avais d'ailleurs aussi contacté et rejoint des associations
 plus militantes sur l'inclusion. Mais quand j'ai rejoint l'association
-Funambules c'était pour moi comme une deuxième naissance grâce à ce
+Funambules, c'était pour moi comme une deuxième naissance grâce à ce
 qu'il m'a été donné d'apprendre sur FX. Ça n'aurait pas pu se passer
 autrement. Je n'aurai pas pu me dire : "Arnaud ce qu'il faut dans ta
 vie c'est la recherche de toi même et va contacter Funambules". Ça
