@@ -143,69 +143,66 @@ cette personne mais c'est mon cheval de bataille.
 
 # Peindre quelque chose d'utile pour l'oiseau
 
-Ce que FX m'a appris, je voudrais le transmettre à tout le monde. Et
-je me suis demandé si ce n'est pas pour ça que j'avais été ammené à
-m'interesser au langage. Il y'a d'abord eu l'autisme, puis la
-rencontre fortuite avec Funambules qui m'a eveillé et qui m'a permis
-de relier l'autisme et le langage. Tout ça réunit m'a aussi permis de
-m'ouvrir aux autres et m'épanouir, car si FX à ce handicap, ce n'est
-pas anodin. Je me reconnais beaucoup en lui et je pense que j'ai aussi
+Ce que FX m’a appris, je voudrais le transmettre à tout le monde. Et
+je me suis demandé si ce n’est pas pour ça que j’avais été amené à
+m’intéresser au langage. Il y’a d’abord eu l’autisme, puis la
+rencontre fortuite avec Funambules qui m’a éveillé et qui m’a permis
+de relier l’autisme et le langage. Tout ça réunit m’a aussi permis de
+m’ouvrir aux autres et m’épanouir, car si FX à ce handicap, ce n’est
+pas anodin. Je me reconnais beaucoup en lui et je pense que j’ai aussi
 cette différence.
 
-Cette curiosité pour le langage remonte à loin car j'étais avant
-développeur. J'avais remarqué que le langage de programmation pouvait
-representer une forme de poésie. Il y a des developpeurs qui en plus
+Cette curiosité pour le langage remonte à loin car j’étais avant
+développeur. J’avais remarqué que le langage de programmation pouvait
+représenter une forme de poésie. Il y a des développeurs qui en plus
 de résoudre des problèmes algorithmiques le fond de manière élégante,
-esthétique, artistique en utilisant une forme de poésie. Après j'ai
-aussi pratiqué la photographie. Donc : l'autisme, funambules, la
+esthétique, artistique en utilisant une forme de poésie. Après j’ai
+aussi pratiqué la photographie. Donc : l’autisme, funambules, la
 programmation, la photo. Le langage draine ma vie. On ne peut pas y
 échapper. On est tous confrontés au langage.
 
-D'ailleurs cett façon de relier l'autisme et le langage me fait penser
-à la critique du film Hors Norme que Betina avait faite et que j'avais
-résumé comme ceci pour en parler dans mon entreprise :
+D’ailleurs cette façon de relier l’autisme et le langage me fait
+penser à la critique du film Hors Norme que Betina avait faite et que
+j’avais résumé comme ceci pour en parler dans mon entreprise :
 
 « Le film présente différentes formes de communication entre hommes et
-femmes neurotypiques, c'est à dire comme la majorité d'entre nous, ou
-porteurs d'autisme : le mensonge (plus simple pour un neurotypique),
-les pictogrammes, la danse, l'écriture, le verlan, les silences
-même. Souvent les silences en disent long. On se rend compte que l'on
+femmes neurotypiques, c’est à dire comme la majorité d’entre nous, ou
+porteurs d’autisme : le mensonge (plus simple pour un neurotypique),
+les pictogrammes, la danse, l’écriture, le verlan, les silences
+même. Souvent les silences en disent long. On se rend compte que l’on
 est tous embarqué dans cette complexité de communiquer »
 
-Cette question du langage avait d'ailleurs était abordé déja abordée
-par Fanny, commedienne et Funambules. En réponse à mes inquiétudes sur
-le fait que FX ne parle pas à l'école il y a quelques années, elle
-avait quelques chose comme : "pour parler il faut avoir quelque chose
-à dire".
-
+Cette question du langage avait d’ailleurs était abordé déjà abordée
+par Fanny, comédienne et Funambules. En réponse à mes inquiétudes sur
+le fait que FX ne parle pas à l’école il y a quelques années, elle
+avait quelques chose comme : “pour parler il faut avoir quelque chose
+à dire”.
 
 Plus concrètement, et pour parler davantage de FX. Depuis plusieurs
-années, je l'accompagne à l'association Funambules.  FX à l'habitude
-de faire du "théâtre improvisé". C'est à dire que c'est du théatre
-mais ce n'est pas prévu au départ. Fanny et FX téléphonent à des
-personnages fictifs aux prénoms tels que "Christine" et c'est
-l'occasion de dérouler toute la palette des émotions. Par exemple :
-"allo Christine, on a pas notre billet de train, qu'est ce qui se
-passe ?". FX est à fond dans ce jeu de role, le théatre, l'espression
-des émotions. Comme tout ça est imaginaire, c'est peut être plus
-simple pour FX et il y a aucune limite. Ca sort tout seul et il y a un
-coté un peu thérapeutique de faire sortir les mots dans l'ordre qu'il
+années, je l’accompagne à l’association Funambules. FX à l’habitude de
+faire du “théâtre improvisé”. C’est à dire que c’est du théâtre mais
+ce n’est pas prévu au départ. Fanny et FX téléphonent à des
+personnages fictifs aux prénoms tels que “Christine” et c’est
+l’occasion de dérouler toute la palette des émotions. Par exemple :
+“allo Christine, on a pas notre billet de train, qu’est ce qui se
+passe ?”. FX est à fond dans ce jeu de role, le théâtre, l’expression
+des émotions. Comme tout ça est imaginaire, c’est peut être plus
+simple pour FX et il y a aucune limite. Ça sort tout seul et il y a un
+coté un peu thérapeutique de faire sortir les mots dans l’ordre qu’il
 veut avec des personnages imaginaires.
 
-
-
-A la maison, la photographie est un média que j'utilise plus
+A la maison, la photographie est un média que j’utilise plus
 facilement. FX a une mémoire visuelle très forte. Il a appris à parler
-grâce à la photo j'en suis convaincu (ou peut être que c’est moi
+grâce à la photo j’en suis convaincu (ou peut être que c’est moi
 ?). On jouait à trouver telle ou telle personne dans des petits albums
 que je lui avais préparés. Il photographie également les mots dans sa
-mémoire. Il est fier d'être sur la photo. D'ailleurs il n'était pas
-sur sa photo de classe cette année, tout un symbole.  Il demande que
-l'on dessine ses rêves, ses peurs et surtout ses cauchemars (les
+mémoire. Il est fier d’être sur la photo. D’ailleurs il n’était pas
+sur sa photo de classe cette année, tout un symbole. Il demande que
+l’on dessine ses rêves, ses peurs et surtout ses cauchemars (les
 surréalistes veillent ;-)) Chaque autisme est différent. FX a toujours
 été très sensible aux sourires des autres et même à leur bien-être :
-"Tu es fier de moi papa ?"  C'était donc un vrai problème au début du
-diagnostic car en tant que parent on ne sait pas encore "le bonheur"
+“Tu es fier de moi papa ?” C’était donc un vrai problème au début du
+diagnostic car en tant que parent on ne sait pas encore “le bonheur”
 qui nous attend. On est triste et fatigué. Ce qui amplifie les
 troubles et nous fait rentrer dans un cercle vicieux.
  
