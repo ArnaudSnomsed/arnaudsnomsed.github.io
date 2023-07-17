@@ -19,7 +19,7 @@ l'inclusion au travers de ma définition du semblant.
 
 C'est vrai qu'avant de rejoindre il y a quelques années l'association
 Funambules et au moment où je t'ai appelé Betina, je "prospectais" sur
-beaucoup d'associations en lien avec l'autisme. Et c'est un peu par
+beaucoup d'associations en lien avec l'autisme, et c'est un peu par
 hasard que
 <!-- more -->
 je t'ai contactée. J'étais maladroit comme quelqu'un qui se
@@ -143,7 +143,7 @@ cette personne mais c'est mon cheval de bataille.
 
 # Peindre quelque chose d'utile pour l'oiseau
 
-Ce que FX m’a appris, je voudrais le transmettre à tout le monde. Et
+Ce que FX m’a appris, je voudrais le transmettre à tout le monde et
 je me suis demandé si ce n’est pas pour ça que j’avais été amené à
 m’intéresser au langage. Il y’a d’abord eu l’autisme, puis la
 rencontre fortuite avec Funambules qui m’a éveillé et qui m’a permis
