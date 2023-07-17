@@ -211,42 +211,43 @@ troubles et nous fait rentrer dans un cercle vicieux.
  
 # En résumé
 
-Je suis souvent un peu embété par l'idée d'être positif sur le
-handicap et l'autisme en particulier car ca serait occulter une partie
-d'une souffrance de FX.  Je ne peux pas dire simplement "c'est génial
-tout ce que nous apprend FX" car dans cette prise en charge qui est
+Je suis souvent un peu embêté par l’idée d’être positif sur le
+handicap et l’autisme en particulier car ça serait occulter une partie
+d’une souffrance de FX. Je ne peux pas dire simplement “c’est génial
+tout ce que nous apprend FX” car dans cette prise en charge qui est
 encore trop particulière en France, ça met FX en souffrance (ça rime).
 
-Ca pose beaucoup de questions sur l'interet de la société par rapport
-à l'interet de l'individu.
+Ça pose beaucoup de questions sur l’intérêt de la société par rapport
+à l’intérêt de l’individu.
 
-Si FX n'était pas en souffrance aussi souvent j'aurai envie de dire
-que c'est un "bonheur que je ne souhaite à personne" (comme le famux
+Si FX n’était pas en souffrance aussi souvent j’aurai envie de dire
+que c’est un “bonheur que je ne souhaite à personne” (comme le famux
 titre du livre de Samuel LeBihan). Car je ne souhaite à personne de
-voir son enfant souffrir mais ce qui est un bonheur c'est que nous
-sommes encore qu'au tout début de la compréhension de plein de choses
-et j'ai hate d'être dans 100 ou 200 ans et on rigolera du moyen age
-dans lequel on est aujourd'hui.
+voir son enfant souffrir mais ce qui est un bonheur c’est que nous
+sommes encore qu’au tout début de la compréhension de plein de choses
+et j’ai hâte d’être dans 100 ou 200 ans et on rigolera du moyen age
+dans lequel on est aujourd’hui.
 
-Je voudrai aussi sur deux types de discours qui m'ont beaucoup inspirés :
+Je voudrai aussi sur deux types de discours qui m’ont beaucoup
+inspirés :
 
-Dans l'entreprise dans laquel je travaille, il a été possible
-d'accompagner des personnes dans le retour à l'emploi et il y avait un
-très beau discours de présentation de cet accompagnement. L'idée était
-qu'avec l'IA, avec la facilité d'accès à l'information, la possibilité
+Dans l’entreprise dans laquelle je travaille, il a été possible
+d’accompagner des personnes dans le retour à l’emploi et il y avait un
+très beau discours de présentation de cet accompagnement. L’idée était
+qu’avec l’IA, avec la facilité d’accès à l’information, la possibilité
 de tout apprendre, de monter en compétence rapidement, tout ça allait
-boulverser les critères de recrutement plus tard dans la
-société. C'était un discours inclusif dans le sens ou on se rend
-compte que ce sont les compétences humaines, savoir ce que l'on va
-chercher chez les autres, savoir qui on est, c'est ça qui fera la
-différence et pas notre performance mais plutot notre resilience,
-rebondir sur des experiences difficiles, avoir de l'empathie, etc. Les
+bouleverser les critères de recrutement plus tard dans la
+société. C’était un discours inclusif dans le sens ou on se rend
+compte que ce sont les compétences humaines, savoir ce que l’on va
+chercher chez les autres, savoir qui on est, c’est ça qui fera la
+différence et pas notre performance mais plutôt notre résilience,
+rebondir sur des expériences difficiles, avoir de l’empathie, etc. Les
 nouvelles technologies nous apporterons elles la performance assez
-automatiquement. Je me suis dit que c'était un alignement des planêtes
-car c'est tout ce que je souhaite pour FX.
+automatiquement. Je me suis dit que c’était un alignement des planètes
+car c’est tout ce que je souhaite pour FX.
 
 Il y a aussi le discours de Hugo Horiot qui a été très inspirant pour
-moi. Il dit notamment qu'il ne faut pas aborder l'autisme sous l'axe
+moi. Il dit notamment qu’il ne faut pas aborder l’autisme sous l’axe
 de la charité. La société doit comprendre son intérêt à elle
-d'intégrer les atouts des personnes avec autisme (plus simples pour
+d’intégrer les atouts des personnes avec autisme (plus simples pour
 les aspergers).
