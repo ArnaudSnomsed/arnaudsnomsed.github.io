@@ -218,7 +218,7 @@ encore trop particulière en France, ça met FX en souffrance (ça rime).
 à l’intérêt de l’individu.
 
 Si FX n’était pas en souffrance aussi souvent j’aurai envie de dire
-que c’est un “bonheur que je ne souhaite à personne” (comme le famux
+que c’est un “bonheur que je ne souhaite à personne” (comme le fameux
 titre du livre de Samuel LeBihan). Car je ne souhaite à personne de
 voir son enfant souffrir mais ce qui est un bonheur c’est que nous
 sommes encore qu’au tout début de la compréhension de plein de choses
