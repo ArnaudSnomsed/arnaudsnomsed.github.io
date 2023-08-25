@@ -228,8 +228,8 @@ sommes encore qu’au tout début de la compréhension de plein de choses
 et j’ai hâte d’être dans 100 ou 200 ans et on rigolera du moyen age
 dans lequel on est aujourd’hui.
 
-Je voudrai aussi sur deux types de discours qui m’ont beaucoup
-inspirés :
+Je voudrai aussi vous parler de deux types de discours qui m’ont
+beaucoup inspirés :
 
 Dans l’entreprise dans laquelle je travaille, il a été possible
 d’accompagner des personnes dans le retour à l’emploi et il y avait un
