@@ -19,7 +19,7 @@ github_username:  arnaudsnomsed
 markdown: kramdown
 lang: fr
 comments: true
-paginate: 6
+paginate: 12
 excerpt_separator: "<!-- more -->"
 
 remote_theme: yous/whiteglass
