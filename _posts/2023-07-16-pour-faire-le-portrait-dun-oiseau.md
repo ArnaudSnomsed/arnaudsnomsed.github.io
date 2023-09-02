@@ -6,8 +6,7 @@ layout: post
 ---
 
 Cet article est librement inspiré de mon intervention lors d'une
-conférence ayant eu lieu le 24 juin 2023 sur l'invitation de Betina
-(psychologue) et sur le thème psychanalytique du "semblant".
+conférence ayant eu lieu le 24 juin 2023 sur l'invitation d'une psychologue (Betina dans la suite du post) et sur le thème psychanalytique du "semblant".
 
 Mon objectif était de partager mon expérience de l'autisme et de
 l'inclusion au travers de ma définition du semblant.
