@@ -104,8 +104,9 @@ cage.
 Ce que m'a appris FX c'est que : le regard de l'autre c'est une vision
 dans laquelle je me reconnais.
 
-Je parlais d'une approche top down et le "protocole" va tout normer,
-tout égaliser. Ça ne va pas du tout permettre de se reconnaitre dans
+Je parlais d'une approche "top down" tout à l'heure et le "protocole"
+est un peu similaire dans le sens ou il va tout "normer", tout
+égaliser. Ça ne va pas du tout permettre de se reconnaitre dans
 l'autre.
 
 Voilà sur la façon de peindre FX. On ne parle pas encore de lui
@@ -174,11 +175,11 @@ les pictogrammes, la danse, l’écriture, le verlan, les silences
 même. Souvent les silences en disent long. On se rend compte que l’on
 est tous embarqué dans cette complexité de communiquer »
 
-Cette question du langage avait d’ailleurs était abordé déjà abordée
-par Fanny, comédienne et Funambules. En réponse à mes inquiétudes sur
-le fait que FX ne parle pas à l’école il y a quelques années, elle
-avait quelques chose comme : “pour parler il faut avoir quelque chose
-à dire”.
+Cette question du langage avait d’ailleurs déjà était abordée par
+Fanny, comédienne et Funambules. En réponse à mes inquiétudes sur le
+fait que FX ne parle pas à l’école il y a quelques années, elle avait
+dit quelques chose comme : “pour parler il faut avoir quelque chose à
+dire”.
 
 Plus concrètement, et pour parler davantage de FX. Depuis plusieurs
 années, je l’accompagne à l’association Funambules. FX à l’habitude de
@@ -189,7 +190,7 @@ l’occasion de dérouler toute la palette des émotions. Par exemple :
 “allo Christine, on a pas notre billet de train, qu’est ce qui se
 passe ?”. FX est à fond dans ce jeu de role, le théâtre, l’expression
 des émotions. Comme tout ça est imaginaire, c’est peut être plus
-simple pour FX et il y a aucune limite. Ça sort tout seul et il y a un
+simple pour FX et il n'y a aucune limite. Ça sort tout seul et il y a un
 coté un peu thérapeutique de faire sortir les mots dans l’ordre qu’il
 veut avec des personnages imaginaires.
 
