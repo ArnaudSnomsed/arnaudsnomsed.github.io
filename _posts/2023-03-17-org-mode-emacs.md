@@ -24,10 +24,10 @@ de notes avec plusieurs contraintes :
 - Pouvoir exporter au format HTML et docx
 
 <!-- more -->
-J'ai alors commencé à utiliser le format Markdown avec un éditeur de
+Pour cela, j'ai commencé à utiliser le format Markdown avec un éditeur de
 texte que je connais bien en tant qu'ancien développeur : Emacs.
 
-J'ai alors utilisé les différents niveaux de chapitres, les listes,
+J'ai ensuite utilisé les différents niveaux de chapitres, les listes,
 les checkbox, les tableaux et l'outil pandoc pour exporter tout ça en
 HTML en docx et j'ai aussi remonté mon blog au format Markdown grace à
 Jekyll.
