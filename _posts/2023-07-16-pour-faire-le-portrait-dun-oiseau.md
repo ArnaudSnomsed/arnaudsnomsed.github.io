@@ -83,7 +83,7 @@ dans la classe en même temps que les autres". Moi j'essaie de faire le
 portrait tel que je vois mon fils, avec mon point de vue. Je suis
 amateur de photographie alors la question du point de vue ça m'a
 toujours beaucoup parlé. J'écoute. J'essaye de faire la synthèse de ce
-portrait qu'on fait de lui en ESS. Finalement FX prend la place qu'on
+portrait que l'on fait de lui en ESS. Finalement FX prend la place qu'on
 veut bien lui donner. L'image de la cage correspond bien à cette idée.
 
 Il y a aussi un mimétisme très important. Comme tout le monde on
