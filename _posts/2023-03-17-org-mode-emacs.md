@@ -156,7 +156,7 @@ soient tous repliés à l'ouverture :
 # La vue sous forme d'agenda
 
 Ouvrez avec Emacs un fichier Org contenant les exemples précédents
-puis ajoutez ce fichier dans l'agenda via le raccourci : <kbd>C</kbd>-c [
+puis ajoutez ce fichier dans l'agenda via le raccourci : <kbd>C</kbd>-<kbd>c</kbd> <kbd>[</kbd>
 
 Cela ajoutera la configuration suivante dans votre fichier .emacs :
 
@@ -164,7 +164,7 @@ Cela ajoutera la configuration suivante dans votre fichier .emacs :
  '(org-agenda-files '("c:/Users/demo/notes/Demo.org"))
 ```
 
-Tapez maintenant M-x org-agenda et vous verrez alors un buffer qui ressemble à ça :
+Tapez maintenant <kbd>M</kbd>-<kbd>x</kbd> org-agenda et vous verrez alors un buffer ressemblant à ça :
 
 ```
 Week-agenda (W11):
@@ -179,7 +179,7 @@ Monday     13 March 2023 W11
 ```
 
 De façon à identifier plus facilement les actions non planifiées via
-la commande "M-x org-agenda t" j'ai ajouté cette ligne dans mon .emacs
+la commande <kbd>M</kbd>-<kbd>x</kbd> org-agenda <kbd>t</kbd>, j'ai ajouté cette ligne dans mon .emacs
 pour exclure de la liste les actions avec une date :
 
 ```
