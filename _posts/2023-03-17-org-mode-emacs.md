@@ -124,30 +124,39 @@ qui nous serviront dans la vue agenda dans la chapitre suivant
 
 ```
 
-Quelques raccourcis clavier possible quand on est positionné sur un chapitre :
+# Raccourcis
 
-- Modification des priorités : <kbd>S</kbd>-up et S-down
-- Planification (schedule ou deadline) : C-c C-s ou C-c C-d
-- Cocher ou décocher une checkbox : C-c C-c
-- Ajouter un tag à une tache : C-c C-c
-- Changer l'état d'une tache (par exemple de TODO à DONE) : S-left ou S-right
-- Nouvelle tache : C-S <RET>
-- Archiver (il ira alors dans un fichier .org_archive) : C-c C-x C-a
-- Déplier ou replier : Tab ou S-Tab
+Quelques raccourcis clavier possible quand on est positionné sur un chapitre (<kbd>M</kbd> correspond à Maj et <kbd>C</kbd> à Ctrl):
+
+| Sur un chapitre                                       |                                                                                                            |
+|-------------------------------------------------------+------------------------------------------------------------------------------------------------------------|
+| Modification des priorités                            | <kbd>M</kbd>-<kbd>up</kbd> et <kbd>M</kbd>-<kbd>down</kbd>                                                 |
+| Planification (schedule ou deadline)                  | <kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>s</kbd> ou <kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>d</kbd> |
+| Ajouter un tag à une tache                            | <kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>c</kbd>                                                        |
+| Changer l'état d'une tache (exemple : de TODO à DONE) | <kbd>M</kbd>-<kbd>left</kbd> ou <kbd>S</kbd>-<kbd>right</kbd> (<kbd>t</kbd> dans la vue Agenda)            |
+| Nouvelle tache                                        | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>RET</kbd>                                                                   |
+| Archiver (il ira alors dans un fichier .org_archive)  | <kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>x</kbd> <kbd>C</kbd>-<kbd>a</kbd>                              |
+| Déplier ou replier                                    | <kbd>Tab</kbd> ou <kbd>M</kbd>-<kbd>Tab</kbd>                                                              |
 
 
-A propos du dernier raccourci, on peut ajouter la ligne suivante dans
-le fichier Org pour que les chapitres soient tous repliés à
-l'ouverture :
+A propos du raccourci permettant de déplier ou replier, on peut
+ajouter la ligne suivante dans le fichier Org pour que les chapitres
+soient tous repliés à l'ouverture :
 
 ```
 #+STARTUP: overview
 ```
 
+
+| Sur une ligne de type checkbox |                                                     |
+|--------------------------------+-----------------------------------------------------|
+| Cocher ou décocher             | <kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>c</kbd> |
+
+
 # La vue sous forme d'agenda
 
 Ouvrez avec Emacs un fichier Org contenant les exemples précédents
-puis ajoutez ce fichier dans l'agenda via le raccourci : C-c [
+puis ajoutez ce fichier dans l'agenda via le raccourci : <kbd>C</kbd>-c [
 
 Cela ajoutera la configuration suivante dans votre fichier .emacs :
 
