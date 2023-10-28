@@ -279,9 +279,9 @@ mon agenda personnel via la commande suivante dans une crontab :
 */5 * * * * screen -d -m emacs -Q -nw -l /home/xxxxx/agenda-html/agenda-html.el --eval '(kill-emacs)'
 ```
 
-Il faut aussi parfois mettre ces lignes à la fin du fichier Org de
-façon à ce que Emacs le recharge automatiquement quand il a été mis à
-jour par exemple par un git pull en dehors d'Emacs :
+Il peut parfois être utile de mettre ces lignes dans le fichier Org
+pour que Emacs le recharge automatiquement quand il a été mis à jour
+par exemple par un git pull en dehors d'Emacs :
 
 ```
 # Local Variables:
