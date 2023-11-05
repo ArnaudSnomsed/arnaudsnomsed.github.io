@@ -279,14 +279,23 @@ mon agenda personnel via la commande suivante dans une crontab :
 */5 * * * * screen -d -m emacs -Q -nw -l /home/xxxxx/agenda-html/agenda-html.el --eval '(kill-emacs)'
 ```
 
-Il peut parfois être utile de mettre ces lignes dans le fichier Org
-pour que Emacs le recharge automatiquement quand il a été mis à jour
-par exemple par un git pull en dehors d'Emacs :
+Il peut parfois être utile de mettre ces lignes (à moins de 3000
+caractères de la fin) dans le fichier Org pour que Emacs le recharge
+automatiquement quand il a été mis à jour par exemple par un git pull
+en dehors d'Emacs :
 
 ```
 # Local Variables:
 # eval: (auto-revert-mode)
 # End:
+```
+
+Dans les fichiers org_archive, on ne peut pas placer du texte à la fin
+du fichier car des entrées sont regulièrements ajoutées à la suite. On
+peut donc mettre cette entête :
+
+```
+#    -*- mode: org; eval: (auto-revert-mode) -*-
 ```
 
 Voici enfin quelques liens qui m'ont été utiles :
