@@ -30,9 +30,20 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-sitemap
+- jekyll-archives
 
 sass:
     sass_dir: _sass
 
 google_analytics: G-J2R4VJ04JL
 future: false
+
+# jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
