@@ -87,11 +87,12 @@ portrait que l'on fait de lui en ESS. Finalement FX prend la place qu'on
 veut bien lui donner. L'image de la cage correspond bien à cette idée.
 
 Il y a aussi un mimétisme très important. Comme tout le monde on
-s'imite les uns les autres. C'est d'ailleurs ce que cela m'apprend
-sur moi, mais pour FX davantage. Si on le peint comme quelqu'un qui se
+s'imite les uns les autres. C'est d'ailleurs ce que cela m'apprend sur
+moi, mais pour FX davantage. Si on le peint comme quelqu'un qui se
 tient à l'écart des autres, les autres vont lui donner cette place et
 vont s'en méfier d'une certaine manière. Ils vont se dire, il n'est
-pas comme nous et FX va prendre ce rôle-là.
+pas comme nous et FX va prendre ce rôle-là. "Je est un autre" écrivait
+Rimbaud.
 
 Je suis assez positif et je me dis que finalement c'est bien que tout
 le monde puisse dépeindre son portrait de FX. C'est sans doute mieux
