@@ -21,6 +21,8 @@ lang: fr
 comments: true
 paginate: 12
 excerpt_separator: "<!-- more -->"
+exclude:
+  - Gemfile
 
 remote_theme: yous/whiteglass
 #theme: jekyll-whiteglass
