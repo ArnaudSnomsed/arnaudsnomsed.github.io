@@ -2,7 +2,7 @@
   {%- if include.lang and include.lang != empty -%}
     {%- assign plang = include.lang -%}
   {%- else -%}
-    {%- assign plang = page.lang | default: site.lang | default: "fr" -%}
+    {%- assign plang = page.lang | default: site.lang | default: "en" -%}
   {%- endif -%}
   {%- assign i18n-tag = include.value -%}
   {%- assign splang = plang | truncate: 2, "" -%}
