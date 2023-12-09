@@ -97,7 +97,8 @@ quête en utilisant le concept du monomythe. Cela permettait un
 et en suggérant des émotions.
 
 
-Je vous laisse feuilleter le zine ci-dessous :
+Je vous laisse feuilleter le première pages du zine sur les 80 qu'elle
+comporte ci-dessous :
 
 <iframe id="data-blurb-bookshare-11130404" data-bindattr-125="125"
 		height="400px" data-bindattr-126="126"
@@ -108,6 +109,14 @@ Je vous laisse feuilleter le zine ci-dessous :
 		onload='this.focus()'
 		scrolling='no'>
 		</iframe>
+
+<center>Le zine est disponible à la vente <a href="https://www.blurb.fr/b/11130404-hello-world">ici</a>.</center>
+<p/>
+
+Pour une remise en main propre contactez moi en MP sur instagram
+@arnaudsnomsed.
+
+
 
 # Le financement participatif et la livraison
 
