@@ -158,7 +158,7 @@ cette différence.
 Cette curiosité pour le langage remonte à loin car j’étais avant
 développeur. J’avais remarqué que le langage de programmation pouvait
 représenter une forme de poésie. Il y a des développeurs qui en plus
-de résoudre des problèmes algorithmiques le fond de manière élégante,
+de résoudre des problèmes algorithmiques, le fond de manière élégante,
 esthétique, artistique en utilisant une forme de poésie. Après j’ai
 aussi pratiqué la photographie. Donc : l’autisme, funambules, la
 programmation, la photo. Le langage draine ma vie. On ne peut pas y
@@ -175,7 +175,7 @@ les pictogrammes, la danse, l’écriture, le verlan, les silences
 même. Souvent les silences en disent long. On se rend compte que l’on
 est tous embarqué dans cette complexité de communiquer »
 
-Cette question du langage avait d’ailleurs déjà était abordée par
+Cette question du langage avait d’ailleurs déjà été abordée par
 Fanny, comédienne et Funambules. En réponse à mes inquiétudes sur le
 fait que FX ne parle pas à l’école il y a quelques années, elle avait
 dit quelques chose comme : “pour parler il faut avoir quelque chose à
