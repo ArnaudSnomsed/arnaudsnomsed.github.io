@@ -70,7 +70,7 @@ World, m'a permis de mesurer les arguments les moins convaincants ou
 trop personnels et ainsi réfléchir sur la série. J'ai besoin, entre
 deux introspections, de partager ma démarche. Parler ou écrire, que ce
 soit en photographie ou dans la vie de tous les jours (ou sur ce
-blog), permet de reflechir. C'est pour cela qu'une exposition ou une
+blog), permet de reflechir. C'est pour cela qu'une exposition ou un
 zine par exemple me semble important pour préparer un projet plus figé
 tel qu'un livre.
 
