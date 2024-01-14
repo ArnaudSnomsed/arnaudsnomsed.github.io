@@ -12,7 +12,7 @@ Mon objectif était de partager mon expérience de l'autisme et de
 l'inclusion au travers de ma définition du semblant.
 
 <center>
-<img src="/assets/fx.png"/>
+<img src="{{ site.baseurl }}/assets/fx.png"/>
 <p>&nbsp;</p>
 </center>
 
