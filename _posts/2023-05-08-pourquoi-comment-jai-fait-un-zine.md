@@ -97,7 +97,7 @@ quête en utilisant le concept du monomythe. Cela permettait un
 et en suggérant des émotions.
 
 
-Je vous laisse feuilleter le première pages du zine sur les 80 qu'elle
+Je vous laisse feuilleter les premières pages du zine sur les 80 qu'elle
 comporte ci-dessous :
 
 <iframe id="data-blurb-bookshare-11130404" data-bindattr-125="125"
