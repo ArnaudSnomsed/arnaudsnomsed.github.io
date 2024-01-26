@@ -229,3 +229,22 @@
     float: right;
   }
 }
+
+
+@media (prefers-color-scheme: dark) {
+body, p, pre, code, link, .post-meta, a, .page-link {
+    background: $background-color-dark;
+    color: $text-color-dark;
+
+}
+.link, .post-link, .page-link, .site-title  {
+    &, &:visited {
+    color: $text-color-dark;
+  }
+
+  &:hover {
+    color: $brand-color-dark;
+    text-decoration: underline;
+  }
+}
+}
