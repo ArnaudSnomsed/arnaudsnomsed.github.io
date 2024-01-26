@@ -26,6 +26,13 @@ body {
   word-wrap: break-word;
 }
 
+@media (prefers-color-scheme: dark) {
+body {
+    background: $background-color-dark;
+    color: $text-color-dark;
+
+}
+}
 table {
   width: 100%;
   margin: 0 0 20px 0;

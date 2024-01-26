@@ -1,6 +1,8 @@
 /**
  * Syntax highlighting styles
  */
+
+
 .highlight {
   background-color: #f8f8f8;
   @extend %vertical-rhythm;
@@ -9,6 +11,20 @@
     background-color: #f8f8f8;
   }
 
+@media (prefers-color-scheme: dark) {
+  .highlight {
+      background-color: $background-color-dark;
+      color: $text-color-dark;
+
+  
+      .highlighter-rouge & {
+	  background-color: $background-color-dark;
+	  color: $text-color-dark;
+      }
+  }
+}
+
+  
   .cm    { color: #727262; font-style: italic } // Comment.Multiline
   .cp    { color: #727272; font-weight: bold } // Comment.Preproc
   .c1    { color: #727262; font-style: italic } // Comment.Single
