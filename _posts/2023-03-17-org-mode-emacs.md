@@ -37,7 +37,7 @@ notamment mettre en forme des tableaux.
 
 Curieux du org-mode d'Emacs j'ai alors découvert que le format Org
 était assez similaire au format Markdown et permettait des calculs sur
-les tableaux et permettait de planifier et archiver des taches ce qui
+les tableaux et de planifier et archiver des taches ce qui
 est très pratique pour garder un historique au travail également.
 
 
@@ -73,7 +73,7 @@ On peut alors mettre à jour les sommes en ligne via C-c *
 
 On peut aussi faire la somme d'une colonne en se positionnant en bas
 de la colonne via C-c + (puis C-y pour coller le résultat dans certaines
-configuration Emacs) :
+configurations Emacs) :
 
 ```
 | Test | Colonne | Total |
