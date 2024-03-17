@@ -23,7 +23,8 @@ Il faut ensuite nommer la note avec l'extension :
 
 et selectionner une première fois la (ou les) clé(s) de chiffrement à
 utiliser sur le fichier en les cochant avec la touche m après avoir
-saisi la commande suivante :
+saisi la commande suivante (il faut ensuite modifier et enregistrer le
+fichier pour que cela soit effectif) :
 
 M-x epa-file-select-keys
 
