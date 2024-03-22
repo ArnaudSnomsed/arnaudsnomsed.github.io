@@ -69,7 +69,7 @@ Hier dans l'école de FX se tenait une réunion ESS (Equipe de Suivi de
 la Scolarisation). Il y a beaucoup de professionnels autour de la
 table et tout le monde fait un portrait de FX complètement différent
 ou plutôt lui a refait le portrait (ahah) ! C'est en effet assez
-violent ce genre de réunions. Quand on a une vision de son enfant,
+violent ce genre de réunion. Quand on a une vision de son enfant,
 entendre certaines choses peut parfois être difficile et effectivement
 il y a ce côté normatif de l'éducation nationale qui contribue
 beaucoup au fait de parler de : ce qu'il ne fait pas, ce qu'il ne sait
