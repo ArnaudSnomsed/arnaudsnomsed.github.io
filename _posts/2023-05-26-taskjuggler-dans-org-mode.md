@@ -48,18 +48,25 @@ $ sudo apt install tj3
 
 ## Installation de ox-taskjuggler
 
-Télécharger l'archive org-contrib-0.X.X.tar depuis [https://elpa.nongnu.org/nongnu/org-contrib.html](https://elpa.nongnu.org/nongnu/org-contrib.html)
-
-Extraire le fichier ox-taskjuggler.el et éventuellement le patcher en
-utilisant [ce
-patch](https://github.com/ArnaudSnomsed/arnaudsnomsed.github.io/blob/master/assets/ox-taskjuggler.el.patch)
-
-Placer le fichier ox-taskjuggler.el dans un repertoire de façon à le
-charger dans le .emacs :
+S'assurer que le .emacs contient (C-c C-e pour executer son contenu) :
 
 ```
-(load-file "C:/Users/Arnaud/notes/ox-taskjuggler.el")
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+```
 
+Executer depuis emacs :
+
+```
+M-x package-refresh-contents
+M-x package-install org-contrib
+```
+
+Ajouter dans le .emacs :
+
+```
+(require 'ox-taskjuggler)
 ```
 
 # Création d'un projet org
