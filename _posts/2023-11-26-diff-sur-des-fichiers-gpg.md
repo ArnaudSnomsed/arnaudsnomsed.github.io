@@ -1,5 +1,5 @@
 ---
-title: 'Diff sur des fichiers GPG'
+title: 'Diff dans git sur des fichiers GPG'
 author: arnaudsnomsed
 layout: post
 categories:
