@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div id="navigation" border=4>
+  <div class="container">
+
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div id="menu" >
+      <ul>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <li><a class="page-link" href="{{ url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    </div>
+    {% include text-expand.html %}
+  </div>
+  </div>
+</header>
