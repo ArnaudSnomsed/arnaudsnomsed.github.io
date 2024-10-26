@@ -12,8 +12,11 @@
           {% assign url = link.url | relative_url %}
         {% endif %}
         <li><a class="page-link" href="{{ url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
+	{% endfor %}
+      <li><a href="/feed.xml"><img src='assets/128px-Feed-icon.svg.png' width='20px'></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/arnaudsnomsed"><img src='assets/240px-Instagram_icon.png' width='20px'></a></li>
+      </ul>
+      
     </div>
     {% include text-expand.html %}
   </div>

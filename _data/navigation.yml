@@ -1,11 +1,9 @@
 # If you want to link only specific pages in your header, add the path to the
 # pages in order as they should show up.
 main:
-  - title: "Blog"
-    url: /
-  - title: "Auteur"
-    url: https://linktr.ee/arnaudsnomsed/
+  - title: "Blog photo"
+    url: /photo/
+  - title: "Zine Hello World"
+    url: /hello-world.html
   - title: "Archives"
     url: /archives.html
-  - title: "RSS"
-    url: /feed.xml
