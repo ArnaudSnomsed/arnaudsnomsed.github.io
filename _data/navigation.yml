@@ -7,3 +7,5 @@ main:
     url: https://linktr.ee/arnaudsnomsed/
   - title: "Archives"
     url: /archives.html
+  - title: "RSS"
+    url: /feed.xml
