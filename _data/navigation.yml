@@ -5,5 +5,7 @@ main:
     url: /photo/
   - title: "Zine Hello World"
     url: /hello-world.html
+  - title: "Serie Prolog"
+    url: /prolog.html
   - title: "Archives"
     url: /archives.html
