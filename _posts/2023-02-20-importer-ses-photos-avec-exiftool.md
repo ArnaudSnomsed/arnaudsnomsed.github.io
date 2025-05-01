@@ -11,9 +11,6 @@ categories:
 Ci-dessous un script permettant d'importer les photos depuis une carte
 SD montée en H: vers E: grace au programme Exiftool.
 
-Il est à placer sur la carte SD après avoir configuré Windows pour
-afficher le contenu lors de l'insertion de la carte (pour n'avoir qu'a
-double cliquer dessus) :
 
 ```
 #!/bin/sh
