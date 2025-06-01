@@ -28,7 +28,7 @@ Tomboy est un utilitaire de prise de notes : il permet d’en créer rapidement 
 <u>f-spot</u>  
 <http://f-spot.org/>
 
-Un album photo. Le diaporama en plein écran avec fondus enchainés est assez sympa. Les étiquettes par catégorie aussi. C’est un peu le clone de photoshope album.
+Un album photo. Le diaporama en plein écran avec fondus enchainés est assez sympa. Les étiquettes par catégorie aussi. C’est un peu le clone de photoshop album.
 
 <u>amarok</u>  
 <http://amarok.kde.org/>
