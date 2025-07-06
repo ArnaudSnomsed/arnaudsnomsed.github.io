@@ -57,7 +57,7 @@ ce qui le compose. C'est la force du témoignage. De parler à chacun,
 comme un tableau nous parle.
 
 J'ai organisé la suite de mon intervention comme ce poème, simple et
-beau de Prevert, qui parle de peinture et qui s'intitule : Comment
+beau, de Prevert et qui parle de peinture et qui s'intitule : Pour
 faire le portrait d'un oiseau.
 
 Ce qui tombe bien car dans les premiers vers, il faut peindre une
