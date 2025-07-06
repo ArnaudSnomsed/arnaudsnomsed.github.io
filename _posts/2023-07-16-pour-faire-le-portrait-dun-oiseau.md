@@ -142,7 +142,7 @@ stéréotypies, nos lubies, nos obsessions. Sauf qu'un aller en train
 d'une heure n'avait pas suffi à ce que cette personne puisse voir le
 positif et ce que cela nous apprend sur nous-même. Il n'était pas
 d'accord. J'ai donc moi-même projeté quelque chose que n'acceptait pas
-cette personne mais c'est mon cheval de bataille.
+cette personne. C'est mon cheval de bataille.
 
 # Peindre quelque chose d'utile pour l'oiseau
 
