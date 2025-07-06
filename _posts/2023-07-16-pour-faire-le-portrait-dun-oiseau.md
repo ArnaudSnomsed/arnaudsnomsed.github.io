@@ -173,7 +173,7 @@ femmes neurotypiques, c’est à dire comme la majorité d’entre nous, ou
 porteurs d’autisme : le mensonge (plus simple pour un neurotypique),
 les pictogrammes, la danse, l’écriture, le verlan, les silences
 même. Souvent les silences en disent long. On se rend compte que l’on
-est tous embarqué dans cette complexité de communiquer »
+est tous embarqués dans cette complexité de communiquer »
 
 Cette question du langage avait d’ailleurs déjà été abordée par
 Fanny, comédienne et Funambules. En réponse à mes inquiétudes sur le
