@@ -155,7 +155,7 @@ m’ouvrir aux autres et m’épanouir, car si FX à ce handicap, ce n’est
 pas anodin. Je me reconnais beaucoup en lui et je pense que j’ai aussi
 cette différence.
 
-Cette curiosité pour le langage remonte à loin car j’étais avant
+Cette curiosité pour le langage remonte à loin et déjà quand j’étais
 développeur. J’avais remarqué que le langage de programmation pouvait
 représenter une forme de poésie. Il y a des développeurs qui en plus
 de résoudre des problèmes algorithmiques, le fond de manière élégante,
