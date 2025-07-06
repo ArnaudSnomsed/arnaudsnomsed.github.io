@@ -68,7 +68,7 @@ cage.
 Hier dans l'école de FX se tenait une réunion ESS (Equipe de Suivi de
 la Scolarisation). Il y a beaucoup de professionnels autour de la
 table et tout le monde fait un portrait de FX complètement différent
-ou plutôt lui a refait le portrait (ahah) ! C'est en effet assez
+ou plutôt lui refait le portrait (ahah) ! C'est en effet assez
 violent ce genre de réunion. Quand on a une vision de son enfant,
 entendre certaines choses peut parfois être difficile et effectivement
 il y a ce côté normatif de l'éducation nationale qui contribue
@@ -83,10 +83,10 @@ dans la classe en même temps que les autres". Moi j'essaie de faire le
 portrait tel que je vois mon fils, avec mon point de vue. Je suis
 amateur de photographie alors la question du point de vue ça m'a
 toujours beaucoup parlé. J'écoute. J'essaye de faire la synthèse de ce
-portrait que l'on fait de lui en ESS. Finalement FX prend la place qu'on
+portrait que l'on fait de lui en ESS. Finalement, FX prend la place qu'on
 veut bien lui donner. L'image de la cage correspond bien à cette idée.
 
-Il y a aussi un mimétisme très important. Comme tout le monde on
+Il y a aussi le mimétisme. Comme tout le monde on
 s'imite les uns les autres, mais pour FX c'est encore plus marqué. Si
 on le peint comme quelqu'un qui se tient à l'écart des autres, les
 autres vont lui donner cette place et vont s'en méfier d'une certaine
