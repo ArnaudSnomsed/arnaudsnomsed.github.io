@@ -157,7 +157,7 @@ cette différence.
 
 Cette curiosité pour le langage remonte à loin et déjà quand j’étais
 développeur. J’avais remarqué que le langage de programmation pouvait
-représenter une forme de poésie. Il y a des développeurs qui en plus
+représenter une forme de poésie. Il y a des développeurs qui, en plus
 de résoudre des problèmes algorithmiques, le fond de manière élégante,
 esthétique, artistique en utilisant une forme de poésie. Après j’ai
 aussi pratiqué la photographie. Donc : l’autisme, funambules, la
