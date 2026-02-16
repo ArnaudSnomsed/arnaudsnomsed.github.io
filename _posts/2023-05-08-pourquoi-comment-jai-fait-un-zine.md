@@ -9,10 +9,10 @@ categories:
 
 ![](/assets/zine.png)
 
-Cet article décrit un fonctionnement personnel et n'a pas vocation a
-être universel. Bien sûr j'espère que certains se
-reconnaitront ici. Je pourrai aussi moi-même évoluer dans ma façon de
-voir. Dans tous les cas, j'ai besoin de poser les choses par écrit
+Cet article décrit un fonctionnement personnel. Bien sûr j'espère que
+certains se reconnaitront ici, mais je ne prétend pas à ce que tout ça
+soit universel. D'ailleurs, j'évoluerai certainement dans ma façon de
+faire et, dans tous les cas, j'ai besoin de poser les choses par écrit
 pour avancer. C'est d'ailleurs un principe qui s'applique à la photo
 et que j'explique ci-dessous.
 
