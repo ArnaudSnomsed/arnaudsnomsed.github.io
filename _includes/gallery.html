@@ -7,19 +7,25 @@
 
 
   .img-gallery {
-      width: 700px;
+      width: 400px;
       height: auto;
       max-height: 700px; 
-      object-fit: cover;
       border: 5px solid white;
       object-fit: cover;
       transform: scale(1);
       transition: all 0.3s ease-in-out;
    }
    .img-gallery:hover {
-   max-height: 1100px;
+   max-height: 1000px;
       transform: scale(1.05);
    }
+   
+   @media (min-width: 768px) {
+         .img-gallery {
+	     width: 750px;
+	 }
+   }
+
 </style>
 
 <div class ="image-gallery">
