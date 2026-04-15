@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PASCAL"
+title: "Pascal"
 ---
 
-{% include gallery.html folder="/assets/pascal/thumbs" %}
+{% include gallery.html folder="/assets/pascal" %}
