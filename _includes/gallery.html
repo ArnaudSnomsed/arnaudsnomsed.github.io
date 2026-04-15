@@ -20,7 +20,10 @@
       transform: scale(1.05);
    }
    
-   @media (min-width: 768px) {
+  @media (min-width: 768px) {
+     .image-gallery {
+         grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+      }
          .img-gallery {
 	     width: 750px;
 	 }
