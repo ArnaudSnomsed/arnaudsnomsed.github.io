@@ -11,7 +11,7 @@ Dans cet article je liste ce qui, en argentique, a influencé ma pratique en num
 
 ![](/assets/argentique.jpg)
 
-# Le chimping
+## Le chimping
 
 Quand j'ai commencé l'argentique, je prenais de moins en moins de
 plaisir à la prise de vue en numérique. Je me suis rendu compte que
@@ -21,7 +21,7 @@ résultat. En argentique, on reste davantage dans le moment présent et
 sans être influencé, souvent négativement, sur nos dernières prises de
 vue.
 
-# L'impact du format (FF, APS-C)
+## L'impact du format (FF, APS-C)
 
 Ceci n'est pas directement lié à l'argentique mais comme en argentique
 on est souvent avec un format de pellicule plus large que mon APS-C
@@ -40,7 +40,7 @@ encore aussi plus de confort et de plaisir à la prise de vue.
 
 <!-- more -->
 
-# La priorité à l'ouverture
+## La priorité à l'ouverture
 
 Le pentax MG que j'utilise est en mode priorité à l'ouverture
 uniquement et comme on bénéficie pour un budget réduit d'une optique
@@ -48,7 +48,7 @@ très lumineuse, ça permet d'en profiter au maximum.
 Depuis, je suis souvent dans ce mode aussi en numérique.
 
 
-# La gestion des hautes lumières
+## La gestion des hautes lumières
 
 Un des avantages de l'argentique est également sa capacité à garder du
 détail dans les hautes lumières. Après avoir fait ma série Hello World
@@ -79,13 +79,13 @@ ouverture c'est largement insuffisant. J'ai donc ajouté un filtre UV
 qui ajoute aussi un peu de chaleur sur les photos.
 
 
-# Un changement de regard sur le bruit
+## Un changement de regard sur le bruit
 
 Je trouve maintenant que cela donne vie aux photos et ne suis plus
 aussi reticent à monter les ISO en numérique.
 
 
-# L'importance du hasard et de l'editing
+## L'importance du hasard et de l'editing
 
 
 Ce dernier point est assez lié au premier. En s'en remettant davantage
@@ -99,7 +99,7 @@ de pression à la prise de vue et donc plus de plaisir.
 Ci-dessus, la fuite de lumière orange se complète avec les lentilles
 vertes et équilibre bien la composition.
 
-# Conclusion
+## Conclusion
 
 Même si je suis de plus en plus économe pour l'achat des pellicules et
 en faisant le développement et le scan moi-même, cela reste un budget
