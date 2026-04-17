@@ -16,7 +16,7 @@ faire et, dans tous les cas, j'ai besoin de poser les choses par écrit
 pour avancer. C'est d'ailleurs un principe qui s'applique à la photo
 et que j'explique ci-dessous.
 
-# Pourquoi faire une série ?
+## Pourquoi faire une série ?
 
 On a raison de penser qu'une série n'a de sens que si on sait pourquoi
 <!-- more -->
@@ -32,7 +32,7 @@ la série étant mis au jour progressivement à la façon d'un
 archéologue.
 
 
-# La prise de vue
+## La prise de vue
 
 A la prise de vue, je m'applique à faire deux choses :
 
@@ -56,7 +56,7 @@ d'une sortie pour être "échauffé" mais aussi un certain nombre
 "d'entrainements" rapprochés pour progresser.
 
 
-# Editing
+## Editing
 
 A chaque étape du processus créatif, que ce soit en sélectionnant les
 images (editing) ou en leur donnant un ordre dans la série
@@ -81,7 +81,7 @@ personnel suffisant mais pas trop long pour laisser se "révéler"
 l'image de façon fidèle à nos ressentis du moment.
 
 
-# La narration et la mise en page
+## La narration et la mise en page
 
 Pour Hello World, la quête de sens est le sujet même de la série. Lors
 des premières prises de vue je n'avais pas d'idée sur ce que je
@@ -118,7 +118,7 @@ Pour une remise en main propre contactez moi en MP sur instagram
 
 
 
-# Le financement participatif et la livraison
+## Le financement participatif et la livraison
 
 Quand on a fait tant d'efforts pour mener son projet jusqu'à une
 maquette, on a alors envie de soigner la communication pour partager
@@ -174,7 +174,7 @@ mot sur les tirages d'accompagnement du zine (car pas facile et risqué
 d'écrire dans le zine).
 
 
-# En résumé
+## En résumé
 
 En résumé je dirai qu'il y a trois temps pour éviter d'avoir une
 démarche trop intellectuelle simplement pour "avancer" :
