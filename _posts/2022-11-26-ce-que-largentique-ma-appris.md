@@ -1,7 +1,8 @@
 ---
 title: "Ce que l'argentique m'a appris"
 author: arnaudsnomsed
-image: /assets/argentique.jpg
+image:
+  path: /assets/argentique.jpg
 layout: post
 categories:
     - Photographie
