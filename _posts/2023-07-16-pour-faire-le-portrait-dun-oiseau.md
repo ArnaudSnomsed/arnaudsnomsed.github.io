@@ -17,7 +17,7 @@ l'inclusion au travers de ma définition du semblant.
 </center>
 
 
-# Introduction
+## Introduction
 
 C'est vrai qu'avant de rejoindre il y a quelques années l'association
 Funambules et au moment où je t'ai appelé Betina, je "prospectais" sur
@@ -63,7 +63,7 @@ faire le portrait d'un oiseau.
 Ce qui tombe bien car dans les premiers vers, il faut peindre une
 cage.
 
-# Peindre d'abord une cage
+## Peindre d'abord une cage
 
 Hier dans l'école de FX se tenait une réunion ESS (Equipe de Suivi de
 la Scolarisation). Il y a beaucoup de professionnels autour de la
@@ -113,7 +113,7 @@ Voilà sur la façon de peindre FX. On ne parle pas encore de lui
 finalement mais de comment les autres le voient.
 
  
-# Peindre ensuite quelque chose de beau
+## Peindre ensuite quelque chose de beau
 
 Toujours dans l'analogie avec le poème de Prevert, je voudrais
 compléter le tableau, en partageant une petite anecdote.
@@ -144,7 +144,7 @@ positif et ce que cela nous apprend sur nous-même. Il n'était pas
 d'accord. J'ai donc moi-même projeté quelque chose que n'acceptait pas
 cette personne. C'est mon cheval de bataille.
 
-# Peindre quelque chose d'utile pour l'oiseau
+## Peindre quelque chose d'utile pour l'oiseau
 
 Ce que FX m’a appris, je voudrais le transmettre à tout le monde et
 je me suis demandé si ce n’est pas pour ça que j’avais été amené à
@@ -209,7 +209,7 @@ diagnostic car en tant que parent on ne sait pas encore “le bonheur”
 qui nous attend. On est triste et fatigué. Ce qui amplifie les
 troubles et nous fait rentrer dans un cercle vicieux.
  
-# En résumé
+## En résumé
 
 Je suis souvent un peu embêté par l’idée d’être positif sur le
 handicap et l’autisme en particulier car ça serait occulter une partie
