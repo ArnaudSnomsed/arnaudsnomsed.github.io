@@ -20,7 +20,7 @@ développer une douzaine de pellicules. Je n'ai pas fait encore assez
 de prises de vue pour lancer les développements de mes dernières
 expériences et illustrer cet article.
 
-# L'ennui avec le flou d'arrière-plan
+## L'ennui avec le flou d'arrière-plan
 
 Une belle optique de 50mm à f/1,7 était vendue avec mon argentique
 Pentax MG (40€ l'ensemble). Le nombre de lames important sur cette
@@ -32,14 +32,14 @@ n'utilisaient pas directement cette technique mais qu'on pouvait
 observer quand même plus de détails et des traits plus prononcés sur
 le sujet.
 
-# Tricher sur la profondeur de champs
+## Tricher sur la profondeur de champs
 
 N'ayant pas un si grand angle avec une si grande ouverture en
 numérique, j'ai dû compenser en m'éloignant plus souvent du sujet pour
 retrouver une faible profondeur de champ (relativement à la focale).
 
 
-# Profiter d'une dynamique plus faible
+## Profiter d'une dynamique plus faible
 
 J'ai remarqué qu'avec du matériel moins performant en termes de
 dynamique ou dans des situations à fort contraste, cela oblige à
@@ -49,7 +49,7 @@ décor pour jouer sur des plans et apporter de la dynamique. Des
 aplats de couleurs et des contrastes peuvent également apporter de la
 dynamique et de la douceur.
 
-# Les flous lumineux
+## Les flous lumineux
 
 J'ai toujours été attiré par les flous lumineux, par exemple en
 contre-jour, que je croyais plus facile en argentique. Il semblerait
