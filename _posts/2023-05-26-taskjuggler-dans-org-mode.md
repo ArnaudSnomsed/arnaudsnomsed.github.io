@@ -27,9 +27,9 @@ avantages :
 <p>&nbsp;</p>
 </center>
    
-# Installation
+## Installation
 
-## Installation de TJ3
+### Installation de TJ3
 
 Sous Windows, après avoir installé Ruby (par exemple via [https://rubyinstaller.org/](https://rubyinstaller.org/)) :
 
@@ -46,7 +46,7 @@ $ sudo apt install tj3
 ```
 
 
-## Installation de ox-taskjuggler
+### Installation de ox-taskjuggler
 
 S'assurer que le .emacs contient (C-c C-e pour executer son contenu) :
 
@@ -69,12 +69,12 @@ Ajouter dans le .emacs :
 (require 'ox-taskjuggler)
 ```
 
-# Création d'un projet org
+## Création d'un projet org
 
 Créer un fichier [Demo.org](/assets/Demo.org) avec le contenu indiqué dans
 [https://orgmode.org/worg/org-tutorials/org-taskjuggler.html](https://orgmode.org/worg/org-tutorials/org-taskjuggler.html)
 
-# Configuration des rapports
+## Configuration des rapports
 
 Ce qui n'est pas expliqué dans le lien précédent c'est que le tag
 taskjuggler_report peut être appliqué pour intégrer des rapports personnalisés dans le fichier Tjp que nous allons générer :
@@ -113,7 +113,7 @@ taskjuggler_report peut être appliqué pour intégrer des rapports personnalis�
       :END:
 ```
 
-# Génération manuelle des rapports
+## Génération manuelle des rapports
 
 Après avoir créé le fichier [Demo.org](/assets/Demo.org) avec les tags
 (on ajoute un tag en se placant sur l'entrée et avec les raccourcis
@@ -136,7 +136,7 @@ Résultat (en html) :
 
 ![](/assets/ox-taskjuggler-html.png)
 
-# Edition en mode colonne
+## Edition en mode colonne
 
 On peut éditer chaque attribut de chaque tâche du projet dans le mode
 "column view" de Org-mode (raccourci C-c C-x C-c)
@@ -185,7 +185,7 @@ le .emacs :
 ```
 
 
-# Démonstration
+## Démonstration
 
 - Edition de l'effort et des allocations de ressources en column view avec le raccourci C-c C-x C-c
 - Mise à jour du resultat en se positionnant sur le code lisp (cf
@@ -199,7 +199,7 @@ le .emacs :
 
 
 
-# Pour aller plus loin
+## Pour aller plus loin
 
 Pour plus de précisions sur les personnalisations :
 [https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html](https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html)
