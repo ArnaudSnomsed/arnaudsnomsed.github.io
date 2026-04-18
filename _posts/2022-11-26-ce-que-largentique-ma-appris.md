@@ -94,7 +94,7 @@ au hasard, on se laisse surprendre par certains effets inattendus
 donne alors plus d'importance à la phase d'editing. Ca enlève un peu
 de pression à la prise de vue et donc plus de plaisir.
 
-![](/assets/argentique-2.jpg)
+![](/assets/lentilles.jpg)
 
 Ci-dessus, la fuite de lumière orange se complète avec les lentilles
 vertes et équilibre bien la composition.
