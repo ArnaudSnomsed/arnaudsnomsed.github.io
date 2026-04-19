@@ -38,7 +38,7 @@
     {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
        <div class="box">
-         <img src="{{ file.path | relative_url }}" alt="{{ filename }}"  class="img-gallery" />
+         <img src="{{ file.path | relative_url }}" alt="{{ filename }}"  class="img-gallery" loading="lazy" />
        </div>
       {% endif %}
     {% endif %}
