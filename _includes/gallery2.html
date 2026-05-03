@@ -32,7 +32,7 @@
 
 <div class ="image-gallery">
 {% for item in include.img_list %}
-  <div class="box"> <img src="{{ item.image }}" alt="{{ item.caption }}"  class="img-gallery" loading="lazy"></div>
+  <div class="box"> <img src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.caption }}"  class="img-gallery" loading="lazy"></div>
 {% endfor %}
 </div>
  

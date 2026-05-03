@@ -3,4 +3,4 @@ layout: page
 title: "Pascal"
 ---
 
-{% include gallery.html folder="/assets/pascal/thumbs" %}
+{% include gallery2.html img_list=site.data.pascal %}
