@@ -1,5 +1,6 @@
 ---
 layout: page
+image: /assets/pascal/thumbs/0316-1.jpg
 title: "Pascal"
 ---
 
