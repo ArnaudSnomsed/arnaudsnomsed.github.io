@@ -1,6 +1,6 @@
 ---
 layout: page
-image: /assets/prolog/thumbs/IMGP5888.jpg
+image: /assets/prolog/thumbs/31.jpg
 title: "Prolog"
 ---
 
