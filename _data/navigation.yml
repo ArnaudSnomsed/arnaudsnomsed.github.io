@@ -7,7 +7,7 @@ main:
     url: /hello-world.html
   - title: "Serie Prolog"
     url: /prolog.html
-  - title: "Serie Pascal"
-    url: /pascal.html    
+  - title: "Serie Java"
+    url: /java.html    
   - title: "Archives"
     url: /archives.html
