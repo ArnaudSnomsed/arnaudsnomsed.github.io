@@ -1,7 +1,7 @@
 ---
 layout: page
-image: /assets/pascal/thumbs/0316-1.jpg
-title: "Pascal"
+image: /assets/java/thumbs/0316-1.jpg
+title: "Java"
 ---
 
-{% include gallery2.html img_list=site.data.pascal %}
+{% include gallery2.html img_list=site.data.java %}
