@@ -2,7 +2,7 @@ name: Deploy TinaCMS to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # adaptez si votre branche s'appelle master
+    branches: ["master"] # adaptez si votre branche s'appelle master
 
 permissions:
   contents: read
