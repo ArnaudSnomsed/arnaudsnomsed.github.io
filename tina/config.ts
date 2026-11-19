@@ -1,5 +1,28 @@
 import { defineConfig } from 'tinacms';
 
+function formatDateYYYYMMDD(input?: string | Date): string {
+  const date = input ? new Date(input) : new Date();
+  if (Number.isNaN(date.getTime())) {
+    const now = new Date();
+    return formatDateYYYYMMDD(now);
+  }
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function toSlug(text?: string): string {
+  if (!text) return "sans-titre";
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // supprime les accents
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 // Your hosting provider likely exposes this as an environment variable
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -36,6 +59,18 @@ collections: [
       name: 'post',
       label: 'Posts',
       path: '_posts',
+      ui: {
+          filename: {
+            // Optionnel : passez à true pour empêcher la modification manuelle du nom de fichier
+            readonly: false,
+            slugify: (values) => {
+              // Utilise `values?.date` si un champ date existe dans le formulaire, sinon la date du jour
+              const datePrefix = formatDateYYYYMMDD(values?.date);
+              const slug = toSlug(values?.title);
+              return `${datePrefix}-${slug}`;
+            },
+          },
+        },
       fields: [
         {
           type: 'string',
