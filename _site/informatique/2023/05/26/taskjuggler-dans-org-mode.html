@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Taskjuggler dans Org-mode</title>
+  <meta name="description" content="J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour éditer le projet (avec les taches, les dépendances, les charges, les ressources associées). Cependant, on peut faire encore plus rapide grâce à Emacs. Le fichier ox-taskjuggler.el permet de convertir une arborescence Org-mode dans le format taskjuggler. Cela à deux avantages : On peut editer rapidement toutes les propriétés du projet (dépendances, charges, ressources associées) grace au mode colonne de org-mode dans Emacs On peut générer le Gantt directement dans le fichier Org sans quitter Emacs via quelques lignes de lisp avec Babel &amp;nbsp; Installation Installation de TJ3 Sous Windows, après avoir installé Ruby (par exemple via https://rubyinstaller.org/) : &amp;gt; gem install taskjuggler">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="ArnaudSnomsed | Blog" href="http://0.0.0.0:4000/feed.xml">
+
+  <link rel="icon" type="image/jpeg" href="/assets/favicon.jpg" />
+<script defer src="https://cloud.umami.is/script.js" data-website-id="29c5b50a-09e0-4ec7-b419-9e4a238c0265"></script>
+
+<!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Taskjuggler dans Org-mode | ArnaudSnomsed Blog</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Taskjuggler dans Org-mode" />
+<meta name="author" content="arnaudsnomsed" />
+<meta property="og:locale" content="fr" />
+<meta name="description" content="J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour éditer le projet (avec les taches, les dépendances, les charges, les ressources associées). Cependant, on peut faire encore plus rapide grâce à Emacs. Le fichier ox-taskjuggler.el permet de convertir une arborescence Org-mode dans le format taskjuggler. Cela à deux avantages : On peut editer rapidement toutes les propriétés du projet (dépendances, charges, ressources associées) grace au mode colonne de org-mode dans Emacs On peut générer le Gantt directement dans le fichier Org…" />
+<meta name="twitter:description" property="og:description" content="J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour éditer le projet (avec les taches, les dépendances, les charges, les ressources associées). Cependant, on peut faire encore plus rapide grâce à Emacs. Le fichier ox-taskjuggler.el permet de convertir une arborescence Org-mode dans le format taskjuggler. Cela à deux avantages : On peut editer rapidement toutes les propriétés du projet (dépendances, charges, ressources associées) grace au mode colonne de org-mode dans Emacs On peut générer le Gantt directement dans le fichier Org…" />
+<link rel="canonical" href="http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html" />
+<meta property="og:site_name" content="ArnaudSnomsed Blog" />
+<meta property="og:image" content="http://0.0.0.0:4000/assets/ox-taskjuggler.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-26T12:00:00+01:00" />
+<meta property="article:modified_time" content="2023-05-26T12:00:00+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://0.0.0.0:4000/assets/ox-taskjuggler.png" />
+<meta name="twitter:title" content="Taskjuggler dans Org-mode" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"arnaudsnomsed"},"dateModified":"2023-05-26T12:00:00+01:00","datePublished":"2023-05-26T12:00:00+01:00","description":"J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour éditer le projet (avec les taches, les dépendances, les charges, les ressources associées). Cependant, on peut faire encore plus rapide grâce à Emacs. Le fichier ox-taskjuggler.el permet de convertir une arborescence Org-mode dans le format taskjuggler. Cela à deux avantages : On peut editer rapidement toutes les propriétés du projet (dépendances, charges, ressources associées) grace au mode colonne de org-mode dans Emacs On peut générer le Gantt directement dans le fichier Org…","headline":"Taskjuggler dans Org-mode","image":"http://0.0.0.0:4000/assets/ox-taskjuggler.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html"},"url":"http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+  
+  <meta property="og:title" content="Taskjuggler dans Org-mode">
+  <meta property="og:site_name" content="ArnaudSnomsed | Blog">
+  <meta property="og:url" content="http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html">
+  <meta property="og:description" content="J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour éditer le projet (avec les taches, les dépendances, les charges, les ressources associées). Cependant, on peut faire encore plus rapide grâce à Emacs. Le fichier ox-taskjuggler.el permet de convertir une arborescence Org-mode dans le format taskjuggler. Cela à deux avantages : On peut editer rapidement toutes les propriétés du projet (dépendances, charges, ressources associées) grace au mode colonne de org-mode dans Emacs On peut générer le Gantt directement dans le fichier Org sans quitter Emacs via quelques lignes de lisp avec Babel &amp;nbsp; Installation Installation de TJ3 Sous Windows, après avoir installé Ruby (par exemple via https://rubyinstaller.org/) : &amp;gt; gem install taskjuggler">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Taskjuggler dans Org-mode">
+  <meta name="twitter:description" content="J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour é...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div id="navigation" border=4>
+  <div class="container">
+
+    <a class="site-title" href="/">ArnaudSnomsed | Blog</a>
+    <div id="menu" >
+      <ul>
+      
+        
+        <li><a class="page-link" href="/photo/">Blog photo</a></li>
+	
+        
+        <li><a class="page-link" href="/hello-world.html">Zine Hello World</a></li>
+	
+        
+        <li><a class="page-link" href="/prolog.html">Serie Prolog</a></li>
+	
+        
+        <li><a class="page-link" href="/java.html">Serie Java</a></li>
+	
+        
+        <li><a class="page-link" href="/archives.html">Archives</a></li>
+	
+      <li><a href="/feed.xml"><img src='https://arnaudsnomsed.github.io/assets/128px-Feed-icon.svg.png' width='20px'></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/arnaudsnomsed"><img src='https://arnaudsnomsed.github.io/assets/240px-Instagram_icon.png' width='20px'></a></li>
+      </ul>
+      
+    </div>
+    <a id="togglemenu" onclick="document.body.classList.toggle('menuopen');">Menu<span><span></span><span></span><span></span></span></a>
+
+<style>
+@keyframes span1 {
+    0%   { top: 0%; transform-origin: 50% 50%;}
+    50%  { top: 50%; transform: rotate(0deg) translateY(-50%);}
+    100% { top: 50%; transform: rotate(45deg) translateY(-50%);}
+}
+@keyframes span2 {
+    0%   {opacity: 1;}
+    45%  {opacity: 1;}
+    65%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes span3 {
+    0%   { bottom: 0%; transform-origin: 50% 50%;}
+    45%  { bottom: 50%; transform: rotate(0deg) translateY(50%);}
+    100% { bottom: 50%; transform: rotate(-45deg) translateY(50%);}
+}
+
+#togglemenu {display: none; cursor: pointer;}
+@media (max-width: 4000px) {
+    #togglemenu {display: block;}
+    #menu ul {display: none;}
+    .menuopen #menu ul {display: block;}
+}
+
+#togglemenu > span {display: inline-block; margin-left: 0.4rem; width: 1.1rem; height: 0.75rem; position: relative; vertical-align: middle; position: relative; bottom: 1px;}
+#togglemenu > span > span {display: block; position: absolute; width: 100%; height: 2px; background: #999;}
+#togglemenu > span > span:nth-child(1) {top: 0; transform-origin: 50% 0%;}
+#togglemenu > span > span:nth-child(2) {top: 50%; margin-top: -1px;}
+#togglemenu > span > span:nth-child(3) {bottom: 0; transform-origin: 50% 100%;}
+
+.menuopen #togglemenu > span > span:nth-child(1) {
+    animation: span1 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.menuopen #togglemenu > span > span:nth-child(2) {
+    animation: span2 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+.menuopen #togglemenu > span > span:nth-child(3) {
+    animation: span3 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+.container {max-width: 800px; margin: 0 auto; padding: 0 1rem; }
+
+</style>
+
+  </div>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+    <h1 class="post-title" itemprop="name headline">Taskjuggler dans Org-mode</h1>
+    
+    <p class="post-meta"><time datetime="2023-05-26T12:00:00+01:00" itemprop="datePublished">26 Mai 2023</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>J’ai découvert récemment l’outil taskjuggler qui est une sorte de
+calculatrice pour construire des plannings et allouer des ressources
+sur les projets. Il n’existe plus d’interface graphique pour éditer le
+projet (avec les taches, les dépendances, les charges, les ressources
+associées). Cependant, on peut faire encore plus rapide grâce à
+Emacs. Le fichier ox-taskjuggler.el permet de convertir une
+arborescence Org-mode dans le format taskjuggler. Cela à deux
+avantages :</p>
+
+<ul>
+  <li>On peut editer rapidement toutes les propriétés du projet
+(dépendances, charges, ressources associées) grace au mode colonne
+de org-mode dans Emacs</li>
+  <li>On peut générer le Gantt directement dans le fichier Org sans
+quitter Emacs via quelques lignes de lisp avec Babel</li>
+</ul>
+
+<center>
+<img src="/assets/ox-taskjuggler.png" />
+<p>&nbsp;</p>
+</center>
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="installation-de-tj3">Installation de TJ3</h3>
+
+<p>Sous Windows, après avoir installé Ruby (par exemple via <a href="https://rubyinstaller.org/">https://rubyinstaller.org/</a>) :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; gem install taskjuggler
+</code></pre></div></div>
+
+<!-- more -->
+
+<p>Sous Linux :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt install tj3
+</code></pre></div></div>
+
+<h3 id="installation-de-ox-taskjuggler">Installation de ox-taskjuggler</h3>
+
+<p>S’assurer que le .emacs contient (C-c C-e pour executer son contenu) :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+</code></pre></div></div>
+
+<p>Executer depuis emacs :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x package-refresh-contents
+M-x package-install org-contrib
+</code></pre></div></div>
+
+<p>Ajouter dans le .emacs :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(require 'ox-taskjuggler)
+</code></pre></div></div>
+
+<h2 id="création-dun-projet-org">Création d’un projet org</h2>
+
+<p>Créer un fichier <a href="/assets/Demo.org">Demo.org</a> avec le contenu indiqué dans
+<a href="https://orgmode.org/worg/org-tutorials/org-taskjuggler.html">https://orgmode.org/worg/org-tutorials/org-taskjuggler.html</a></p>
+
+<h2 id="configuration-des-rapports">Configuration des rapports</h2>
+
+<p>Ce qui n’est pas expliqué dans le lien précédent c’est que le tag
+taskjuggler_report peut être appliqué pour intégrer des rapports personnalisés dans le fichier Tjp que nous allons générer :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Report                                                 :taskjuggler_report:
+** Plan
+      :PROPERTIES:
+      :loadunit: days
+      :formats: html
+      :columns: bsi, name, resources, start, end, effort, complete, chart { width 1000 }
+      :hidetask: treelevel() &gt; 4
+      :END:
+
+** Plan2
+      :PROPERTIES:
+      :loadunit: days
+      :formats: csv
+      :timeformat: "%b"
+      :start: 2023-3-2
+      :end: 2024-2-1
+      :columns: name, resources, complete, monthly
+      :hidetask: treelevel() &gt; 4
+      :END:
+
+** Resource
+      :PROPERTIES:
+      :REPORT_KIND: resourcereport
+      :loadunit: days
+      :formats: csv
+      :columns: name, effort, monthly
+      :timeformat: "%b"
+      :start: 2023-3-2
+      :end: 2023-12-31
+      :hidetask:  ~isleaf() 
+      :END:
+</code></pre></div></div>
+
+<h2 id="génération-manuelle-des-rapports">Génération manuelle des rapports</h2>
+
+<p>Après avoir créé le fichier <a href="/assets/Demo.org">Demo.org</a> avec les tags
+(on ajoute un tag en se placant sur l’entrée et avec les raccourcis
+C-c C-c) :taskjuggler_report:,
+:taskjuggler_resource:, :taskjuggler_project:</p>
+
+<ul>
+  <li>Générer le fichier tjp depuis emacs via :</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x org-taskjuggler-export
+</code></pre></div></div>
+
+<ul>
+  <li>Générer les rapports (csv ou html) via la commande shell :</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tj3 Demo.tjp
+</code></pre></div></div>
+
+<p>Résultat (en html) :</p>
+
+<p><img src="/assets/ox-taskjuggler-html.png" alt="" /></p>
+
+<h2 id="edition-en-mode-colonne">Edition en mode colonne</h2>
+
+<p>On peut éditer chaque attribut de chaque tâche du projet dans le mode
+“column view” de Org-mode (raccourci C-c C-x C-c)</p>
+
+<center>
+<img src="/assets/ox-taskjuggler-col.png" />
+<p>&nbsp;</p>
+</center>
+
+<h1 id="génération-des-rapports-dans-org-mode-avec-babel">Génération des rapports dans Org-mode avec Babel</h1>
+
+<p>Dans fichier Org contenant le projet (Demo.org dans notre exemple) il
+est possible d’ajouter ce code pour générer automatiquement un tableau
+Org-mode avec le contenu du rapport CSV taskjuggler :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#+begin_src elisp :var file="Demo.csv" :results raw
+  (defun csv-to-table (file)
+    (with-temp-buffer
+      (erase-buffer)
+      (insert-file file)
+      (org-table-convert-region (point-min) (point-max) ";")
+      (while (re-search-forward "\"\"" nil t)
+        (replace-match ""))
+      (buffer-string)))
+  (org-taskjuggler-export)
+  (call-process-shell-command
+   "tj3 Demo.tjp"
+   nil "*Shell Command Output*" t
+   )
+  (csv-to-table file)
+#+end_src
+#+RESULTS:
+</code></pre></div></div>
+
+<p>Pour éviter les questions intempestives lors de la génération du
+résultat (avec le raccourci C-c C-c en se positionnant sur le code
+lisp) et pour augmenter la durée par défaut d’un projet ajouter dans
+le .emacs :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setq org-confirm-babel-evaluate nil)
+(setq org-taskjuggler-default-project-duration 600)
+
+</code></pre></div></div>
+
+<h2 id="démonstration">Démonstration</h2>
+
+<ul>
+  <li>Edition de l’effort et des allocations de ressources en column view avec le raccourci C-c C-x C-c</li>
+  <li>Mise à jour du resultat en se positionnant sur le code lisp (cf
+chapitre précédent) et avec le raccourci C-c C-c</li>
+</ul>
+
+<center>
+<img src="/assets/ox-taskjuggler.gif" />
+<p>&nbsp;</p>
+</center>
+
+<h2 id="pour-aller-plus-loin">Pour aller plus loin</h2>
+
+<p>Pour plus de précisions sur les personnalisations :
+<a href="https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html">https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html</a></p>
+
+  </div>
+
+  
+  <div class="post-comments" itemprop="comment">
+      <script data-isso="https://www.arnaudsnomsed.ovh/"
+        src="https://www.arnaudsnomsed.ovh/js/embed.min.js"></script>
+
+<section id="isso-thread">
+    <noscript>Javascript needs to be activated to view comments.</noscript>
+</section>
+
+
+
+  </div>
+  
+
+  </article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://0.0.0.0:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

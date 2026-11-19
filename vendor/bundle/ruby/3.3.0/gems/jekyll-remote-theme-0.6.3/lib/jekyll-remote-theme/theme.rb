@@ -1,0 +1,286 @@
+# frozen_string_literal: true
+
+module Jekyll
+  module RemoteTheme
+    class Theme < Jekyll::Theme
+      OWNER_REGEX = %r!(?<owner>[a-z0-9\-]+)!i.freeze
+      NAME_REGEX  = %r!(?<name>[a-z0-9\._\-]+)!i.freeze
+      # A ref segment can't be "." or "..": the ref goes into a normalized download
+      # URL, where those segments would point at a different path.
+      REF_SEGMENT_REGEX = %r!(?\!\.\.?(?:/|\z))[a-z0-9\._\-]+!i.freeze
+      # May be a branch, tag, commit, or "latest". Branches may contain "/", as in
+      # "feature/new-layout", but not at the start or end, or twice in a row.
+      REF_REGEX   = %r!@(?<ref>#{REF_SEGMENT_REGEX}(?:/#{REF_SEGMENT_REGEX})*)!i.freeze
+      THEME_REGEX = %r!\A#{OWNER_REGEX}/#{NAME_REGEX}(?:#{REF_REGEX})?\z!i.freeze
+      REF_SUFFIX_REGEX = %r!\A#{REF_REGEX}\z!.freeze
+
+      # Initializes a new Jekyll::RemoteTheme::Theme
+      #
+      # raw_theme can be in the form of:
+      #
+      # 1. owner/theme-name - a GitHub owner + theme-name string
+      # 2. owner/theme-name@git_ref - a GitHub owner + theme-name + Git ref string
+      # 3. http[s]://github.<yourEnterprise>.com/owner/theme-name
+      # - An enterprise GitHub instance + a GitHub owner + a theme-name string
+      # 4. http[s]://github.<yourEnterprise>.com/owner/theme-name@git_ref
+      # - An enterprise GitHub instance + a GitHub owner + a theme-name + Git ref string
+      # 5. /absolute/path/to/theme - an absolute local file path
+      # 6. ../relative/path/to/theme - a relative local file path
+      # 7. ~/path/to/theme - a home directory relative path
+      #
+      # Local paths are only valid when a site is given and it isn't in safe mode.
+      def initialize(raw_theme, site = nil)
+        @site = site
+        original_theme = raw_theme.to_s.strip
+        local_path = looks_like_local_path?(original_theme)
+        @raw_theme = local_path ? original_theme : normalize_remote_theme(original_theme)
+        super(@raw_theme)
+      end
+
+      def name
+        return File.basename(expanded_local_path) if local_theme?
+
+        theme_parts[:name]
+      end
+
+      def owner
+        return "local" if local_theme?
+
+        theme_parts[:owner]
+      end
+
+      def host
+        uri&.host
+      end
+
+      def scheme
+        uri&.scheme
+      end
+
+      def name_with_owner
+        [owner, name].join("/")
+      end
+      alias_method :nwo, :name_with_owner
+
+      def valid?
+        return local_path_valid? if local_theme?
+
+        remote_theme_valid?
+      end
+
+      def git_ref
+        return "HEAD" if local_theme?
+
+        parsed_ref = theme_parts[:ref]
+        return "HEAD" unless parsed_ref
+        return resolve_latest_release if parsed_ref.casecmp?("latest")
+
+        parsed_ref
+      end
+
+      def disallowed_host?
+        return false unless uri && theme_parts && name && owner
+
+        host && !valid_hosts.include?(host)
+      end
+
+      def root
+        return (expanded_local_path if local_path_valid?) if local_theme?
+
+        @root ||= File.realpath(Dir.mktmpdir(TEMP_PREFIX))
+      end
+
+      def inspect
+        "#<Jekyll::RemoteTheme::Theme host=\"#{host}\" owner=\"#{owner}\" name=\"#{name}\" " \
+          "ref=\"#{git_ref}\" root=\"#{root}\">"
+      end
+
+      def local_theme?
+        @local_theme ||= looks_like_local_path?(@raw_theme)
+      end
+
+      private
+
+      # A rejected local theme has no root. Jekyll 3's Theme#initialize resolves
+      # the theme's Sass path straight away, so return no paths rather than
+      # passing a nil root to Jekyll.sanitized_path.
+      def path_for(folder)
+        return if root.nil?
+
+        super
+      end
+
+      # Owners and repo names are case-insensitive on GitHub, so normalize them,
+      # but leave the git ref alone: branch and tag names are case-sensitive, and
+      # downcasing them points codeload at a ref that doesn't exist.
+      def normalize_remote_theme(theme)
+        theme_without_ref, separator, ref = theme.rpartition("@")
+        return theme.downcase if separator.empty? || !"@#{ref}".match?(REF_SUFFIX_REGEX)
+
+        "#{theme_without_ref.downcase}@#{ref}"
+      end
+
+      def looks_like_local_path?(path)
+        # Check if it looks like a local path
+        # Supports: /, ./, ../, ~/ (Unix-style) and drive letters (Windows-style)
+        path.start_with?("/", "./", "../", "~/") || path.match?(%r!\A[a-z]:[/\\]!i)
+      end
+
+      def expanded_local_path
+        @expanded_local_path ||= File.expand_path(@raw_theme)
+      end
+
+      # Local paths can reference any directory on the host, so they're never
+      # allowed in safe mode (or without a site to check).
+      def local_path_valid?
+        return false if @site.nil? || @site.safe
+
+        Dir.exist?(expanded_local_path)
+      end
+
+      def remote_theme_valid?
+        return false unless uri && theme_parts && name && owner
+
+        host && valid_hosts.include?(host)
+      end
+
+      def uri
+        return @uri if defined? @uri
+        return @uri = nil if local_theme?
+
+        @uri = if THEME_REGEX.match?(@raw_theme)
+                 Addressable::URI.new(
+                   :scheme => "https",
+                   :host   => "github.com",
+                   :path   => @raw_theme
+                 )
+               else
+                 Addressable::URI.parse @raw_theme
+               end
+      rescue Addressable::URI::InvalidURIError
+        @uri = nil
+      end
+
+      def theme_parts
+        return nil if local_theme?
+
+        @theme_parts ||= uri.path[1..-1].match(THEME_REGEX) if uri
+      end
+
+      def gemspec
+        @gemspec ||= MockGemspec.new(self)
+      end
+
+      def valid_hosts
+        @valid_hosts ||= [
+          "github.com",
+          ENV["PAGES_GITHUB_HOSTNAME"],
+          ENV["GITHUB_HOSTNAME"],
+        ].compact.to_set
+      end
+
+      def resolve_latest_release
+        return @resolve_latest_release if defined? @resolve_latest_release
+
+        Jekyll.logger.debug LOG_KEY, "Resolving @latest for #{name_with_owner}"
+
+        @resolve_latest_release = fetch_latest_release_tag || "HEAD"
+      end
+
+      def fetch_latest_release_tag
+        api_url = build_api_url
+        response = make_api_request(api_url)
+
+        if response.is_a?(Net::HTTPSuccess)
+          parse_tag_from_response(response)
+        else
+          log_failed_response_warning(response)
+          nil
+        end
+      rescue StandardError => e
+        log_api_error(e)
+        nil
+      end
+
+      def build_api_url
+        Addressable::URI.new(
+          :scheme => scheme,
+          :host   => api_host,
+          :path   => api_path
+        )
+      end
+
+      def make_api_request(api_url)
+        HTTP.start(api_url) do |http|
+          request = Net::HTTP::Get.new(api_url.request_uri)
+          request["Accept"] = "application/vnd.github.v3+json"
+          request["User-Agent"] = Downloader::USER_AGENT
+          http.request(request)
+        end
+      end
+
+      def parse_tag_from_response(response)
+        data = JSON.parse(response.body)
+        tag = data["tag_name"]
+
+        if tag.nil? || tag.empty?
+          Jekyll.logger.warn LOG_KEY,
+                             "No tag_name in API response for #{name_with_owner}, using HEAD"
+          return nil
+        end
+
+        Jekyll.logger.debug LOG_KEY, "Resolved @latest to #{tag} for #{name_with_owner}"
+        tag
+      rescue JSON::ParserError => e
+        Jekyll.logger.warn LOG_KEY,
+                           "Failed to parse API response for #{name_with_owner}: " \
+                           "#{e.message}, using HEAD"
+        nil
+      end
+
+      def log_no_releases_warning
+        Jekyll.logger.warn LOG_KEY,
+                           "No releases found for #{name_with_owner}, using HEAD"
+      end
+
+      def log_failed_response_warning(response)
+        if response.code == "404"
+          log_no_releases_warning
+        else
+          message = "Unexpected HTTP #{response.code} response " \
+                    "for #{name_with_owner}, using HEAD"
+          if %w(403 429).include?(response.code)
+            message += "; this is likely caused by GitHub API rate limiting"
+          end
+          Jekyll.logger.warn LOG_KEY, message
+        end
+      end
+
+      def log_api_error(error)
+        Jekyll.logger.warn LOG_KEY,
+                           "Failed to fetch latest release for #{name_with_owner}: " \
+                           "#{error.message}, using HEAD"
+      end
+
+      def api_host
+        case host
+        when "github.com"
+          "api.github.com"
+        else
+          # For GitHub Enterprise, API is typically at hostname/api/v3
+          host
+        end
+      end
+
+      def api_path
+        case host
+        when "github.com"
+          "/repos/#{name_with_owner}/releases/latest"
+        else
+          # For GitHub Enterprise
+          "/api/v3/repos/#{name_with_owner}/releases/latest"
+        end
+      end
+    end
+  end
+end

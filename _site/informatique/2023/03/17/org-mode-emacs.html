@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Un second cerveau avec Org-mode</title>
+  <meta name="description" content="Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont avec) ou même regrouper certaines actions (par exemple : en fonction de l’interlocuteur, du lieu, du temps ou de la concentration nécessaire). Cette idée me fait penser à mon passé de développeur où toute l’intelligence était contenue dans quelques fichiers qui vivaient tous les jours. J’étais alors décidé à trouver une solution à ma prise de notes avec plusieurs contraintes : Utiliser les mêmes outils dans ma vie pro et perso Reposer sur un format standard (en mode texte, structuré, supportant les tableaux) Pouvoir exporter au format HTML et docx">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="ArnaudSnomsed | Blog" href="http://0.0.0.0:4000/feed.xml">
+
+  <link rel="icon" type="image/jpeg" href="/assets/favicon.jpg" />
+<script defer src="https://cloud.umami.is/script.js" data-website-id="29c5b50a-09e0-4ec7-b419-9e4a238c0265"></script>
+
+<!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Un second cerveau avec Org-mode | ArnaudSnomsed Blog</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Un second cerveau avec Org-mode" />
+<meta name="author" content="arnaudsnomsed" />
+<meta property="og:locale" content="fr" />
+<meta name="description" content="Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont avec) ou même regrouper certaines actions (par exemple : en fonction de l’interlocuteur, du lieu, du temps ou de la concentration nécessaire). Cette idée me fait penser à mon passé de développeur où toute l’intelligence était contenue dans quelques fichiers qui vivaient tous les jours. J’étais alors décidé à trouver une solution à ma prise de notes avec plusieurs contraintes : Utiliser les mêmes outils dans…" />
+<meta name="twitter:description" property="og:description" content="Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont avec) ou même regrouper certaines actions (par exemple : en fonction de l’interlocuteur, du lieu, du temps ou de la concentration nécessaire). Cette idée me fait penser à mon passé de développeur où toute l’intelligence était contenue dans quelques fichiers qui vivaient tous les jours. J’étais alors décidé à trouver une solution à ma prise de notes avec plusieurs contraintes : Utiliser les mêmes outils dans…" />
+<link rel="canonical" href="http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html" />
+<meta property="og:site_name" content="ArnaudSnomsed Blog" />
+<meta property="og:image" content="http://0.0.0.0:4000/assets/orgmode.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-17T11:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-17T11:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://0.0.0.0:4000/assets/orgmode.png" />
+<meta name="twitter:title" content="Un second cerveau avec Org-mode" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"arnaudsnomsed"},"dateModified":"2023-03-17T11:00:00+00:00","datePublished":"2023-03-17T11:00:00+00:00","description":"Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont avec) ou même regrouper certaines actions (par exemple : en fonction de l’interlocuteur, du lieu, du temps ou de la concentration nécessaire). Cette idée me fait penser à mon passé de développeur où toute l’intelligence était contenue dans quelques fichiers qui vivaient tous les jours. J’étais alors décidé à trouver une solution à ma prise de notes avec plusieurs contraintes : Utiliser les mêmes outils dans…","headline":"Un second cerveau avec Org-mode","image":"http://0.0.0.0:4000/assets/orgmode.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html"},"url":"http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+  
+  <meta property="og:title" content="Un second cerveau avec Org-mode">
+  <meta property="og:site_name" content="ArnaudSnomsed | Blog">
+  <meta property="og:url" content="http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html">
+  <meta property="og:description" content="Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont avec) ou même regrouper certaines actions (par exemple : en fonction de l’interlocuteur, du lieu, du temps ou de la concentration nécessaire). Cette idée me fait penser à mon passé de développeur où toute l’intelligence était contenue dans quelques fichiers qui vivaient tous les jours. J’étais alors décidé à trouver une solution à ma prise de notes avec plusieurs contraintes : Utiliser les mêmes outils dans ma vie pro et perso Reposer sur un format standard (en mode texte, structuré, supportant les tableaux) Pouvoir exporter au format HTML et docx">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Un second cerveau avec Org-mode">
+  <meta name="twitter:description" content="Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont av...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div id="navigation" border=4>
+  <div class="container">
+
+    <a class="site-title" href="/">ArnaudSnomsed | Blog</a>
+    <div id="menu" >
+      <ul>
+      
+        
+        <li><a class="page-link" href="/photo/">Blog photo</a></li>
+	
+        
+        <li><a class="page-link" href="/hello-world.html">Zine Hello World</a></li>
+	
+        
+        <li><a class="page-link" href="/prolog.html">Serie Prolog</a></li>
+	
+        
+        <li><a class="page-link" href="/java.html">Serie Java</a></li>
+	
+        
+        <li><a class="page-link" href="/archives.html">Archives</a></li>
+	
+      <li><a href="/feed.xml"><img src='https://arnaudsnomsed.github.io/assets/128px-Feed-icon.svg.png' width='20px'></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/arnaudsnomsed"><img src='https://arnaudsnomsed.github.io/assets/240px-Instagram_icon.png' width='20px'></a></li>
+      </ul>
+      
+    </div>
+    <a id="togglemenu" onclick="document.body.classList.toggle('menuopen');">Menu<span><span></span><span></span><span></span></span></a>
+
+<style>
+@keyframes span1 {
+    0%   { top: 0%; transform-origin: 50% 50%;}
+    50%  { top: 50%; transform: rotate(0deg) translateY(-50%);}
+    100% { top: 50%; transform: rotate(45deg) translateY(-50%);}
+}
+@keyframes span2 {
+    0%   {opacity: 1;}
+    45%  {opacity: 1;}
+    65%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes span3 {
+    0%   { bottom: 0%; transform-origin: 50% 50%;}
+    45%  { bottom: 50%; transform: rotate(0deg) translateY(50%);}
+    100% { bottom: 50%; transform: rotate(-45deg) translateY(50%);}
+}
+
+#togglemenu {display: none; cursor: pointer;}
+@media (max-width: 4000px) {
+    #togglemenu {display: block;}
+    #menu ul {display: none;}
+    .menuopen #menu ul {display: block;}
+}
+
+#togglemenu > span {display: inline-block; margin-left: 0.4rem; width: 1.1rem; height: 0.75rem; position: relative; vertical-align: middle; position: relative; bottom: 1px;}
+#togglemenu > span > span {display: block; position: absolute; width: 100%; height: 2px; background: #999;}
+#togglemenu > span > span:nth-child(1) {top: 0; transform-origin: 50% 0%;}
+#togglemenu > span > span:nth-child(2) {top: 50%; margin-top: -1px;}
+#togglemenu > span > span:nth-child(3) {bottom: 0; transform-origin: 50% 100%;}
+
+.menuopen #togglemenu > span > span:nth-child(1) {
+    animation: span1 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.menuopen #togglemenu > span > span:nth-child(2) {
+    animation: span2 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+.menuopen #togglemenu > span > span:nth-child(3) {
+    animation: span3 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+.container {max-width: 800px; margin: 0 auto; padding: 0 1rem; }
+
+</style>
+
+  </div>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+    <h1 class="post-title" itemprop="name headline">Un second cerveau avec Org-mode</h1>
+    
+    <p class="post-meta"><time datetime="2023-03-17T11:00:00+00:00" itemprop="datePublished">17 Mars 2023</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/assets/orgmode.png" alt="" /></p>
+
+<p>Il y a quelques mois j’ai fait le constat que la prise de notes était
+un pivot très important pour structurer ses idées, préparer des
+réunions, envoyer différents mails (et les relances qui vont avec) ou
+même regrouper certaines actions (par exemple : en fonction de
+l’interlocuteur, du lieu, du temps ou de la concentration
+nécessaire). Cette idée me fait penser à mon passé de développeur où
+toute l’intelligence était contenue dans quelques fichiers qui vivaient
+tous les jours. J’étais alors décidé à trouver une solution à ma prise
+de notes avec plusieurs contraintes :</p>
+
+<ul>
+  <li>Utiliser les mêmes outils dans ma vie pro et perso</li>
+  <li>Reposer sur un format standard (en mode texte, structuré, supportant les tableaux)</li>
+  <li>Pouvoir exporter au format HTML et docx</li>
+</ul>
+
+<!-- more -->
+<p>Pour cela, j’ai commencé à utiliser le format Markdown avec un éditeur de
+texte que je connais bien en tant qu’ancien développeur : Emacs.</p>
+
+<p>J’ai ensuite utilisé les différents niveaux de chapitres, les listes,
+les checkbox, les tableaux et l’outil pandoc pour exporter tout ça en
+HTML en docx et j’ai aussi remonté mon blog au format Markdown grace à
+Jekyll.</p>
+
+<p>J’utilisais le org-mode dans Emacs pour éditer au format Markdown et
+notamment mettre en forme des tableaux.</p>
+
+<p>Curieux du org-mode d’Emacs j’ai alors découvert que le format Org
+était assez similaire au format Markdown et permettait des calculs sur
+les tableaux et de planifier et archiver des taches ce qui
+est très pratique pour garder un historique au travail également.</p>
+
+<h1 id="les-calculs-sur-les-tableaux">Les calculs sur les tableaux</h1>
+
+<p>On peut créer un tableau simplement en écrivant quelque chose qui ressemble à ça puis en appuyant sur Tab :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Test | Colonne | Total
+|--
+
+</code></pre></div></div>
+
+<p>On peut ensuite ajouter une formule de calcul sous le tableau comme ceci :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Test | Colonne | Total |
+|------+---------+-------|
+|      |         |       |
+#+TBLFM: $3=vsum($1..$2)
+
+</code></pre></div></div>
+
+<p>On peut alors mettre à jour les sommes en ligne via C-c *</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Test | Colonne | Total |
+|------+---------+-------|
+|    2 |       3 | 5     |
+#+TBLFM: $3=vsum($1..$2)
+</code></pre></div></div>
+
+<p>On peut aussi faire la somme d’une colonne en se positionnant en bas
+de la colonne via C-c + (puis C-y pour coller le résultat dans certaines
+configurations Emacs) :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Test | Colonne | Total |
+|------+---------+-------|
+|    2 |       3 |     5 |
+|    2 |         |       |
+|    4 |         |       |
+#+TBLFM: $3=vsum($1..$2)
+
+</code></pre></div></div>
+
+<h1 id="la-gestion-des-taches">La gestion des taches</h1>
+
+<p>Une action sous Org-mode se caractérise par :</p>
+<ul>
+  <li>Un ou plusieurs signes “*” au début de la ligne</li>
+  <li>Optionnel : Le mot clé TODO ou DONE (on peut aussi selectionner d’autres
+mots clés en ajoutant une ligne #+TODO: TODO WAITING DONE dans le document Org)</li>
+  <li>Optionnel : une date de planification</li>
+</ul>
+
+<p>Exemple 1 : une action planifiée pour une date donnée avec une
+progression entre crochets qui se met à jour automatiquement (note: on
+ mettre un signe “/” ou “%” entre crochet au départ et la mise à jour
+automatique se fera en nombre ou en %)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* TODO Ecrire un article [/]
+  SCHEDULED: &lt;2023-03-15 mer.&gt;
+
+- [ ] Ecrire le chapitre 1
+- [ ] Ecrire le chapitre 2
+
+</code></pre></div></div>
+<p>Exemple 2 : un RDV</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* TODO RDV
+  SCHEDULED: &lt;2023-03-15 mer. 15:00-16:00&gt;
+
+</code></pre></div></div>
+
+<p>Exemple 3 : une écheance avec une priorité ([#A]) et un tag (:perso)
+qui nous serviront dans la vue agenda dans la chapitre suivant</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* TODO [#A] RDV                                                       :perso:
+  DEADLINE: &lt;2023-03-15 mer.&gt;
+
+</code></pre></div></div>
+
+<h1 id="raccourcis">Raccourcis</h1>
+
+<p>Quelques raccourcis clavier possible quand on est positionné sur un chapitre (<kbd>M</kbd> correspond à Maj et <kbd>C</kbd> à Ctrl):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sur un chapitre</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Modification des priorités</td>
+      <td><kbd>M</kbd>-<kbd>up</kbd> et <kbd>M</kbd>-<kbd>down</kbd></td>
+    </tr>
+    <tr>
+      <td>Planification (schedule ou deadline)</td>
+      <td><kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>s</kbd> ou <kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>d</kbd></td>
+    </tr>
+    <tr>
+      <td>Ajouter un tag à une tache</td>
+      <td><kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>c</kbd></td>
+    </tr>
+    <tr>
+      <td>Changer l’état d’une tache (exemple : de TODO à DONE)</td>
+      <td><kbd>M</kbd>-<kbd>left</kbd> ou <kbd>S</kbd>-<kbd>right</kbd> (<kbd>t</kbd> dans la vue Agenda)</td>
+    </tr>
+    <tr>
+      <td>Nouvelle tache</td>
+      <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>RET</kbd></td>
+    </tr>
+    <tr>
+      <td>Archiver (il ira alors dans un fichier .org_archive)</td>
+      <td><kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>x</kbd> <kbd>C</kbd>-<kbd>a</kbd></td>
+    </tr>
+    <tr>
+      <td>Déplier ou replier</td>
+      <td><kbd>Tab</kbd> ou <kbd>M</kbd>-<kbd>Tab</kbd></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A propos du raccourci permettant de déplier ou replier, on peut
+ajouter la ligne suivante dans le fichier Org pour que les chapitres
+soient tous repliés à l’ouverture :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#+STARTUP: overview
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sur une ligne de type checkbox</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cocher ou décocher</td>
+      <td><kbd>C</kbd>-<kbd>c</kbd> <kbd>C</kbd>-<kbd>c</kbd></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="la-vue-sous-forme-dagenda">La vue sous forme d’agenda</h1>
+
+<p>Ouvrez avec Emacs un fichier Org contenant les exemples précédents
+puis ajoutez ce fichier dans l’agenda via le raccourci : <kbd>C</kbd>-<kbd>c</kbd> <kbd>[</kbd></p>
+
+<p>Cela ajoutera la configuration suivante dans votre fichier .emacs :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> '(org-agenda-files '("c:/Users/demo/notes/Demo.org"))
+</code></pre></div></div>
+
+<p>Tapez maintenant <kbd>M</kbd>-<kbd>x</kbd> org-agenda et vous verrez alors un buffer ressemblant à ça :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Week-agenda (W11):
+Monday     13 March 2023 W11
+              18:00...... ----------------
+              20:00...... ----------------
+              22:21...... now - - - - - - - - - - - - - - - - - - - - - - - - -
+              23:00...... ----------------
+  Blog:       Deadline:   TODO [#A] RDV                             :perso:
+  Blog:       Scheduled:  TODO Ecrire un article [/]
+
+</code></pre></div></div>
+
+<p>De façon à identifier plus facilement les actions non planifiées via
+la commande <kbd>M</kbd>-<kbd>x</kbd> org-agenda <kbd>t</kbd>, j’ai ajouté cette ligne dans mon .emacs
+pour exclure de la liste les actions avec une date :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> '(org-agenda-todo-ignore-with-date t)
+</code></pre></div></div>
+
+<h1 id="pour-mettre-ses-idées-sur-le-papier">Pour mettre ses idées sur le papier</h1>
+
+<p>L’utilisation d’un éditeur de texte permet de se concentrer davantage
+sur le fond de structurer ses idées par itérations comme si on
+sculptait. La mise en forme ne vient alors qu’au moment de la
+transformation soit en action (mail, réunion, etc) soit en document
+par exemple avec le .bat suivant qui transforme en docx tous les
+fichiers org du répertoire.  (le repertoire “src” contient les images
+etc et la commande start lance Word) :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for %%X in (*.org) do (
+  cd src
+  pandoc.exe -o ../%%~nX.docx -f org -t docx -M "toc-title: Table des matières" --file-scope --reference-doc template.docx ../%%X
+  start /w ../%%~nX.docx
+  cd ..
+)
+
+</code></pre></div></div>
+
+<p>Le fichier template.docx ci-dessus (dans le répertoire src) est un
+document ayant été généré une première fois par Pandoc puis
+personnalisé pour correspondre par exemple au template de
+l’entreprise.</p>
+
+<p>Personnellement quand je rédige mes documents j’écris les noms des
+chapitres et sous chapitres et j’écris les idées principales en
+commentaires dans les différentes sections comme ceci :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Test
+** Sous chapitre
+# - Idée n°1
+# - Idée n°2
+
+Ici le texte décrivant les idées 1 et 2
+
+</code></pre></div></div>
+
+<p>Cette façon de faire permet de toujours avoir un résultat propre
+exportable à n’importe quel moment de la construction d’un document On
+peut même utiliser le mot clé COMMENT sur certains chapitres. On peut
+aussi utiliser la ligne #+OPTIONS: todo:nil au debut du document pour
+ne pas exporter les actions liés au document :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* TODO Finir la rédaction des chapitres de cet article [1/2]
+  DEADLINE: &lt;2023-03-15 mer.&gt;
+
+** DONE Chapitre 1
+** TODO Chapitre 2
+
+* COMMENT Chapitre pour plus tard
+Ici un chapitre qui ne sera pas exporté par pandoc.
+
+</code></pre></div></div>
+
+<p>On peut aussi relier des chapitres via des liens comme ceci :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[file:c:/Users/xxxxxx/Book.org::*La conclusion][# La conclusion]]
+</code></pre></div></div>
+
+<p>Il faut ajouter la configuration suivante à son .emacs pour que les
+liens ne soient pas “rendus” et soient ainsi éditables :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setq org-descriptive-links nil)
+
+</code></pre></div></div>
+
+<h1 id="pour-aller-plus-loin">Pour aller plus loin</h1>
+
+<p>J’utilise l’application mobile Gitjournal qui permet de synchroniser
+mes notes avec un repository Git et de les avoir toujours sur moi.</p>
+
+<p>Une bonne pratique que j’ai mis en place consiste à créer un fichier
+Inbox.org dans lequel je mets en vrac une idée dès qu’elle me vient (y
+compris via Gitjournal). Je fais ensuite régulièrement du classement
+de cette inbox vers mes différents fichiers Org et chapitres avec une
+date quand il s’agit d’une action.</p>
+
+<p>J’utilise également <a href="https://github.com/dantecatalfamo/agenda-html">agenda-html</a> qui permet d’exporter sous forme HTML
+mon agenda personnel via la commande suivante dans une crontab :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*/5 * * * * screen -d -m emacs -Q -nw -l /home/xxxxx/agenda-html/agenda-html.el --eval '(kill-emacs)'
+</code></pre></div></div>
+
+<p>Il peut parfois être utile de mettre ces lignes (à moins de 3000
+caractères de la fin) dans le fichier Org pour que Emacs le recharge
+automatiquement quand il a été mis à jour par exemple par un git pull
+en dehors d’Emacs :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Local Variables:
+# eval: (auto-revert-mode)
+# End:
+</code></pre></div></div>
+
+<p>Dans les fichiers org_archive, on ne peut pas placer du texte à la fin
+du fichier car des entrées sont regulièrements ajoutées à la suite. On
+peut donc mettre cette entête :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#    -*- mode: org; eval: (auto-revert-mode) -*-
+</code></pre></div></div>
+
+<p>Voici enfin quelques liens qui m’ont été utiles :</p>
+
+<ul>
+  <li><a href="https://alphaalgorithms.github.io/2019/05/17/emacs-agenda-views/">https://alphaalgorithms.github.io/2019/05/17/emacs-agenda-views/</a></li>
+  <li><a href="https://orgmode.org/worg/org-tutorials/org4beginners.html">https://orgmode.org/worg/org-tutorials/org4beginners.html</a></li>
+  <li><a href="http://cachestocaches.com/2016/9/my-workflow-org-agenda/">http://cachestocaches.com/2016/9/my-workflow-org-agenda/</a></li>
+</ul>
+
+  </div>
+
+  
+  <div class="post-comments" itemprop="comment">
+      <script data-isso="https://www.arnaudsnomsed.ovh/"
+        src="https://www.arnaudsnomsed.ovh/js/embed.min.js"></script>
+
+<section id="isso-thread">
+    <noscript>Javascript needs to be activated to view comments.</noscript>
+</section>
+
+
+
+  </div>
+  
+
+  </article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://0.0.0.0:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

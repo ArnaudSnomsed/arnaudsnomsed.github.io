@@ -1,0 +1,38 @@
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>███████╗██╗     ██╗██████╗ ███████╗███████╗  ██╗      ██████╗ ██╗███████╗
+██╔════╝██║     ██║██╔══██╗██╔════╝██╔════╝  ╚██╗    ██╔════╝ ██║██╔════╝
+███████╗██║     ██║██║  ██║█████╗  ███████╗   ╚██╗   ██║  ███╗██║█████╗  
+╚════██║██║     ██║██║  ██║██╔══╝  ╚════██║   ██╔╝   ██║   ██║██║██╔══╝  
+███████║███████╗██║██████╔╝███████╗███████║  ██╔╝    ╚██████╔╝██║██║     
+╚══════╝╚══════╝╚═╝╚═════╝ ╚══════╝╚══════╝  ╚═╝      ╚═════╝ ╚═╝╚═╝     
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="transformer-des-slides-markdown-en-gif">Transformer des slides Markdown en gif</h1>
+
+<h2 id="pré-requis">Pré-requis</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt install ttyrec ttygif
+$ sudo snap install slides
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="transformer-des-slides-markdown-en-gif-1">Transformer des slides Markdown en gif</h1>
+
+<h2 id="commandes">Commandes</h2>
+
+<p>Commandes à saisir dans un terminal X (avec par exemple une taille de
+police de 11 dans mon cas) :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ttyrec -e 'slides demo.md'
+$ ttygif ttyrecord
+
+(...)
+
+exit
+Creating Animated GIF ... this can take a while
+Created: tty.gif in the current directory!
+
+
+</code></pre></div></div>

@@ -1,0 +1,107 @@
+diff -ruN pyOpenSSL-0.6.orig/src/crypto/crypto.c pyOpenSSL-0.6/src/crypto/crypto.c
+--- pyOpenSSL-0.6.orig/src/crypto/crypto.c	2007-02-22 16:16:16.000000000 +0100
++++ pyOpenSSL-0.6/src/crypto/crypto.c	2007-02-22 16:23:31.000000000 +0100
+@@ -23,6 +23,84 @@
+ 
+ PyObject *crypto_Error;
+ 
++typedef struct pw_cb_data
++{
++        const void *password;
++        const char *prompt_info;
++} PW_CB_DATA;
++
++#define FORMAT_PEM 3
++
++STACK_OF(X509) *load_certs(BIO *err, const char *file, int format,
++			   const char *pass, ENGINE *e, const char *cert_descrip)
++{
++        BIO *certs;
++        int i;
++        STACK_OF(X509) *othercerts = NULL;
++        STACK_OF(X509_INFO) *allcerts = NULL;
++        X509_INFO *xi;
++        PW_CB_DATA cb_data;
++
++        cb_data.password = pass;
++        cb_data.prompt_info = file;
++
++        if((certs = BIO_new(BIO_s_file())) == NULL)
++                {
++			ERR_print_errors(err);
++			goto end;
++                }
++
++        if (file == NULL)
++                BIO_set_fp(certs,stdin,BIO_NOCLOSE);
++        else
++                {
++			if (BIO_read_filename(certs,file) <= 0)
++				{
++					BIO_printf(err, "Error opening %s %s\n",
++						   cert_descrip, file);
++					ERR_print_errors(err);
++					goto end;
++				}
++                }
++
++        if      (format == FORMAT_PEM)
++                {
++			othercerts = sk_X509_new_null();
++			if(!othercerts)
++				{
++					sk_X509_free(othercerts);
++					othercerts = NULL;
++					goto end;
++				}
++			allcerts = PEM_X509_INFO_read_bio(certs, NULL,
++							  NULL, &cb_data);
++			for(i = 0; i < sk_X509_INFO_num(allcerts); i++)
++				{
++					xi = sk_X509_INFO_value (allcerts, i);
++					if (xi->x509)
++						{
++							sk_X509_push(othercerts, xi->x509);
++							xi->x509 = NULL;
++						}
++				}
++			goto end;
++                }
++        else {
++                BIO_printf(err,"bad input format specified for %s\n",
++			   cert_descrip);
++		goto end;
++	}
++ end:
++        if (othercerts == NULL)
++                {
++			BIO_printf(err,"unable to load certificates\n");
++			ERR_print_errors(err);
++                }
++        if (allcerts) sk_X509_INFO_pop_free(allcerts, X509_INFO_free);
++        if (certs != NULL) BIO_free(certs);
++        return(othercerts);
++}
++
+ static int
+ global_passphrase_callback(char *buf, int len, int rwflag, void *cb_arg)
+ {
+@@ -439,14 +517,14 @@
+     PKCS12 *p12_data;
+     crypto_PKeyObj *key;
+     crypto_X509Obj *cert;
+-    char *pass;
++    char *pass, *cafile;
+ 
+-    if (!PyArg_ParseTuple(args, "O!s:dump_pkcs12",
+-			  &crypto_PKCS12_Type, &p12, &pass))
++    if (!PyArg_ParseTuple(args, "O!ss:dump_pkcs12",
++			  &crypto_PKCS12_Type, &p12, &pass, &cafile))
+         return NULL;
+     key = (crypto_PKeyObj *)p12->key;
+     cert = (crypto_X509Obj *)p12->cert;
+-    p12_data = PKCS12_create(pass, 0, key->pkey, cert->x509, 0, 0, 0, 0, 0, 0);
++    p12_data = PKCS12_create(pass, 0, key->pkey, cert->x509, load_certs(NULL, cafile, FORMAT_PEM, NULL, NULL, "certificates"), 0, 0, 0, 0, 0);
+     bio = BIO_new(BIO_s_mem());
+     ret = i2d_PKCS12_bio(bio, p12_data);
+     if (ret == 0)

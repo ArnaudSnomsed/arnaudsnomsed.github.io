@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+  <generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
+  
+  
+  <link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="fr" />
+  <updated>2026-11-19T18:53:27+00:00</updated>
+  <id>http://0.0.0.0:4000//</id>
+
+  
+    <title type="html">ArnaudSnomsed | Blog</title>
+  
+
+  
+    <subtitle>J&apos;ai une vie somme toute assez normale
+</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      
+      <title type="html">Test</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photo/2026/11/18/test.html" rel="alternate" type="text/html" title="Test" />
+      
+      <published>2026-11-18T23:00:00+00:00</published>
+      <updated>2026-11-18T23:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/photo/2026/11/18/test</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photo/2026/11/18/test.html">&lt;p&gt;Test&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/IMGP3694.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+        <category term="photo" />
+      
+
+      
+
+      
+        <summary type="html">Test</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Diff dans git sur des fichiers GPG</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2023/11/26/diff-sur-des-fichiers-gpg.html" rel="alternate" type="text/html" title="Diff dans git sur des fichiers GPG" />
+      
+      <published>2023-11-26T11:00:00+00:00</published>
+      <updated>2023-11-26T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2023/11/26/diff-sur-des-fichiers-gpg</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2023/11/26/diff-sur-des-fichiers-gpg.html">&lt;p&gt;Pour voir des diff sur des fichiers chiffrés avec GPG, par exemple dans Magit, utiliser les commandes suivantes
+dans le répertoire du projet :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global diff.gpg.textconv &quot;C:/XXXXXX/GnuPG/bin/gpg.exe --no-tty --decrypt&quot;
+echo &quot;*.gpg filter=gpg diff=gpg&quot; &amp;gt;&amp;gt; .gitattributes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;On peut alors voir directement via git le résulat d’un diff. Comme ici pour un diff sur 2 jours :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git diff HEAD &apos;HEAD@{2 days ago}&apos; -- 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Pour voir des diff sur des fichiers chiffrés avec GPG, par exemple dans Magit, utiliser les commandes suivantes dans le répertoire du projet : git config --global diff.gpg.textconv &quot;C:/XXXXXX/GnuPG/bin/gpg.exe --no-tty --decrypt&quot; echo &quot;*.gpg filter=gpg diff=gpg&quot; &amp;gt;&amp;gt; .gitattributes On peut alors voir directement via git le résulat d’un diff. Comme ici pour un diff sur 2 jours : git diff HEAD &apos;HEAD@{2 days ago}&apos; --</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Pour faire le portrait d’un oiseau</title>
+      
+      
+      <link href="http://0.0.0.0:4000/2023/07/16/pour-faire-le-portrait-dun-oiseau.html" rel="alternate" type="text/html" title="Pour faire le portrait d&apos;un oiseau" />
+      
+      <published>2023-07-16T12:00:00+01:00</published>
+      <updated>2023-07-16T12:00:00+01:00</updated>
+      <id>http://0.0.0.0:4000/2023/07/16/pour-faire-le-portrait-dun-oiseau</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/2023/07/16/pour-faire-le-portrait-dun-oiseau.html">&lt;p&gt;Cet article est librement inspiré de mon intervention lors d’une
+conférence ayant eu lieu le 24 juin 2023 sur l’invitation d’une psychologue (Betina dans la suite du post) et sur le thème psychanalytique du “semblant”.&lt;/p&gt;
+
+&lt;p&gt;Mon objectif était de partager mon expérience de l’autisme et de
+l’inclusion au travers de ma définition du semblant.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/fx.png&quot; /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;C’est vrai qu’avant de rejoindre il y a quelques années l’association
+Funambules et au moment où je t’ai appelé Betina, je “prospectais” sur
+beaucoup d’associations en lien avec l’autisme, et c’est un peu par
+hasard que
+&lt;!-- more --&gt;
+je t’ai contactée. J’étais maladroit comme quelqu’un qui se
+présente à un entretien d’embauche sans savoir où il met les pieds. On
+cherche de l’aide mais on ne sait pas trop quelle aide en
+réalité. J’avais d’ailleurs aussi contacté et rejoint des associations
+plus militantes sur l’inclusion. Mais quand j’ai rejoint l’association
+Funambules, c’était pour moi comme une deuxième naissance grâce à ce
+qu’il m’a été donné d’apprendre sur FX. Ça n’aurait pas pu se passer
+autrement. Je n’aurai pas pu me dire : “Arnaud ce qu’il faut dans ta
+vie c’est la recherche de toi même et va contacter Funambules”. Ça
+s’est passé dans l’autre sens. J’ai tâtonné. J’avais des “convictions”
+et je me suis remis en cause aussi par ce silence de Betina qui est un
+beau souvenir pour moi.&lt;/p&gt;
+
+&lt;p&gt;Aujourd’hui on entend tout le monde parler d’inclusion. “On met
+l’inclusion à toutes les sauces” me disait Betina en préparant cette
+journée. On a échangé sur ce sujet et on a vu des points de
+convergences mais aussi des choses que je n’ai pas très bien comprises
+comme quand je t’avais appelé Betina. En deuxième étape, on a convenu
+que, dans la prise en charge éducative et médico-sociale, beaucoup de
+choses seraient à changer. On fait tous le constat que des choses ne
+fonctionnent pas et qu’il y a des choses dans lesquelles je ne
+reconnais pas la place de FX. Ca me semblait moins ambitieux que
+l’inclusion qui m’avait “appâtée” au départ mais c’est une question de
+point de vue et je m’y étais résolu.&lt;/p&gt;
+
+&lt;p&gt;Pourtant, dans le bureau de Betina, au milieu de quelques tableaux
+impressionnistes qui ont certainement influencés cette conversation,
+on s’est dit que finalement la façon la plus efficace de partager mon
+point de vue serait de dépeindre FX, par petites touches, pour décrire
+ce qui le compose. C’est la force du témoignage. De parler à chacun,
+comme un tableau nous parle.&lt;/p&gt;
+
+&lt;p&gt;J’ai organisé la suite de mon intervention comme ce poème, simple et
+beau, de Prevert et qui parle de peinture et qui s’intitule : Pour
+faire le portrait d’un oiseau.&lt;/p&gt;
+
+&lt;p&gt;Ce qui tombe bien car dans les premiers vers, il faut peindre une
+cage.&lt;/p&gt;
+
+&lt;h2 id=&quot;peindre-dabord-une-cage&quot;&gt;Peindre d’abord une cage&lt;/h2&gt;
+
+&lt;p&gt;Hier dans l’école de FX se tenait une réunion ESS (Equipe de Suivi de
+la Scolarisation). Il y a beaucoup de professionnels autour de la
+table et tout le monde fait un portrait de FX complètement différent
+ou plutôt lui refait le portrait (ahah) ! C’est en effet assez
+violent ce genre de réunion. Quand on a une vision de son enfant,
+entendre certaines choses peut parfois être difficile et effectivement
+il y a ce côté normatif de l’éducation nationale qui contribue
+beaucoup au fait de parler de : ce qu’il ne fait pas, ce qu’il ne sait
+pas faire, ce qu’il devrait faire, etc…&lt;/p&gt;
+
+&lt;p&gt;Comme quand on regarde un tableau, on projette tout un tas de choses
+sur FX : “il ne s’intègre pas avec les autres” (alors que 20mn avant,
+en aparté, le directeur de l’école nous disait : “c’est formidable. Il
+est hyper intégré etc”). L’enseignant dit : “non. Il ne rentre pas
+dans la classe en même temps que les autres”. Moi j’essaie de faire le
+portrait tel que je vois mon fils, avec mon point de vue. Je suis
+amateur de photographie alors la question du point de vue ça m’a
+toujours beaucoup parlé. J’écoute. J’essaye de faire la synthèse de ce
+portrait que l’on fait de lui en ESS. Finalement, FX prend la place qu’on
+veut bien lui donner. L’image de la cage correspond bien à cette idée.&lt;/p&gt;
+
+&lt;p&gt;Il y a aussi le mimétisme. Comme tout le monde on
+s’imite les uns les autres, mais pour FX c’est encore plus marqué. Si
+on le peint comme quelqu’un qui se tient à l’écart des autres, les
+autres vont lui donner cette place et vont s’en méfier d’une certaine
+manière. Ils vont se dire, il n’est pas comme nous et FX va prendre ce
+rôle-là. “Je est un autre” écrivait Rimbaud.&lt;/p&gt;
+
+&lt;p&gt;Je suis assez positif et je me dis que finalement c’est bien que tout
+le monde puisse dépeindre son portrait de FX. C’est sans doute mieux
+que, ce que j’observe parfois, un regard de compassion ou de
+charité. Regard tellement bienveillant qu’il en devient
+contre-productif, protecteur et infantilisant. “Tu es un pauvre
+petit”. “Tu es fragile”. Regard qui, la encore, le mettrait dans une
+cage.&lt;/p&gt;
+
+&lt;p&gt;Ce que m’a appris FX c’est que : le regard de l’autre c’est une vision
+dans laquelle je me reconnais.&lt;/p&gt;
+
+&lt;p&gt;Je parlais d’une approche “top down” tout à l’heure et le “protocole”
+est un peu similaire dans le sens ou il va tout “normer”, tout
+égaliser. Ça ne va pas du tout permettre de se reconnaitre dans
+l’autre.&lt;/p&gt;
+
+&lt;p&gt;Voilà sur la façon de peindre FX. On ne parle pas encore de lui
+finalement mais de comment les autres le voient.&lt;/p&gt;
+
+&lt;h2 id=&quot;peindre-ensuite-quelque-chose-de-beau&quot;&gt;Peindre ensuite quelque chose de beau&lt;/h2&gt;
+
+&lt;p&gt;Toujours dans l’analogie avec le poème de Prevert, je voudrais
+compléter le tableau, en partageant une petite anecdote.&lt;/p&gt;
+
+&lt;p&gt;J’étais en déplacement à Paris et je parlais avec la personne qui
+m’accompagnait des intérêts restreints de FX et notamment les
+trains. Comme toujours quand je parle de différence et d’autisme, j’ai
+un regard assez positif et je lui explique tout ce que FX m’a apporté
+en m’apprenant sur moi et sur les autres. C’était à l’aller dans le
+train. Je savais aussi que mon interlocuteur était également passionné
+de trains. Je lui dis : on est tous fous, on a tous des délires, on
+est tous passionnés de photos, de trains, de lampadaires. Il y a des
+choses plus ordinaires que d’autres mais on a tous nos lubies
+(certains réalisateurs se sont d’ailleurs spécialisés sur le sujet
+comme Aronfsky qui parle beaucoup des obsessions). Donc je parle de
+tout ça sous un axe assez psychologique et positif de ce que cette
+personne pourrait apprendre de ça.&lt;/p&gt;
+
+&lt;p&gt;Au retour en fin de journée, la personne qui m’accompagnait me dit :
+t’as vu la référence du train ? C’est le même que ce matin !&lt;/p&gt;
+
+&lt;p&gt;Alors là, c’est plus fort que moi, je lui dis : tu vois t’es autiste !&lt;/p&gt;
+
+&lt;p&gt;Quand je dis ça, je ne projette rien de négatif. On a tous nos
+stéréotypies, nos lubies, nos obsessions. Sauf qu’un aller en train
+d’une heure n’avait pas suffi à ce que cette personne puisse voir le
+positif et ce que cela nous apprend sur nous-même. Il n’était pas
+d’accord. J’ai donc moi-même projeté quelque chose que n’acceptait pas
+cette personne. C’est mon cheval de bataille.&lt;/p&gt;
+
+&lt;h2 id=&quot;peindre-quelque-chose-dutile-pour-loiseau&quot;&gt;Peindre quelque chose d’utile pour l’oiseau&lt;/h2&gt;
+
+&lt;p&gt;Ce que FX m’a appris, je voudrais le transmettre à tout le monde et
+je me suis demandé si ce n’est pas pour ça que j’avais été amené à
+m’intéresser au langage. Il y’a d’abord eu l’autisme, puis la
+rencontre fortuite avec Funambules qui m’a éveillé et qui m’a permis
+de relier l’autisme et le langage. Tout ça réunit m’a aussi permis de
+m’ouvrir aux autres et m’épanouir, car si FX à ce handicap, ce n’est
+pas anodin. Je me reconnais beaucoup en lui et je pense que j’ai aussi
+cette différence.&lt;/p&gt;
+
+&lt;p&gt;Cette curiosité pour le langage remonte à loin et déjà quand j’étais
+développeur. J’avais remarqué que le langage de programmation pouvait
+représenter une forme de poésie. Il y a des développeurs qui, en plus
+de résoudre des problèmes algorithmiques, le fond de manière élégante,
+esthétique, artistique en utilisant une forme de poésie. Après j’ai
+aussi pratiqué la photographie. Donc : l’autisme, funambules, la
+programmation, la photo. Le langage draine ma vie. On ne peut pas y
+échapper. On est tous confrontés au langage.&lt;/p&gt;
+
+&lt;p&gt;D’ailleurs cette façon de relier l’autisme et le langage me fait
+penser à la critique du film Hors Norme que Betina avait faite et que
+j’avais résumé comme ceci pour en parler dans mon entreprise :&lt;/p&gt;
+
+&lt;p&gt;« Le film présente différentes formes de communication entre hommes et
+femmes neurotypiques, c’est à dire comme la majorité d’entre nous, ou
+porteurs d’autisme : le mensonge (plus simple pour un neurotypique),
+les pictogrammes, la danse, l’écriture, le verlan, les silences
+même. Souvent les silences en disent long. On se rend compte que l’on
+est tous embarqués dans cette complexité de communiquer »&lt;/p&gt;
+
+&lt;p&gt;Cette question du langage avait d’ailleurs déjà été abordée par
+Fanny, comédienne et Funambules. En réponse à mes inquiétudes sur le
+fait que FX ne parle pas à l’école il y a quelques années, elle avait
+dit quelques chose comme : “pour parler il faut avoir quelque chose à
+dire”.&lt;/p&gt;
+
+&lt;p&gt;Plus concrètement, et pour parler davantage de FX. Depuis plusieurs
+années, je l’accompagne à l’association Funambules. FX à l’habitude de
+faire du “théâtre improvisé”. C’est à dire que c’est du théâtre mais
+ce n’est pas prévu au départ. Fanny et FX téléphonent à des
+personnages fictifs aux prénoms tels que “Christine” et c’est
+l’occasion de dérouler toute la palette des émotions. Par exemple :
+“allo Christine, on a pas notre billet de train, qu’est ce qui se
+passe ?”. FX est à fond dans ce jeu de role, le théâtre, l’expression
+des émotions. Comme tout ça est imaginaire, c’est peut être plus
+simple pour FX et il n’y a aucune limite. Ça sort tout seul et il y a un
+coté un peu thérapeutique de faire sortir les mots dans l’ordre qu’il
+veut avec des personnages imaginaires.&lt;/p&gt;
+
+&lt;p&gt;A la maison, la photographie est un média que j’utilise plus
+facilement. FX a une mémoire visuelle très forte. Il a appris à parler
+grâce à la photo j’en suis convaincu (ou peut être que c’est moi
+?). On jouait à trouver telle ou telle personne dans des petits albums
+que je lui avais préparés. Il photographie également les mots dans sa
+mémoire. Il est fier d’être sur la photo. D’ailleurs il n’était pas
+sur sa photo de classe cette année, tout un symbole. Il demande que
+l’on dessine ses rêves, ses peurs et surtout ses cauchemars (les
+surréalistes veillent ;-)) Chaque autisme est différent. FX a toujours
+été très sensible aux sourires des autres et même à leur bien-être :
+“Tu es fier de moi papa ?” C’était donc un vrai problème au début du
+diagnostic car en tant que parent on ne sait pas encore “le bonheur”
+qui nous attend. On est triste et fatigué. Ce qui amplifie les
+troubles et nous fait rentrer dans un cercle vicieux.&lt;/p&gt;
+
+&lt;h2 id=&quot;en-résumé&quot;&gt;En résumé&lt;/h2&gt;
+
+&lt;p&gt;Je suis souvent un peu embêté par l’idée d’être positif sur le
+handicap et l’autisme en particulier car ça serait occulter une partie
+d’une souffrance de FX. Je ne peux pas dire simplement “c’est génial
+tout ce que nous apprend FX” car dans cette prise en charge qui est
+encore trop particulière en France, ça met FX en souffrance (ça rime).&lt;/p&gt;
+
+&lt;p&gt;Ça pose beaucoup de questions sur l’intérêt de la société par rapport
+à l’intérêt de l’individu.&lt;/p&gt;
+
+&lt;p&gt;Si FX n’était pas en souffrance aussi souvent j’aurai envie de dire
+que c’est un “bonheur que je ne souhaite à personne” (comme le fameux
+titre du livre de Samuel LeBihan). Car je ne souhaite à personne de
+voir son enfant souffrir mais ce qui est un bonheur c’est que nous
+sommes encore qu’au tout début de la compréhension de plein de choses
+et j’ai hâte d’être dans 100 ou 200 ans et on rigolera du moyen age
+dans lequel on est aujourd’hui.&lt;/p&gt;
+
+&lt;p&gt;Je voudrai aussi vous parler de deux types de discours qui m’ont
+beaucoup inspirés :&lt;/p&gt;
+
+&lt;p&gt;Dans l’entreprise dans laquelle je travaille, il a été possible
+d’accompagner des personnes dans le retour à l’emploi et il y avait un
+très beau discours de présentation de cet accompagnement. L’idée était
+qu’avec l’IA, avec la facilité d’accès à l’information, la possibilité
+de tout apprendre, de monter en compétence rapidement, tout ça allait
+bouleverser les critères de recrutement plus tard dans la
+société. C’était un discours inclusif dans le sens ou on se rend
+compte que ce sont les compétences humaines, savoir ce que l’on va
+chercher chez les autres, savoir qui on est, c’est ça qui fera la
+différence et pas notre performance mais plutôt notre résilience,
+rebondir sur des expériences difficiles, avoir de l’empathie, etc. Les
+nouvelles technologies nous apporterons elles la performance assez
+automatiquement. Je me suis dit que c’était un alignement des planètes
+car c’est tout ce que je souhaite pour FX.&lt;/p&gt;
+
+&lt;p&gt;Il y a aussi le discours de Hugo Horiot qui a été très inspirant pour
+moi. Il dit notamment qu’il ne faut pas aborder l’autisme sous l’axe
+de la charité. La société doit comprendre son intérêt à elle
+d’intégrer les atouts des personnes avec autisme (plus simples pour
+les aspergers).&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">Cet article est librement inspiré de mon intervention lors d’une conférence ayant eu lieu le 24 juin 2023 sur l’invitation d’une psychologue (Betina dans la suite du post) et sur le thème psychanalytique du “semblant”. Mon objectif était de partager mon expérience de l’autisme et de l’inclusion au travers de ma définition du semblant. &amp;nbsp; Introduction C’est vrai qu’avant de rejoindre il y a quelques années l’association Funambules et au moment où je t’ai appelé Betina, je “prospectais” sur beaucoup d’associations en lien avec l’autisme, et c’est un peu par hasard que</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Taskjuggler dans Org-mode</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html" rel="alternate" type="text/html" title="Taskjuggler dans Org-mode" />
+      
+      <published>2023-05-26T12:00:00+01:00</published>
+      <updated>2023-05-26T12:00:00+01:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2023/05/26/taskjuggler-dans-org-mode.html">&lt;p&gt;J’ai découvert récemment l’outil taskjuggler qui est une sorte de
+calculatrice pour construire des plannings et allouer des ressources
+sur les projets. Il n’existe plus d’interface graphique pour éditer le
+projet (avec les taches, les dépendances, les charges, les ressources
+associées). Cependant, on peut faire encore plus rapide grâce à
+Emacs. Le fichier ox-taskjuggler.el permet de convertir une
+arborescence Org-mode dans le format taskjuggler. Cela à deux
+avantages :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On peut editer rapidement toutes les propriétés du projet
+(dépendances, charges, ressources associées) grace au mode colonne
+de org-mode dans Emacs&lt;/li&gt;
+  &lt;li&gt;On peut générer le Gantt directement dans le fichier Org sans
+quitter Emacs via quelques lignes de lisp avec Babel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/ox-taskjuggler.png&quot; /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;h3 id=&quot;installation-de-tj3&quot;&gt;Installation de TJ3&lt;/h3&gt;
+
+&lt;p&gt;Sous Windows, après avoir installé Ruby (par exemple via &lt;a href=&quot;https://rubyinstaller.org/&quot;&gt;https://rubyinstaller.org/&lt;/a&gt;) :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; gem install taskjuggler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Sous Linux :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install tj3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;installation-de-ox-taskjuggler&quot;&gt;Installation de ox-taskjuggler&lt;/h3&gt;
+
+&lt;p&gt;S’assurer que le .emacs contient (C-c C-e pour executer son contenu) :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(require &apos;package)
+(add-to-list &apos;package-archives &apos;(&quot;melpa&quot; . &quot;https://melpa.org/packages/&quot;))
+(package-initialize)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Executer depuis emacs :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x package-refresh-contents
+M-x package-install org-contrib
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ajouter dans le .emacs :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(require &apos;ox-taskjuggler)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;création-dun-projet-org&quot;&gt;Création d’un projet org&lt;/h2&gt;
+
+&lt;p&gt;Créer un fichier &lt;a href=&quot;/assets/Demo.org&quot;&gt;Demo.org&lt;/a&gt; avec le contenu indiqué dans
+&lt;a href=&quot;https://orgmode.org/worg/org-tutorials/org-taskjuggler.html&quot;&gt;https://orgmode.org/worg/org-tutorials/org-taskjuggler.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-des-rapports&quot;&gt;Configuration des rapports&lt;/h2&gt;
+
+&lt;p&gt;Ce qui n’est pas expliqué dans le lien précédent c’est que le tag
+taskjuggler_report peut être appliqué pour intégrer des rapports personnalisés dans le fichier Tjp que nous allons générer :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Report                                                 :taskjuggler_report:
+** Plan
+      :PROPERTIES:
+      :loadunit: days
+      :formats: html
+      :columns: bsi, name, resources, start, end, effort, complete, chart { width 1000 }
+      :hidetask: treelevel() &amp;gt; 4
+      :END:
+
+** Plan2
+      :PROPERTIES:
+      :loadunit: days
+      :formats: csv
+      :timeformat: &quot;%b&quot;
+      :start: 2023-3-2
+      :end: 2024-2-1
+      :columns: name, resources, complete, monthly
+      :hidetask: treelevel() &amp;gt; 4
+      :END:
+
+** Resource
+      :PROPERTIES:
+      :REPORT_KIND: resourcereport
+      :loadunit: days
+      :formats: csv
+      :columns: name, effort, monthly
+      :timeformat: &quot;%b&quot;
+      :start: 2023-3-2
+      :end: 2023-12-31
+      :hidetask:  ~isleaf() 
+      :END:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;génération-manuelle-des-rapports&quot;&gt;Génération manuelle des rapports&lt;/h2&gt;
+
+&lt;p&gt;Après avoir créé le fichier &lt;a href=&quot;/assets/Demo.org&quot;&gt;Demo.org&lt;/a&gt; avec les tags
+(on ajoute un tag en se placant sur l’entrée et avec les raccourcis
+C-c C-c) :taskjuggler_report:,
+:taskjuggler_resource:, :taskjuggler_project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Générer le fichier tjp depuis emacs via :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x org-taskjuggler-export
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Générer les rapports (csv ou html) via la commande shell :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ tj3 Demo.tjp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Résultat (en html) :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ox-taskjuggler-html.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;edition-en-mode-colonne&quot;&gt;Edition en mode colonne&lt;/h2&gt;
+
+&lt;p&gt;On peut éditer chaque attribut de chaque tâche du projet dans le mode
+“column view” de Org-mode (raccourci C-c C-x C-c)&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/ox-taskjuggler-col.png&quot; /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/center&gt;
+
+&lt;h1 id=&quot;génération-des-rapports-dans-org-mode-avec-babel&quot;&gt;Génération des rapports dans Org-mode avec Babel&lt;/h1&gt;
+
+&lt;p&gt;Dans fichier Org contenant le projet (Demo.org dans notre exemple) il
+est possible d’ajouter ce code pour générer automatiquement un tableau
+Org-mode avec le contenu du rapport CSV taskjuggler :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#+begin_src elisp :var file=&quot;Demo.csv&quot; :results raw
+  (defun csv-to-table (file)
+    (with-temp-buffer
+      (erase-buffer)
+      (insert-file file)
+      (org-table-convert-region (point-min) (point-max) &quot;;&quot;)
+      (while (re-search-forward &quot;\&quot;\&quot;&quot; nil t)
+        (replace-match &quot;&quot;))
+      (buffer-string)))
+  (org-taskjuggler-export)
+  (call-process-shell-command
+   &quot;tj3 Demo.tjp&quot;
+   nil &quot;*Shell Command Output*&quot; t
+   )
+  (csv-to-table file)
+#+end_src
+#+RESULTS:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pour éviter les questions intempestives lors de la génération du
+résultat (avec le raccourci C-c C-c en se positionnant sur le code
+lisp) et pour augmenter la durée par défaut d’un projet ajouter dans
+le .emacs :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(setq org-confirm-babel-evaluate nil)
+(setq org-taskjuggler-default-project-duration 600)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;démonstration&quot;&gt;Démonstration&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Edition de l’effort et des allocations de ressources en column view avec le raccourci C-c C-x C-c&lt;/li&gt;
+  &lt;li&gt;Mise à jour du resultat en se positionnant sur le code lisp (cf
+chapitre précédent) et avec le raccourci C-c C-c&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/ox-taskjuggler.gif&quot; /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;pour-aller-plus-loin&quot;&gt;Pour aller plus loin&lt;/h2&gt;
+
+&lt;p&gt;Pour plus de précisions sur les personnalisations :
+&lt;a href=&quot;https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html&quot;&gt;https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">J’ai découvert récemment l’outil taskjuggler qui est une sorte de calculatrice pour construire des plannings et allouer des ressources sur les projets. Il n’existe plus d’interface graphique pour éditer le projet (avec les taches, les dépendances, les charges, les ressources associées). Cependant, on peut faire encore plus rapide grâce à Emacs. Le fichier ox-taskjuggler.el permet de convertir une arborescence Org-mode dans le format taskjuggler. Cela à deux avantages : On peut editer rapidement toutes les propriétés du projet (dépendances, charges, ressources associées) grace au mode colonne de org-mode dans Emacs On peut générer le Gantt directement dans le fichier Org sans quitter Emacs via quelques lignes de lisp avec Babel &amp;nbsp; Installation Installation de TJ3 Sous Windows, après avoir installé Ruby (par exemple via https://rubyinstaller.org/) : &amp;gt; gem install taskjuggler</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Pourquoi et comment ai-je fait un zine photo</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/2023/05/08/pourquoi-comment-jai-fait-un-zine.html" rel="alternate" type="text/html" title="Pourquoi et comment ai-je fait un zine photo" />
+      
+      <published>2023-05-08T12:00:00+01:00</published>
+      <updated>2023-05-08T12:00:00+01:00</updated>
+      <id>http://0.0.0.0:4000/photographie/2023/05/08/pourquoi-comment-jai-fait-un-zine</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/2023/05/08/pourquoi-comment-jai-fait-un-zine.html">&lt;p&gt;&lt;img src=&quot;/assets/zine.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cet article décrit un fonctionnement personnel. Bien sûr j’espère que
+certains se reconnaitront ici, mais je ne prétend pas à ce que tout ça
+soit universel. D’ailleurs, j’évoluerai certainement dans ma façon de
+faire et, dans tous les cas, j’ai besoin de poser les choses par écrit
+pour avancer. C’est d’ailleurs un principe qui s’applique à la photo
+et que j’explique ci-dessous.&lt;/p&gt;
+
+&lt;h2 id=&quot;pourquoi-faire-une-série-&quot;&gt;Pourquoi faire une série ?&lt;/h2&gt;
+
+&lt;p&gt;On a raison de penser qu’une série n’a de sens que si on sait pourquoi
+&lt;!-- more --&gt;
+on la fait. On se met alors parfois à attendre quelque chose à
+exprimer qui puisse répondre au pourquoi : l’inspiration. On peut
+attendre longtemps. Personnellement, je découvre le pourquoi qu’après
+m’être mis en marche, comme dans une forme “d’écriture
+automatique”. Cela permet de rester ouvert à l’inattendu (notre
+imagination est bien plus limitée que la réalité) et d’utiliser notre
+intuition plutôt que notre raisonnement.  Le but au départ est donc de
+créer quelque chose et de mener à bout cette recherche. Le pourquoi de
+la série étant mis au jour progressivement à la façon d’un
+archéologue.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-prise-de-vue&quot;&gt;La prise de vue&lt;/h2&gt;
+
+&lt;p&gt;A la prise de vue, je m’applique à faire deux choses :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;D’abord une forme de méditation qui est selon moi un des intérêts
+principaux de la pratique photographique. Sur ce point j’ai remarqué
+qu’il était bon d’avoir une routine pour se mettre en jambe et, en
+lâchant prise, ne pas intellectualiser.&lt;/li&gt;
+  &lt;li&gt;Dans le même temps, j’essaie d’expérimenter en regardant les choses
+sous un autre angle (au sens propre comme au figuré). J’essaie
+d’oublier le sujet au profit de la composition. Je suis toujours
+étonné, quand je regarde mes photos quelques temps après, comme les
+expérimentations finissent par s’assembler entre elles de façon 
+relativement cohérente et refléter mes pensées inconscientes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En appliquant cela régulièrement, à la manière d’un entrainement
+sportif, on finit par se construire une bibliothèque de contraintes
+esthétiques et de pensées qui peuvent donner une cohérence dans nos
+images et surtout nous habituer à observer différemment et à “voir des
+photos”. Pour continuer la métaphore, cela prend un certain temps lors
+d’une sortie pour être “échauffé” mais aussi un certain nombre
+“d’entrainements” rapprochés pour progresser.&lt;/p&gt;
+
+&lt;h2 id=&quot;editing&quot;&gt;Editing&lt;/h2&gt;
+
+&lt;p&gt;A chaque étape du processus créatif, que ce soit en sélectionnant les
+images (editing) ou en leur donnant un ordre dans la série
+(narration), j’aime revenir en arrière et continuer la prise de vue et
+refaire quelques aller-retours entre editing et prise de vue. Je
+m’efforce cependant d’aller jusqu’au bout de d’une version du projet
+présentable comme expliqué précédemment.&lt;/p&gt;
+
+&lt;p&gt;Par exemple, expliquer ma démarche, à plusieurs reprises pour Hello
+World, m’a permis de mesurer les arguments les moins convaincants ou
+trop personnels et ainsi réfléchir sur la série. J’ai besoin, entre
+deux introspections, de partager ma démarche. Parler ou écrire, que ce
+soit en photographie ou dans la vie de tous les jours (ou sur ce
+blog), permet de reflechir. C’est pour cela qu’une exposition ou un
+zine par exemple me semble important pour préparer un projet plus figé
+tel qu’un livre.&lt;/p&gt;
+
+&lt;p&gt;Pour se confronter à l’avis des autres il n’est pas nécessaire d’avoir
+terminé son editing. Il ne faut pas non plus placer l’approbation des
+autres avant nos propres critères personnels. Il faut laisser un temps
+personnel suffisant mais pas trop long pour laisser se “révéler”
+l’image de façon fidèle à nos ressentis du moment.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-narration-et-la-mise-en-page&quot;&gt;La narration et la mise en page&lt;/h2&gt;
+
+&lt;p&gt;Pour Hello World, la quête de sens est le sujet même de la série. Lors
+des premières prises de vue je n’avais pas d’idée sur ce que je
+voulais dire mais au fil des photos j’ai vu, ou j’ai projeté sur elles,
+ce que cela racontait. J’aime cette idée que le monde extérieur me
+“parle” et qu’il raisonne avec mon monde intérieur. Finalement je
+projette ma réalité. Et cela est permis grâce à la marche et une forme
+de méditation comme expliqué précédemment.&lt;/p&gt;
+
+&lt;p&gt;Dans Hello World, la narration s’est donc construite autour de cette
+quête en utilisant le concept du monomythe. Cela permettait un
+équilibre entre cohérence et mystère (voyage, solitude, ombres, etc)
+et en suggérant des émotions.&lt;/p&gt;
+
+&lt;p&gt;Je vous laisse feuilleter les premières pages du zine sur les 80 qu’elle
+comporte ci-dessous :&lt;/p&gt;
+
+&lt;iframe id=&quot;data-blurb-bookshare-11130404&quot; data-bindattr-125=&quot;125&quot; height=&quot;400px&quot; data-bindattr-126=&quot;126&quot; width=&quot;100%&quot; data-bindattr-127=&quot;127&quot; src=&quot;https://www.blurb.fr/bookshare/app/index.html?bookId=11130404&quot; data-bindattr-128=&quot;128&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; onload=&quot;this.focus()&quot; scrolling=&quot;no&quot;&gt;
+		&lt;/iframe&gt;
+
+&lt;center&gt;Le zine est disponible à la vente &lt;a href=&quot;https://www.blurb.fr/b/11130404-hello-world&quot;&gt;ici&lt;/a&gt;.&lt;/center&gt;
+&lt;p /&gt;
+
+&lt;p&gt;Pour une remise en main propre contactez moi en MP sur instagram
+@arnaudsnomsed.&lt;/p&gt;
+
+&lt;h2 id=&quot;le-financement-participatif-et-la-livraison&quot;&gt;Le financement participatif et la livraison&lt;/h2&gt;
+
+&lt;p&gt;Quand on a fait tant d’efforts pour mener son projet jusqu’à une
+maquette, on a alors envie de soigner la communication pour partager
+son projet le plus efficacement possible.&lt;/p&gt;
+
+&lt;p&gt;J’ai d’abord réfléchi au planning : combien de temps durera la
+campagne ? Quels évènements provoquer pendant la campagne ? Dans quel
+ordre ? A destination de qui précisément ? Les plateformes telles que
+Kisskissbankbank expliquent bien comment s’y prendre. En résumé, il
+faut préparer la communication avant la campagne et en ciblant
+différents cercles de populations pour avoir un effet boule de neige.&lt;/p&gt;
+
+&lt;p&gt;En parallèle, j’ai créé la page du projet avec globalement :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un descriptif de la série : la démarche, le propos, l’origine du
+titre, etc&lt;/li&gt;
+  &lt;li&gt;Les photos des objets : il faut ici réfléchir aussi aux packages
+proposées et la cohérence du prix par rapport à l’objectif de la
+campagne et les volumes espérés etc (par exemple : tirage + zine,
+signé et numéroté ou pas, etc)&lt;/li&gt;
+  &lt;li&gt;Une vidéo (celle de l’interview avec Thomas Hammoudi que je vous met
+en bas de la page).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Spécifiquement pendant la campagne de Hello World, j’ai commandé des
+exemplaires en fonctions de l’avancement de la campagne car il y avait
+des promotions intéressantes à ce moment-là chez l’imprimeur.&lt;/p&gt;
+
+&lt;p&gt;Globalement, par ordre d’importance (et aussi par ordre des commandes
+à faire) :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Imprimeur (zines et tirages qui étaient chez des imprimeurs
+différents pour Hello World)&lt;/li&gt;
+  &lt;li&gt;Film antistatique (spécifiquement pour mon zine Hello World)&lt;/li&gt;
+  &lt;li&gt;Sponsoring des réseaux sociaux (j’ai essayé de mettre en avant le
+zine avec de la publicité mais le retour sur investissement n’en
+valait pas la peine).&lt;/li&gt;
+  &lt;li&gt;Enveloppes&lt;/li&gt;
+  &lt;li&gt;Timbres&lt;/li&gt;
+  &lt;li&gt;Frais de la plateforme de financement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;J’avais créé une feuille de calcul pour chacun des fournisseurs pour
+optimiser les couts en fonction de l’avancement de la campagne, des
+frais de livraisons et aussi des offres du moment.&lt;/p&gt;
+
+&lt;p&gt;Enfin j’ai ajouté à mon fichier, un onglet de suivi des envois pour
+chaque contributeur avec les adresses pour imprimer les étiquettes et
+les numéros de suivi des lettres. Pour l’envoi à l’international, cela
+coute encore moins cher qu’en France grace à un envoi intitulé “livres
+et brochures” par La Poste.&lt;/p&gt;
+
+&lt;p&gt;Je les ai envoyé progressivement pour rester prudent et avec un petit
+mot sur les tirages d’accompagnement du zine (car pas facile et risqué
+d’écrire dans le zine).&lt;/p&gt;
+
+&lt;h2 id=&quot;en-résumé&quot;&gt;En résumé&lt;/h2&gt;
+
+&lt;p&gt;En résumé je dirai qu’il y a trois temps pour éviter d’avoir une
+démarche trop intellectuelle simplement pour “avancer” :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A court terme, se vider la tête, lâcher prise, marcher, pour classer
+ses idées. A force, il y a comme des visions mnémotechniques (une
+lumière, un motif, une couleur) qui attire davantage notre regard
+en fonction de nos pensées. Je recommande le livre Slow Photo qui
+donne d’autres idées pour être dans un état de pleine conscience (cf
+&lt;a href=&quot;https://arnaudsnomsed.github.io/photographie/2022/12/01/bibliotheque-photo.html&quot;&gt;Ma bibliothèque
+photo&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;A moyen terme, en étant patient, des images se présentent à nous&lt;/li&gt;
+  &lt;li&gt;Sur le long terme, on organise nos pensées, on analyse les images
+produites et on construit comment raconter une histoire avec des
+fils conducteurs sous la forme d’une série&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pour plus de détails sur Hello World, j’en parle sur cette chaine :&lt;/p&gt;
+
+&lt;center&gt;
+&lt;iframe width=&quot;90%&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/4ooAYXZDruc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+
+      
+
+      
+        <summary type="html">Cet article décrit un fonctionnement personnel. Bien sûr j’espère que certains se reconnaitront ici, mais je ne prétend pas à ce que tout ça soit universel. D’ailleurs, j’évoluerai certainement dans ma façon de faire et, dans tous les cas, j’ai besoin de poser les choses par écrit pour avancer. C’est d’ailleurs un principe qui s’applique à la photo et que j’explique ci-dessous. Pourquoi faire une série ? On a raison de penser qu’une série n’a de sens que si on sait pourquoi</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Chiffrement transparent des notes Org mode avec EasyPG</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2023/04/23/org-mode-emacs-epa.html" rel="alternate" type="text/html" title="Chiffrement transparent des notes Org mode avec EasyPG" />
+      
+      <published>2023-04-23T12:00:00+01:00</published>
+      <updated>2023-04-23T12:00:00+01:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2023/04/23/org-mode-emacs-epa</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2023/04/23/org-mode-emacs-epa.html">&lt;p&gt;Pour chiffrer de façon transparente vos notes org-mode dans emacs,
+ajoutez ceci dans votre fichier .emacs pour charger EasyPG Assitant
+qui est inclus par défaut dans les dernières version d’emacs et y compris
+sous Windows :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(require &apos;epa-file)
+(epa-file-enable)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Il faut ensuite nommer la note avec l’extension :&lt;/p&gt;
+
+&lt;p&gt;.org.gpg&lt;/p&gt;
+
+&lt;p&gt;et selectionner une première fois la (ou les) clé(s) de chiffrement à
+utiliser sur le fichier en les cochant avec la touche m après avoir
+saisi la commande suivante (il faut ensuite modifier et enregistrer le
+fichier pour que cela soit effectif) :&lt;/p&gt;
+
+&lt;p&gt;M-x epa-file-select-keys&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Pour chiffrer de façon transparente vos notes org-mode dans emacs, ajoutez ceci dans votre fichier .emacs pour charger EasyPG Assitant qui est inclus par défaut dans les dernières version d’emacs et y compris sous Windows : (require &apos;epa-file) (epa-file-enable) Il faut ensuite nommer la note avec l’extension : .org.gpg et selectionner une première fois la (ou les) clé(s) de chiffrement à utiliser sur le fichier en les cochant avec la touche m après avoir saisi la commande suivante (il faut ensuite modifier et enregistrer le fichier pour que cela soit effectif) : M-x epa-file-select-keys</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Un second cerveau avec Org-mode</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html" rel="alternate" type="text/html" title="Un second cerveau avec Org-mode" />
+      
+      <published>2023-03-17T11:00:00+00:00</published>
+      <updated>2023-03-17T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2023/03/17/org-mode-emacs.html">&lt;p&gt;&lt;img src=&quot;/assets/orgmode.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Il y a quelques mois j’ai fait le constat que la prise de notes était
+un pivot très important pour structurer ses idées, préparer des
+réunions, envoyer différents mails (et les relances qui vont avec) ou
+même regrouper certaines actions (par exemple : en fonction de
+l’interlocuteur, du lieu, du temps ou de la concentration
+nécessaire). Cette idée me fait penser à mon passé de développeur où
+toute l’intelligence était contenue dans quelques fichiers qui vivaient
+tous les jours. J’étais alors décidé à trouver une solution à ma prise
+de notes avec plusieurs contraintes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Utiliser les mêmes outils dans ma vie pro et perso&lt;/li&gt;
+  &lt;li&gt;Reposer sur un format standard (en mode texte, structuré, supportant les tableaux)&lt;/li&gt;
+  &lt;li&gt;Pouvoir exporter au format HTML et docx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;Pour cela, j’ai commencé à utiliser le format Markdown avec un éditeur de
+texte que je connais bien en tant qu’ancien développeur : Emacs.&lt;/p&gt;
+
+&lt;p&gt;J’ai ensuite utilisé les différents niveaux de chapitres, les listes,
+les checkbox, les tableaux et l’outil pandoc pour exporter tout ça en
+HTML en docx et j’ai aussi remonté mon blog au format Markdown grace à
+Jekyll.&lt;/p&gt;
+
+&lt;p&gt;J’utilisais le org-mode dans Emacs pour éditer au format Markdown et
+notamment mettre en forme des tableaux.&lt;/p&gt;
+
+&lt;p&gt;Curieux du org-mode d’Emacs j’ai alors découvert que le format Org
+était assez similaire au format Markdown et permettait des calculs sur
+les tableaux et de planifier et archiver des taches ce qui
+est très pratique pour garder un historique au travail également.&lt;/p&gt;
+
+&lt;h1 id=&quot;les-calculs-sur-les-tableaux&quot;&gt;Les calculs sur les tableaux&lt;/h1&gt;
+
+&lt;p&gt;On peut créer un tableau simplement en écrivant quelque chose qui ressemble à ça puis en appuyant sur Tab :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Test | Colonne | Total
+|--
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;On peut ensuite ajouter une formule de calcul sous le tableau comme ceci :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Test | Colonne | Total |
+|------+---------+-------|
+|      |         |       |
+#+TBLFM: $3=vsum($1..$2)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;On peut alors mettre à jour les sommes en ligne via C-c *&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Test | Colonne | Total |
+|------+---------+-------|
+|    2 |       3 | 5     |
+#+TBLFM: $3=vsum($1..$2)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;On peut aussi faire la somme d’une colonne en se positionnant en bas
+de la colonne via C-c + (puis C-y pour coller le résultat dans certaines
+configurations Emacs) :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Test | Colonne | Total |
+|------+---------+-------|
+|    2 |       3 |     5 |
+|    2 |         |       |
+|    4 |         |       |
+#+TBLFM: $3=vsum($1..$2)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;la-gestion-des-taches&quot;&gt;La gestion des taches&lt;/h1&gt;
+
+&lt;p&gt;Une action sous Org-mode se caractérise par :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Un ou plusieurs signes “*” au début de la ligne&lt;/li&gt;
+  &lt;li&gt;Optionnel : Le mot clé TODO ou DONE (on peut aussi selectionner d’autres
+mots clés en ajoutant une ligne #+TODO: TODO WAITING DONE dans le document Org)&lt;/li&gt;
+  &lt;li&gt;Optionnel : une date de planification&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Exemple 1 : une action planifiée pour une date donnée avec une
+progression entre crochets qui se met à jour automatiquement (note: on
+ mettre un signe “/” ou “%” entre crochet au départ et la mise à jour
+automatique se fera en nombre ou en %)&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* TODO Ecrire un article [/]
+  SCHEDULED: &amp;lt;2023-03-15 mer.&amp;gt;
+
+- [ ] Ecrire le chapitre 1
+- [ ] Ecrire le chapitre 2
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Exemple 2 : un RDV&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* TODO RDV
+  SCHEDULED: &amp;lt;2023-03-15 mer. 15:00-16:00&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Exemple 3 : une écheance avec une priorité ([#A]) et un tag (:perso)
+qui nous serviront dans la vue agenda dans la chapitre suivant&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* TODO [#A] RDV                                                       :perso:
+  DEADLINE: &amp;lt;2023-03-15 mer.&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;raccourcis&quot;&gt;Raccourcis&lt;/h1&gt;
+
+&lt;p&gt;Quelques raccourcis clavier possible quand on est positionné sur un chapitre (&lt;kbd&gt;M&lt;/kbd&gt; correspond à Maj et &lt;kbd&gt;C&lt;/kbd&gt; à Ctrl):&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Sur un chapitre&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Modification des priorités&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;up&lt;/kbd&gt; et &lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;down&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Planification (schedule ou deadline)&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt; &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;s&lt;/kbd&gt; ou &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt; &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;d&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ajouter un tag à une tache&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt; &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Changer l’état d’une tache (exemple : de TODO à DONE)&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;left&lt;/kbd&gt; ou &lt;kbd&gt;S&lt;/kbd&gt;-&lt;kbd&gt;right&lt;/kbd&gt; (&lt;kbd&gt;t&lt;/kbd&gt; dans la vue Agenda)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nouvelle tache&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;RET&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Archiver (il ira alors dans un fichier .org_archive)&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt; &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;x&lt;/kbd&gt; &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;a&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Déplier ou replier&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;Tab&lt;/kbd&gt; ou &lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;Tab&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A propos du raccourci permettant de déplier ou replier, on peut
+ajouter la ligne suivante dans le fichier Org pour que les chapitres
+soient tous repliés à l’ouverture :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#+STARTUP: overview
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Sur une ligne de type checkbox&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cocher ou décocher&lt;/td&gt;
+      &lt;td&gt;&lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt; &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;la-vue-sous-forme-dagenda&quot;&gt;La vue sous forme d’agenda&lt;/h1&gt;
+
+&lt;p&gt;Ouvrez avec Emacs un fichier Org contenant les exemples précédents
+puis ajoutez ce fichier dans l’agenda via le raccourci : &lt;kbd&gt;C&lt;/kbd&gt;-&lt;kbd&gt;c&lt;/kbd&gt; &lt;kbd&gt;[&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;Cela ajoutera la configuration suivante dans votre fichier .emacs :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &apos;(org-agenda-files &apos;(&quot;c:/Users/demo/notes/Demo.org&quot;))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Tapez maintenant &lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;x&lt;/kbd&gt; org-agenda et vous verrez alors un buffer ressemblant à ça :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Week-agenda (W11):
+Monday     13 March 2023 W11
+              18:00...... ----------------
+              20:00...... ----------------
+              22:21...... now - - - - - - - - - - - - - - - - - - - - - - - - -
+              23:00...... ----------------
+  Blog:       Deadline:   TODO [#A] RDV                             :perso:
+  Blog:       Scheduled:  TODO Ecrire un article [/]
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;De façon à identifier plus facilement les actions non planifiées via
+la commande &lt;kbd&gt;M&lt;/kbd&gt;-&lt;kbd&gt;x&lt;/kbd&gt; org-agenda &lt;kbd&gt;t&lt;/kbd&gt;, j’ai ajouté cette ligne dans mon .emacs
+pour exclure de la liste les actions avec une date :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &apos;(org-agenda-todo-ignore-with-date t)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;pour-mettre-ses-idées-sur-le-papier&quot;&gt;Pour mettre ses idées sur le papier&lt;/h1&gt;
+
+&lt;p&gt;L’utilisation d’un éditeur de texte permet de se concentrer davantage
+sur le fond de structurer ses idées par itérations comme si on
+sculptait. La mise en forme ne vient alors qu’au moment de la
+transformation soit en action (mail, réunion, etc) soit en document
+par exemple avec le .bat suivant qui transforme en docx tous les
+fichiers org du répertoire.  (le repertoire “src” contient les images
+etc et la commande start lance Word) :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for %%X in (*.org) do (
+  cd src
+  pandoc.exe -o ../%%~nX.docx -f org -t docx -M &quot;toc-title: Table des matières&quot; --file-scope --reference-doc template.docx ../%%X
+  start /w ../%%~nX.docx
+  cd ..
+)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Le fichier template.docx ci-dessus (dans le répertoire src) est un
+document ayant été généré une première fois par Pandoc puis
+personnalisé pour correspondre par exemple au template de
+l’entreprise.&lt;/p&gt;
+
+&lt;p&gt;Personnellement quand je rédige mes documents j’écris les noms des
+chapitres et sous chapitres et j’écris les idées principales en
+commentaires dans les différentes sections comme ceci :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Test
+** Sous chapitre
+# - Idée n°1
+# - Idée n°2
+
+Ici le texte décrivant les idées 1 et 2
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cette façon de faire permet de toujours avoir un résultat propre
+exportable à n’importe quel moment de la construction d’un document On
+peut même utiliser le mot clé COMMENT sur certains chapitres. On peut
+aussi utiliser la ligne #+OPTIONS: todo:nil au debut du document pour
+ne pas exporter les actions liés au document :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* TODO Finir la rédaction des chapitres de cet article [1/2]
+  DEADLINE: &amp;lt;2023-03-15 mer.&amp;gt;
+
+** DONE Chapitre 1
+** TODO Chapitre 2
+
+* COMMENT Chapitre pour plus tard
+Ici un chapitre qui ne sera pas exporté par pandoc.
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;On peut aussi relier des chapitres via des liens comme ceci :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[file:c:/Users/xxxxxx/Book.org::*La conclusion][# La conclusion]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Il faut ajouter la configuration suivante à son .emacs pour que les
+liens ne soient pas “rendus” et soient ainsi éditables :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(setq org-descriptive-links nil)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;pour-aller-plus-loin&quot;&gt;Pour aller plus loin&lt;/h1&gt;
+
+&lt;p&gt;J’utilise l’application mobile Gitjournal qui permet de synchroniser
+mes notes avec un repository Git et de les avoir toujours sur moi.&lt;/p&gt;
+
+&lt;p&gt;Une bonne pratique que j’ai mis en place consiste à créer un fichier
+Inbox.org dans lequel je mets en vrac une idée dès qu’elle me vient (y
+compris via Gitjournal). Je fais ensuite régulièrement du classement
+de cette inbox vers mes différents fichiers Org et chapitres avec une
+date quand il s’agit d’une action.&lt;/p&gt;
+
+&lt;p&gt;J’utilise également &lt;a href=&quot;https://github.com/dantecatalfamo/agenda-html&quot;&gt;agenda-html&lt;/a&gt; qui permet d’exporter sous forme HTML
+mon agenda personnel via la commande suivante dans une crontab :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*/5 * * * * screen -d -m emacs -Q -nw -l /home/xxxxx/agenda-html/agenda-html.el --eval &apos;(kill-emacs)&apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Il peut parfois être utile de mettre ces lignes (à moins de 3000
+caractères de la fin) dans le fichier Org pour que Emacs le recharge
+automatiquement quand il a été mis à jour par exemple par un git pull
+en dehors d’Emacs :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Dans les fichiers org_archive, on ne peut pas placer du texte à la fin
+du fichier car des entrées sont regulièrements ajoutées à la suite. On
+peut donc mettre cette entête :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#    -*- mode: org; eval: (auto-revert-mode) -*-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Voici enfin quelques liens qui m’ont été utiles :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alphaalgorithms.github.io/2019/05/17/emacs-agenda-views/&quot;&gt;https://alphaalgorithms.github.io/2019/05/17/emacs-agenda-views/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://orgmode.org/worg/org-tutorials/org4beginners.html&quot;&gt;https://orgmode.org/worg/org-tutorials/org4beginners.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cachestocaches.com/2016/9/my-workflow-org-agenda/&quot;&gt;http://cachestocaches.com/2016/9/my-workflow-org-agenda/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Il y a quelques mois j’ai fait le constat que la prise de notes était un pivot très important pour structurer ses idées, préparer des réunions, envoyer différents mails (et les relances qui vont avec) ou même regrouper certaines actions (par exemple : en fonction de l’interlocuteur, du lieu, du temps ou de la concentration nécessaire). Cette idée me fait penser à mon passé de développeur où toute l’intelligence était contenue dans quelques fichiers qui vivaient tous les jours. J’étais alors décidé à trouver une solution à ma prise de notes avec plusieurs contraintes : Utiliser les mêmes outils dans ma vie pro et perso Reposer sur un format standard (en mode texte, structuré, supportant les tableaux) Pouvoir exporter au format HTML et docx</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Importer ses photos avec Exiftool</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/informatique/2023/02/20/importer-ses-photos-avec-exiftool.html" rel="alternate" type="text/html" title="Importer ses photos avec Exiftool" />
+      
+      <published>2023-02-20T11:00:00+00:00</published>
+      <updated>2023-02-20T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/photographie/informatique/2023/02/20/importer-ses-photos-avec-exiftool</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/informatique/2023/02/20/importer-ses-photos-avec-exiftool.html">&lt;p&gt;Ci-dessous un script permettant d’importer les photos depuis une carte
+SD montée en H: vers E: grace au programme Exiftool.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/sh
+
+cd /e/
+./exiftool -progress -v -r -ext PEF -ext DNG \
+    &apos;-Directory&amp;lt;/Archives2023/Photos/Pentax/${model;}/${datetimeoriginal}&apos; \
+    -d &quot;%Y/%Y-%m-%d&quot; &quot;/h/DCIM&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Les répertoires auront alors une structure du type :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+├── PENTAX K-3 Mark III
+│   └── 2023
+│       ├── 2023-01-03
+│       │   ├── IMGP1643.DNG
+│       │   ├── IMGP1644.DNG
+│       ├── 2023-01-06
+│       │   ├── IMGP1645.DNG
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pour les vidéos (par élminination des extensions dng, pp3, jpg, mp3)
+on peut utiliser la commande suivante :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+exiftool -progress -q -q -r --ext dng --ext pef --ext pp3 --ext xmp \
+	--ext jpg --ext mp3 -ext &apos;*&apos; -d /dst/Videos/%Y/%m/%%f-%H%M.%%e \
+	&apos;-filename&amp;lt;filemodifydate&apos; &apos;-filename&amp;lt;createdate&apos; \
+	&apos;-filename&amp;lt;datetimeoriginal&apos; &quot;/src/&quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Ci-dessous un script permettant d’importer les photos depuis une carte SD montée en H: vers E: grace au programme Exiftool. #!/bin/sh cd /e/ ./exiftool -progress -v -r -ext PEF -ext DNG \ &apos;-Directory&amp;lt;/Archives2023/Photos/Pentax/${model;}/${datetimeoriginal}&apos; \ -d &quot;%Y/%Y-%m-%d&quot; &quot;/h/DCIM&quot; Les répertoires auront alors une structure du type : . ├── PENTAX K-3 Mark III │   └── 2023 │   ├── 2023-01-03 │   │   ├── IMGP1643.DNG │   │   ├── IMGP1644.DNG │   ├── 2023-01-06 │   │   ├── IMGP1645.DNG Pour les vidéos (par élminination des extensions dng, pp3, jpg, mp3) on peut utiliser la commande suivante : exiftool -progress -q -q -r --ext dng --ext pef --ext pp3 --ext xmp \ --ext jpg --ext mp3 -ext &apos;*&apos; -d /dst/Videos/%Y/%m/%%f-%H%M.%%e \ &apos;-filename&amp;lt;filemodifydate&apos; &apos;-filename&amp;lt;createdate&apos; \ &apos;-filename&amp;lt;datetimeoriginal&apos; &quot;/src/&quot;</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Ce que l’argentique m’a appris (suite)</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/2023/02/19/ce-que-largentique-ma-appris-2.html" rel="alternate" type="text/html" title="Ce que l’argentique m’a appris (suite)" />
+      
+      <published>2023-02-19T11:00:00+00:00</published>
+      <updated>2023-02-19T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/photographie/2023/02/19/ce-que-largentique-ma-appris-2</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/2023/02/19/ce-que-largentique-ma-appris-2.html">&lt;p&gt;Pour compléter &lt;a href=&quot;/photographie/2022/11/26/ce-que-largentique-ma-appris.html&quot;&gt;ce précédent
+article&lt;/a&gt;,
+j’ai voulu parler cette fois de mes expériences sur la lumière et la
+profondeur de champs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ambrosia.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour faire des économies, j’ai acheté la chimie qui me permettra de
+développer une douzaine de pellicules. Je n’ai pas fait encore assez
+de prises de vue pour lancer les développements de mes dernières
+expériences et illustrer cet article.&lt;/p&gt;
+
+&lt;h2 id=&quot;lennui-avec-le-flou-darrière-plan&quot;&gt;L’ennui avec le flou d’arrière-plan&lt;/h2&gt;
+
+&lt;p&gt;Une belle optique de 50mm à f/1,7 était vendue avec mon argentique
+Pentax MG (40€ l’ensemble). Le nombre de lames important sur cette
+optique permet un bokeh très doux. J’avais donc un terrain de jeu
+inédit pour isoler mon sujet avec un magnifique flou d’arrière-plan
+mais on se rend compte avec le temps que l’on ne peut pas faire
+reposer toute la créativité sur ça. J’ai remarqué que les peintres
+n’utilisaient pas directement cette technique mais qu’on pouvait
+observer quand même plus de détails et des traits plus prononcés sur
+le sujet.&lt;/p&gt;
+
+&lt;h2 id=&quot;tricher-sur-la-profondeur-de-champs&quot;&gt;Tricher sur la profondeur de champs&lt;/h2&gt;
+
+&lt;p&gt;N’ayant pas un si grand angle avec une si grande ouverture en
+numérique, j’ai dû compenser en m’éloignant plus souvent du sujet pour
+retrouver une faible profondeur de champ (relativement à la focale).&lt;/p&gt;
+
+&lt;h2 id=&quot;profiter-dune-dynamique-plus-faible&quot;&gt;Profiter d’une dynamique plus faible&lt;/h2&gt;
+
+&lt;p&gt;J’ai remarqué qu’avec du matériel moins performant en termes de
+dynamique ou dans des situations à fort contraste, cela oblige à
+isoler le sujet autrement que par les effets de silhouette ou la
+profondeur de champs. On peut par exemple utiliser des éléments du
+décor pour jouer sur des plans et apporter de la dynamique. Des
+aplats de couleurs et des contrastes peuvent également apporter de la
+dynamique et de la douceur.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-flous-lumineux&quot;&gt;Les flous lumineux&lt;/h2&gt;
+
+&lt;p&gt;J’ai toujours été attiré par les flous lumineux, par exemple en
+contre-jour, que je croyais plus facile en argentique. Il semblerait
+en fait que cela soit lié à une grande ouverture de l’optique,
+favorisé par un mode Av. Une forte lumière en contre-jour est alors
+floutée à l’arrière-plan et même sur des reflets au premier plan. Si
+l’obturation n’est pas assez rapide, il faut parfois ajouter un filtre
+ND pour ne pas faire rentrer trop de lumière.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+
+      
+
+      
+        <summary type="html">Pour compléter ce précédent article, j’ai voulu parler cette fois de mes expériences sur la lumière et la profondeur de champs. Pour faire des économies, j’ai acheté la chimie qui me permettra de développer une douzaine de pellicules. Je n’ai pas fait encore assez de prises de vue pour lancer les développements de mes dernières expériences et illustrer cet article. L’ennui avec le flou d’arrière-plan Une belle optique de 50mm à f/1,7 était vendue avec mon argentique Pentax MG (40€ l’ensemble). Le nombre de lames important sur cette optique permet un bokeh très doux. J’avais donc un terrain de jeu inédit pour isoler mon sujet avec un magnifique flou d’arrière-plan mais on se rend compte avec le temps que l’on ne peut pas faire reposer toute la créativité sur ça. J’ai remarqué que les peintres n’utilisaient pas directement cette technique mais qu’on pouvait observer quand même plus de détails et des traits plus prononcés sur le sujet. Tricher sur la profondeur de champs N’ayant pas un si grand angle avec une si grande ouverture en numérique, j’ai dû compenser en m’éloignant plus souvent du sujet pour retrouver une faible profondeur de champ (relativement à la focale). Profiter d’une dynamique plus faible J’ai remarqué qu’avec du matériel moins performant en termes de dynamique ou dans des situations à fort contraste, cela oblige à isoler le sujet autrement que par les effets de silhouette ou la profondeur de champs. On peut par exemple utiliser des éléments du décor pour jouer sur des plans et apporter de la dynamique. Des aplats de couleurs et des contrastes peuvent également apporter de la dynamique et de la douceur. Les flous lumineux J’ai toujours été attiré par les flous lumineux, par exemple en contre-jour, que je croyais plus facile en argentique. Il semblerait en fait que cela soit lié à une grande ouverture de l’optique, favorisé par un mode Av. Une forte lumière en contre-jour est alors floutée à l’arrière-plan et même sur des reflets au premier plan. Si l’obturation n’est pas assez rapide, il faut parfois ajouter un filtre ND pour ne pas faire rentrer trop de lumière.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Transformer des slides en GIF</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2023/02/05/transformer-des-slides-en-gif.html" rel="alternate" type="text/html" title="Transformer des slides en GIF" />
+      
+      <published>2023-02-05T11:00:00+00:00</published>
+      <updated>2023-02-05T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2023/02/05/transformer-des-slides-en-gif</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2023/02/05/transformer-des-slides-en-gif.html">&lt;p&gt;Petit pense bête pour générer un GIF a partir de “slides” au format Markdown&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/tty.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour convertir ensuite le gif en vidéo :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+ffmpeg -i tty.gif -movflags faststart -pix_fmt yuv420p -vf &quot;scale=trunc(iw/2)*2:trunc(ih/2)*2&quot; tty.mp4
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Pour lire les slides (sans générer de gif) :&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install curl
+sudo snap install slides
+curl https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/Ttygif.md\
+	| /snap/bin/slides
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/Ttygif.md&quot;&gt;Voir le fichier Markdown&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Petit pense bête pour générer un GIF a partir de “slides” au format Markdown Pour convertir ensuite le gif en vidéo : ffmpeg -i tty.gif -movflags faststart -pix_fmt yuv420p -vf &quot;scale=trunc(iw/2)*2:trunc(ih/2)*2&quot; tty.mp4 Pour lire les slides (sans générer de gif) : sudo apt install curl sudo snap install slides curl https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/Ttygif.md\ | /snap/bin/slides Voir le fichier Markdown</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Citations sur la photo</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/2022/12/11/citations-photo.html" rel="alternate" type="text/html" title="Citations sur la photo" />
+      
+      <published>2022-12-11T11:00:00+00:00</published>
+      <updated>2022-12-11T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/photographie/2022/12/11/citations-photo</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/2022/12/11/citations-photo.html">&lt;p&gt;Voici mes citations préférées sur la photo. Et vous ? Dites le moi en
+commentaire ou en réponse à &lt;a href=&quot;https://twitter.com/ArnaudSnomsed/status/1601952892856205312&quot;&gt;ce tweet&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vous n’avez qu’à vivre et la vie vous donnera des images - Henri
+Cartier-Bresson&lt;/li&gt;
+  &lt;li&gt;Je photographie comme un documentaire, mais je tire mes images comme
+un peintre - Todd Hido&lt;/li&gt;
+  &lt;li&gt;Now and never again - Titre d’un livre de Daido Moriyama&lt;/li&gt;
+  &lt;li&gt;Pour construire une carrière et avoir du succès, il faut être
+déterminé… Il faut être ambitieux. Je préfère largement boire du
+café, écouter de la musique, et peindre quand j’en ressens
+l’envie. - Saul Leiter
+&lt;!-- more --&gt;&lt;/li&gt;
+  &lt;li&gt;Suggérer c’est créer. Décrire c’est détruire - Robert Doisneau&lt;/li&gt;
+  &lt;li&gt;Je me défendrai toujours d’être un photographe : cette attraction me
+fait peur, il me semble qu’elle peut vite tourner à la folie, car
+tout est photographiable, tout est intéressant à photographier, et
+d’une journée de sa vie on pourrait découper des milliers
+d’instants, des milliers de petites surfaces, et si l’on commence
+pourquoi s’arrêter ? - Hervé Guibert&lt;/li&gt;
+  &lt;li&gt;La photo qu’un autre que moi pourrait faire,
+qui ne tient pas au rapport particulier que j’ai avec tel ou tel, je
+ne veux pas la faire - Hervé Guibert&lt;/li&gt;
+  &lt;li&gt;J’aime dans le travail le moment où il
+décolle imperceptiblement vers la fiction après avoir pris son élan
+sur la piste de la véracité - Hervé Guibert.&lt;/li&gt;
+  &lt;li&gt;Ce n’est pas le sujet qui fait une photographie, mais le point de
+vue du photographe – André Kertész&lt;/li&gt;
+  &lt;li&gt;Ne rien prévoir, sinon l’imprévisible. Ne rien attendre, sinon
+l’inattendu - Christian Bobin&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+
+      
+
+      
+        <summary type="html">Voici mes citations préférées sur la photo. Et vous ? Dites le moi en commentaire ou en réponse à ce tweet Vous n’avez qu’à vivre et la vie vous donnera des images - Henri Cartier-Bresson Je photographie comme un documentaire, mais je tire mes images comme un peintre - Todd Hido Now and never again - Titre d’un livre de Daido Moriyama Pour construire une carrière et avoir du succès, il faut être déterminé… Il faut être ambitieux. Je préfère largement boire du café, écouter de la musique, et peindre quand j’en ressens l’envie. - Saul Leiter</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Ma bibliothèque photo</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/2022/12/01/bibliotheque-photo.html" rel="alternate" type="text/html" title="Ma bibliothèque photo" />
+      
+      <published>2022-12-01T11:00:00+00:00</published>
+      <updated>2022-12-01T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/photographie/2022/12/01/bibliotheque-photo</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/2022/12/01/bibliotheque-photo.html">&lt;p&gt;Dans cet article je liste quelques recommandations de livre de photos
+et sur la photographie.&lt;/p&gt;
+
+&lt;h1 id=&quot;livres-sur-la-photographie&quot;&gt;Livres sur la photographie&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/surphoto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;slow-photo&quot;&gt;Slow photo&lt;/h2&gt;
+&lt;p&gt;de Sophie Howarth à 20€&lt;/p&gt;
+
+&lt;p&gt;Il se lit vite car il va vraiment à l’essentiel. J’ai juste du mal
+avec certains mots utilisés qui sont complètement galvaudés par les
+coachs en développement personnel (par exemple “gratitude”). Les
+exercices aussi sont très clichés (par exemple : faire une lettre à
+vos peurs). Comme je suis convaincu par cette approche, j’ai réussi à
+passer outre, et j’ai même plaisir à relire certains chapitres. C’est
+aussi un beau livre avec une belle mise en page et des photos qui
+collent bien à l’esprit du livre&lt;/p&gt;
+
+&lt;h2 id=&quot;a-beautiful-anarchy&quot;&gt;A beautiful anarchy&lt;/h2&gt;
+&lt;p&gt;de David duChemin, en anglais, à 14€ sur Kindle&lt;/p&gt;
+
+&lt;p&gt;Je ne l’ai pas encore terminé mais ce livre est assez exceptionnel
+dans le sens ou c’est un livre très philosophique sur le processus
+créatif. Il donne beaucoup d’exemple sur ce qui nous rend créateurs de
+nos vies que ce soit en créant une entreprise, en élevant un enfant ou
+même sentimentalement (et bien sûr aussi en photo). Très intéressant.&lt;/p&gt;
+
+&lt;h2 id=&quot;le-plaisir-des-images&quot;&gt;Le plaisir des images&lt;/h2&gt;
+&lt;p&gt;de Maxime Coulombe à 8€&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Il y a encore peu de littérature sur les avancées en neuroscience qui
+permettent d’affirmer aujourd’hui comment sont liés les sens, le
+cerveau et la mémoire. Je faisais beaucoup de rapprochement intuitifs
+entre l’autisme et la photographie avant de découvrir ce livre qui
+décrit très bien tout ça !&lt;/p&gt;
+
+&lt;h2 id=&quot;photowork&quot;&gt;PhotoWork&lt;/h2&gt;
+&lt;p&gt;au éditions Aperture, en anglais, à 25€&lt;/p&gt;
+
+&lt;p&gt;40 photographes répondent aux mêmes questions sur leur processus
+créatif. Cette idée fait très bien ressortir leurs différentes
+personnalités et aussi beaucoup de points communs entre leurs
+pratiques et la nôtre.&lt;/p&gt;
+
+&lt;h2 id=&quot;errance&quot;&gt;Errance&lt;/h2&gt;
+&lt;p&gt;de Raymond Depardon à 8€&lt;/p&gt;
+
+&lt;p&gt;Petit livre de poche avec une alternance de photos et de pages de
+texte écrites au kilomètre, sans aucune structure, mais très profond
+et authentique. Beaucoup de photographes peuvent ressentir cette
+solitude et cette errance dans leur pratique photo. Je m’y suis bien
+reconnu. Certains passages écrits sont magnifiques. Cela m’a aussi
+démontré qu’on pouvait commencer à écrire sans forcément savoir où
+notre écriture nous mène, comme en photo…&lt;/p&gt;
+
+&lt;h2 id=&quot;on-landscapes-interiors-and-nudes&quot;&gt;On landscapes interiors and nudes&lt;/h2&gt;
+&lt;p&gt;Todd Hido, en anglais, à 26€&lt;/p&gt;
+
+&lt;p&gt;Ce livre est à cheval entre les deux catégories de livre de cet
+article car c’est un livre DE photos avec des photos bien imprimées et
+aussi un livre SUR la photo avec une super masterclass de Todd Hido
+sur son processus créatif au fil de sa carrière.&lt;/p&gt;
+
+&lt;h1 id=&quot;livres-de-photographies&quot;&gt;Livres de photographies&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dephoto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;an-intimate-distance&quot;&gt;An intimate distance&lt;/h2&gt;
+&lt;p&gt;de Todd Hido à 69€&lt;/p&gt;
+
+&lt;p&gt;Todd Hido m’inspire tellement. On peut se plonger des centaines de
+fois dans ses photos et on y apprend toujours quelque chose de
+nouveau. Dernièrement j’ai remarqué sa façon de contraster la netteté
+et le flou par exemple grâce à la pluie sur son pare-brise, grâce aux
+différents plans et la profondeur de champs ou grâce au
+mouvement. Dans cette édition, les magnifiques textes de Katya
+Tylevich qui commentent les périodes et la démarche de Todd Hido m’ont
+beaucoup parlés.&lt;/p&gt;
+
+&lt;h2 id=&quot;zzyzx&quot;&gt;ZZYZX&lt;/h2&gt;
+&lt;p&gt;de Gregory Halpern, à 50€&lt;/p&gt;
+
+&lt;p&gt;Sans doute mon livre préféré tant au niveau de l’esthétique, de la
+poésie et surtout de la narration !&lt;/p&gt;
+
+&lt;p&gt;Mais c’est ici qu’on en parle le mieux :
+&lt;a href=&quot;https://lephotographeminimaliste.fr/zzyzx-gregory-halpern/&quot;&gt;https://lephotographeminimaliste.fr/zzyzx-gregory-halpern/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-my-room&quot;&gt;In my room&lt;/h2&gt;
+&lt;p&gt;de Saul Leiter, à 38€&lt;/p&gt;
+
+&lt;p&gt;Beau petit livre en noir et blanc, intime, doux et authentique qui
+contraste complètement avec les photos couleurs que l’on connait de
+Saul à New York. Il est rare que j’apprécie le noir et blanc mais il
+m’a fait changer d’avis pour ce livre.&lt;/p&gt;
+
+&lt;h2 id=&quot;illuminance&quot;&gt;Illuminance&lt;/h2&gt;
+&lt;p&gt;de Rinko Kawaushi, à 53€&lt;/p&gt;
+
+&lt;p&gt;Encore un livre très poétique et minimaliste avec des sujets
+relativements banals mais si bien traités au niveau des couleurs et de la
+lumière. Beaucoup de détails esthétiques dans la reliure, le papier,
+la couverture subliment ce beau livre.&lt;/p&gt;
+
+&lt;h2 id=&quot;tirages-fresson&quot;&gt;Tirages Fresson&lt;/h2&gt;
+&lt;p&gt;de Bernard Plossu à 49€&lt;/p&gt;
+
+&lt;p&gt;Ici un procédé deux-en-un avec l’efficacité poétique des images de
+Plossu et un tirage Fresson qui rend les images très picturales et
+intemporelles. Plossu dit que Fresson est la raison pour laquelle il
+s’est autorisé la couleur. En effet, cette technique permet, comme le
+noir et blanc argentique, un grain très doux et qui donne vie aux
+photos.&lt;/p&gt;
+
+&lt;h2 id=&quot;en-létat&quot;&gt;En l’état&lt;/h2&gt;
+&lt;p&gt;de Franck Gerard à 24€&lt;/p&gt;
+
+&lt;p&gt;Ce livre donne la pêche. Franck Gérard est le Jean-Yves Lafesse de la
+photographie. Poétique et absurde comme un numéro de clown.
+Beaucoup de photos et pour un prix très réduit !&lt;/p&gt;
+
+&lt;h1 id=&quot;où-acheter-des-livres-photo-&quot;&gt;Où acheter des livres photo ?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Librairie du Centre Pompidou&lt;/li&gt;
+  &lt;li&gt;La comète (près de la gare de l’Est de la gare du Nord)&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+
+      
+
+      
+        <summary type="html">Dans cet article je liste quelques recommandations de livre de photos et sur la photographie. Livres sur la photographie Slow photo de Sophie Howarth à 20€ Il se lit vite car il va vraiment à l’essentiel. J’ai juste du mal avec certains mots utilisés qui sont complètement galvaudés par les coachs en développement personnel (par exemple “gratitude”). Les exercices aussi sont très clichés (par exemple : faire une lettre à vos peurs). Comme je suis convaincu par cette approche, j’ai réussi à passer outre, et j’ai même plaisir à relire certains chapitres. C’est aussi un beau livre avec une belle mise en page et des photos qui collent bien à l’esprit du livre A beautiful anarchy de David duChemin, en anglais, à 14€ sur Kindle Je ne l’ai pas encore terminé mais ce livre est assez exceptionnel dans le sens ou c’est un livre très philosophique sur le processus créatif. Il donne beaucoup d’exemple sur ce qui nous rend créateurs de nos vies que ce soit en créant une entreprise, en élevant un enfant ou même sentimentalement (et bien sûr aussi en photo). Très intéressant. Le plaisir des images de Maxime Coulombe à 8€</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Ce que l’argentique m’a appris</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/2022/11/26/ce-que-largentique-ma-appris.html" rel="alternate" type="text/html" title="Ce que l&apos;argentique m&apos;a appris" />
+      
+      <published>2022-11-26T11:00:00+00:00</published>
+      <updated>2022-11-26T11:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/photographie/2022/11/26/ce-que-largentique-ma-appris</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/2022/11/26/ce-que-largentique-ma-appris.html">&lt;p&gt;Dans cet article je liste ce qui, en argentique, a influencé ma pratique en numérique.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/argentique.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;le-chimping&quot;&gt;Le chimping&lt;/h2&gt;
+
+&lt;p&gt;Quand j’ai commencé l’argentique, je prenais de moins en moins de
+plaisir à la prise de vue en numérique. Je me suis rendu compte que
+cela était en parti lié à la réponse immédiate que l’on a en numérique
+et en rapport à la pression que l’on peut se mettre parfois pour un
+résultat. En argentique, on reste davantage dans le moment présent et
+sans être influencé, souvent négativement, sur nos dernières prises de
+vue.&lt;/p&gt;
+
+&lt;h2 id=&quot;limpact-du-format-ff-aps-c&quot;&gt;L’impact du format (FF, APS-C)&lt;/h2&gt;
+
+&lt;p&gt;Ceci n’est pas directement lié à l’argentique mais comme en argentique
+on est souvent avec un format de pellicule plus large que mon APS-C
+numérique cette expérience m’a appris les effets de format du capteur
+(ou du film).&lt;/p&gt;
+
+&lt;p&gt;J’ai compris qu’une focale 50mm sur un APS-C et sur un FF (full frame)
+donne exactement la même perspective mais sur un champ plus réduit en
+APS-C (crop). Résultat, un 50mm f1.7 donne la même profondeur de champ
+réduite qu’en APS-C mais avec un angle plus grand (équivalent à un
+35mm en APS-C). C’est donc comme si j’avais un objectif 35mm f1.7
+APS-C, ce qui, à cette ouverture, couterait très cher.&lt;/p&gt;
+
+&lt;p&gt;Enfin, mon argentique à un viseur bien plus grand et lumineux et c’est
+encore aussi plus de confort et de plaisir à la prise de vue.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;la-priorité-à-louverture&quot;&gt;La priorité à l’ouverture&lt;/h2&gt;
+
+&lt;p&gt;Le pentax MG que j’utilise est en mode priorité à l’ouverture
+uniquement et comme on bénéficie pour un budget réduit d’une optique
+très lumineuse, ça permet d’en profiter au maximum.
+Depuis, je suis souvent dans ce mode aussi en numérique.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-gestion-des-hautes-lumières&quot;&gt;La gestion des hautes lumières&lt;/h2&gt;
+
+&lt;p&gt;Un des avantages de l’argentique est également sa capacité à garder du
+détail dans les hautes lumières. Après avoir fait ma série Hello World
+dans des basses lumières et en isolant les sujets avec du noir,
+j’avais envie de faire l’inverse en poussant les hautes lumières et en
+voyant comment le blanc peut également isoler le sujet.&lt;/p&gt;
+
+&lt;p&gt;En faisant quelques recherches associées aux hautes lumières j’ai
+appris que le risque d’une mauvaise exposition est une exagération de
+la saturation liés aux mauvaises modélisations de la couleur et qu’a
+l’inverse en argentique on peut avoir un effet très agréable de
+désaturation des couleurs dans les hautes lumières (repris dans
+certains logiciels en numérique comme Blender ou Darktable avec des
+modules “filmics”). J’ai depuis activé un mode SATOBI sur mon
+numérique Pentax qui adoucis les couleurs et en particulier dans les
+hautes lumières&lt;/p&gt;
+
+&lt;p&gt;Je suis aussi devenu fan des effets de halo de lumière que l’on trouve
+sur les contres jours en argentique (effet “bloom”). J’ai cru
+comprendre que cet effet était renforcé sur les pellicules cinéma que
+j’utilise grâce à la couche de protection réfléchissante (remjet) à
+l’arrière de la pellicule qui réfléchit une plus grosse partie de la
+lumière.&lt;/p&gt;
+
+&lt;p&gt;Enfin, la vitesse d’obturation sur le pentax MG est de 1/1000 maximum et
+quand on veut prendre un contre jour en profitant d’une grande
+ouverture c’est largement insuffisant. J’ai donc ajouté un filtre UV
+qui ajoute aussi un peu de chaleur sur les photos.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-changement-de-regard-sur-le-bruit&quot;&gt;Un changement de regard sur le bruit&lt;/h2&gt;
+
+&lt;p&gt;Je trouve maintenant que cela donne vie aux photos et ne suis plus
+aussi reticent à monter les ISO en numérique.&lt;/p&gt;
+
+&lt;h2 id=&quot;limportance-du-hasard-et-de-lediting&quot;&gt;L’importance du hasard et de l’editing&lt;/h2&gt;
+
+&lt;p&gt;Ce dernier point est assez lié au premier. En s’en remettant davantage
+au hasard, on se laisse surprendre par certains effets inattendus
+(fuites de lumière, bruit, douceurs des lumières, halos, etc) et on
+donne alors plus d’importance à la phase d’editing. Ca enlève un peu
+de pression à la prise de vue et donc plus de plaisir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/lentilles.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ci-dessus, la fuite de lumière orange se complète avec les lentilles
+vertes et équilibre bien la composition.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Même si je suis de plus en plus économe pour l’achat des pellicules et
+en faisant le développement et le scan moi-même, cela reste un budget
+et donc je teste encore mon équilibre entre numérique et
+argentique. L’avantage de mon argentique est que je n’ai pas peur de
+l’avoir toujours sur moi (il m’a couté 40€ à la braderie de Lille).
+Finalement, ma plus grande satisfaction c’est de voir que l’argentique
+a amélioré ma pratique du numérique et qu’il est toujours satisfaisant
+de tester de nouvelles choses pour redonner de l’élan à sa pratique
+photo.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+
+      
+
+      
+        <summary type="html">Dans cet article je liste ce qui, en argentique, a influencé ma pratique en numérique. Le chimping Quand j’ai commencé l’argentique, je prenais de moins en moins de plaisir à la prise de vue en numérique. Je me suis rendu compte que cela était en parti lié à la réponse immédiate que l’on a en numérique et en rapport à la pression que l’on peut se mettre parfois pour un résultat. En argentique, on reste davantage dans le moment présent et sans être influencé, souvent négativement, sur nos dernières prises de vue. L’impact du format (FF, APS-C) Ceci n’est pas directement lié à l’argentique mais comme en argentique on est souvent avec un format de pellicule plus large que mon APS-C numérique cette expérience m’a appris les effets de format du capteur (ou du film). J’ai compris qu’une focale 50mm sur un APS-C et sur un FF (full frame) donne exactement la même perspective mais sur un champ plus réduit en APS-C (crop). Résultat, un 50mm f1.7 donne la même profondeur de champ réduite qu’en APS-C mais avec un angle plus grand (équivalent à un 35mm en APS-C). C’est donc comme si j’avais un objectif 35mm f1.7 APS-C, ce qui, à cette ouverture, couterait très cher. Enfin, mon argentique à un viseur bien plus grand et lumineux et c’est encore aussi plus de confort et de plaisir à la prise de vue.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Introduction à la photo</title>
+      
+      
+      <link href="http://0.0.0.0:4000/photographie/2022/10/10/REX_photo.html" rel="alternate" type="text/html" title="Introduction à la photo" />
+      
+      <published>2022-10-10T12:00:00+01:00</published>
+      <updated>2022-10-10T12:00:00+01:00</updated>
+      <id>http://0.0.0.0:4000/photographie/2022/10/10/REX_photo</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/photographie/2022/10/10/REX_photo.html">&lt;p&gt;J’ai réalisé une petite introduction sur la pratique photo (de type
+grand public). Je le mets ici si ça peut servir à d’autres.&lt;/p&gt;
+
+&lt;p&gt;Note: REX comme Retour d’EXperience&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/rex_photo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install curl
+sudo snap install slides
+curl https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/REX_Photo.md \
+     | /snap/bin/slides
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/REX_Photo.md&quot;&gt;Voir le fichier Markdown&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Photographie" />
+      
+
+      
+
+      
+        <summary type="html">J’ai réalisé une petite introduction sur la pratique photo (de type grand public). Je le mets ici si ça peut servir à d’autres. Note: REX comme Retour d’EXperience sudo apt install curl sudo snap install slides curl https://raw.githubusercontent.com/ArnaudSnomsed/arnaudsnomsed.github.io/master/REX_Photo.md \ | /snap/bin/slides Voir le fichier Markdown</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Stage de voile aux Glenans</title>
+      
+      
+      <link href="http://0.0.0.0:4000/general/gps/2009/05/05/stage-de-voile-aux-glenans.html" rel="alternate" type="text/html" title="Stage de voile aux Glenans" />
+      
+      <published>2009-05-05T11:08:08+01:00</published>
+      <updated>2009-05-05T11:08:08+01:00</updated>
+      <id>http://0.0.0.0:4000/general/gps/2009/05/05/stage-de-voile-aux-glenans</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/general/gps/2009/05/05/stage-de-voile-aux-glenans.html">&lt;p&gt;&lt;img src=&quot;http://lh5.ggpht.com/_nVXyOG-iuX4/SgAP_gRymzI/AAAAAAAAAp8/SjLZbdmKR3w/s288/DSC02814.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je reviens d’un stage fait aux Glenans : 3 jours embarqués (c’est à dire qu’on dort sur le bateau) à bord d’un voilier de type Elan 31 (photo). Nous étions 6 à bord. L’ambiance était excellente. Il n’a pas plu mais il n’a pas fait non plus énormément de vent (nous naviguions entre 2 et 5 nœuds). C’était l’idéal pour manœuvrer (empannages, virements de bord) et réviser les nœuds, le vocabulaire et les techniques de navigations (phares, carte, GPS, compas de relevement, rapporteur topo). Nous avons même pu voir des dauphins.&lt;/p&gt;
+
+&lt;p&gt;J’ai enregistré au GPS notre parcours du deuxième jour. Comme on peut le constater le vent venait du Nord :&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Ww-J91SPsbNw2Wn9L3nhnv80JinbDmo&amp;amp;ehbc=2E312F&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="General" />
+      
+        <category term="GPS" />
+      
+
+      
+
+      
+        <summary type="html">Je reviens d’un stage fait aux Glenans : 3 jours embarqués (c’est à dire qu’on dort sur le bateau) à bord d’un voilier de type Elan 31 (photo). Nous étions 6 à bord. L’ambiance était excellente. Il n’a pas plu mais il n’a pas fait non plus énormément de vent (nous naviguions entre 2 et 5 nœuds). C’était l’idéal pour manœuvrer (empannages, virements de bord) et réviser les nœuds, le vocabulaire et les techniques de navigations (phares, carte, GPS, compas de relevement, rapporteur topo). Nous avons même pu voir des dauphins. J’ai enregistré au GPS notre parcours du deuxième jour. Comme on peut le constater le vent venait du Nord :</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Revised pkcs12 patch for pyOpenSSL</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2008/08/18/revised-pyopenssl-pkcs12-patch.html" rel="alternate" type="text/html" title="Revised pkcs12 patch for pyOpenSSL" />
+      
+      <published>2008-08-18T16:06:11+01:00</published>
+      <updated>2008-08-18T16:06:11+01:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2008/08/18/revised-pyopenssl-pkcs12-patch</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2008/08/18/revised-pyopenssl-pkcs12-patch.html">&lt;p&gt;Here is the new patch (doc strings added) :&lt;br /&gt;
+&lt;a href=&quot;/assets/pyOpenSSL-0.7-pkcs12.patch&quot;&gt;pyOpenSSL-0.7-pkcs12.patch&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/pyOpenSSL-0.8-pkcs12.patch&quot;&gt;pyOpenSSL-0.8-pkcs12.patch&lt;/a&gt; (&lt;em&gt;updated 29/03/2009&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;The synopsis is still the same :&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;p12 = crypto.PKCS12()
+p12.set_privatekey(pkey)
+p12.set_certificate(cert)
+open(&quot;test.p12&quot;, &quot;w&quot;).write(crypto.dump_pkcs12(p12, &quot;my_passphrase&quot;))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Here is the new patch (doc strings added) : pyOpenSSL-0.7-pkcs12.patch pyOpenSSL-0.8-pkcs12.patch (updated 29/03/2009) The synopsis is still the same : p12 = crypto.PKCS12() p12.set_privatekey(pkey) p12.set_certificate(cert) open(&quot;test.p12&quot;, &quot;w&quot;).write(crypto.dump_pkcs12(p12, &quot;my_passphrase&quot;))</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">demo.wav</title>
+      
+      
+      <link href="http://0.0.0.0:4000/general/2007/09/04/demowav.html" rel="alternate" type="text/html" title="demo.wav" />
+      
+      <published>2007-09-04T17:43:47+01:00</published>
+      <updated>2007-09-04T17:43:47+01:00</updated>
+      <id>http://0.0.0.0:4000/general/2007/09/04/demowav</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/general/2007/09/04/demowav.html">&lt;p&gt;Ils sont fous ces demomakers ! Celui la a réalisé un programme en C qui génère un fichier son qui, sorti sur un oscilloscope, donne ça ! Je ne pensais pas que l’on pouvait faire ça avec un oscilloscope.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s1eNjUgaB-g&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="General" />
+      
+
+      
+
+      
+        <summary type="html">Ils sont fous ces demomakers ! Celui la a réalisé un programme en C qui génère un fichier son qui, sorti sur un oscilloscope, donne ça ! Je ne pensais pas que l’on pouvait faire ça avec un oscilloscope.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Autorités de certification</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2007/04/10/autorites-de-certification.html" rel="alternate" type="text/html" title="Autorités de certification" />
+      
+      <published>2007-04-10T15:47:08+01:00</published>
+      <updated>2007-04-10T15:47:08+01:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2007/04/10/autorites-de-certification</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2007/04/10/autorites-de-certification.html">&lt;p&gt;&lt;img src=&quot;/assets/images/lock-bottom.png&quot; alt=&quot;&quot; /&gt; Si quelqu’un peut m’expliquer les différences de prix qu’il peut y avoir entre &lt;a href=&quot;http://www.rapidssl.com&quot;&gt;rapidssl.com&lt;/a&gt; et verisign par exemple je suis preneur. Le prix d’un wildcard sur rapidssl.com est assez déroutant. Je ne pense d’ailleurs pas que l’équivalent existe avec verisign…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">Si quelqu’un peut m’expliquer les différences de prix qu’il peut y avoir entre rapidssl.com et verisign par exemple je suis preneur. Le prix d’un wildcard sur rapidssl.com est assez déroutant. Je ne pense d’ailleurs pas que l’équivalent existe avec verisign…</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Radioflemme.com</title>
+      
+      
+      <link href="http://0.0.0.0:4000/general/2007/03/20/radioflemmecom.html" rel="alternate" type="text/html" title="Radioflemme.com" />
+      
+      <published>2007-03-20T23:38:11+00:00</published>
+      <updated>2007-03-20T23:38:11+00:00</updated>
+      <id>http://0.0.0.0:4000/general/2007/03/20/radioflemmecom</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/general/2007/03/20/radioflemmecom.html">&lt;p&gt;&lt;img src=&quot;/assets/images/noxon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai fait recemment l’acquisition d’un &lt;a href=&quot;http://entertainfr.terratec.net/modules.php?op=modload&amp;amp;name=News&amp;amp;file=article&amp;amp;sid=237&quot;&gt;NOXON&lt;/a&gt;. Cela me permet d’écouter tout un tas de radios internet sans allumer mon ordinateur. La bête se connecte toute seule à internet via le wifi. On peut aussi parcourir les mp3 d’un ordinateur connecté au reseau via le protocol &lt;a href=&quot;http://fr.wikipedia.org/wiki/Universal_Plug_and_Play&quot;&gt;UPnP&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’écoute souvent &lt;a href=&quot;http://www.radioflemme.com/iso_album/Telerama_oct_2006.JPG&quot;&gt;radioflemme.com&lt;/a&gt;. Il y a aussi chillout sur di.fm, groovesalad sur somafm.com ou encore radio nova.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="General" />
+      
+
+      
+
+      
+        <summary type="html">J’ai fait recemment l’acquisition d’un NOXON. Cela me permet d’écouter tout un tas de radios internet sans allumer mon ordinateur. La bête se connecte toute seule à internet via le wifi. On peut aussi parcourir les mp3 d’un ordinateur connecté au reseau via le protocol UPnP J’écoute souvent radioflemme.com. Il y a aussi chillout sur di.fm, groovesalad sur somafm.com ou encore radio nova.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Yet another patch for pyOpenSSL</title>
+      
+      
+      <link href="http://0.0.0.0:4000/informatique/2007/02/24/yet-another-patch-for-pyopenssl.html" rel="alternate" type="text/html" title="Yet another patch for pyOpenSSL" />
+      
+      <published>2007-02-24T14:18:37+00:00</published>
+      <updated>2007-02-24T14:18:37+00:00</updated>
+      <id>http://0.0.0.0:4000/informatique/2007/02/24/yet-another-patch-for-pyopenssl</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/informatique/2007/02/24/yet-another-patch-for-pyopenssl.html">&lt;p&gt;&lt;a href=&quot;/assets/pyOpenSSL-0.6-pkcs12_cafile.patch&quot;&gt;This patch&lt;/a&gt; (to be applied just after the pkcs12 one and before the CRL one) will allow you to add the CA certificat into a pkcs12.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/pyOpenSSL-0.6-pkcs12_cafile.patch&quot;&gt;pyOpenSSL-0.6-pkcs12_cafile.patch&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/pyOpenSSL-0.8-pkcs12_cafile.patch&quot;&gt;pyOpenSSL-0.8-pkcs12_cafile.patch&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;p12 = crypto.PKCS12()
+p12.set_privatekey(pkey)
+p12.set_certificate(cert)
+open(&quot;test.p12&quot;, &quot;w&quot;).write(crypto.dump_pkcs12(p12, &quot;my_passphrase&quot;, &quot;/my/path/to/cacert.pem&quot;))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>arnaudsnomsed</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="Informatique" />
+      
+
+      
+
+      
+        <summary type="html">This patch (to be applied just after the pkcs12 one and before the CRL one) will allow you to add the CA certificat into a pkcs12. pyOpenSSL-0.6-pkcs12_cafile.patch pyOpenSSL-0.8-pkcs12_cafile.patch p12 = crypto.PKCS12() p12.set_privatekey(pkey) p12.set_certificate(cert) open(&quot;test.p12&quot;, &quot;w&quot;).write(crypto.dump_pkcs12(p12, &quot;my_passphrase&quot;, &quot;/my/path/to/cacert.pem&quot;))</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+</feed>
