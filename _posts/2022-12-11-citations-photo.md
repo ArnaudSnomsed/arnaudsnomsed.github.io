@@ -5,6 +5,7 @@ image: /assets/citations.jpg
 layout: post
 categories:
     - Photographie
+date: 2022-12-11 12:00:00 +0100
 ---
 
 Voici mes citations préférées sur la photo. Et vous ? Dites le moi en

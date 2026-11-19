@@ -6,6 +6,7 @@ layout: post
 categories:
     - Photographie
     - Informatique
+date: 2023-02-20 12:00:00 +0100
 ---
 
 Ci-dessous un script permettant d'importer les photos depuis une carte

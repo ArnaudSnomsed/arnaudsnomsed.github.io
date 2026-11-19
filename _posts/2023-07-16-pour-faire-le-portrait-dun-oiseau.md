@@ -3,6 +3,7 @@ title: "Pour faire le portrait d'un oiseau"
 image: /assets/fx.png
 author: arnaudsnomsed
 layout: post
+date: 2023-07-16 12:00:00 +0100
 ---
 
 Cet article est librement inspiré de mon intervention lors d'une

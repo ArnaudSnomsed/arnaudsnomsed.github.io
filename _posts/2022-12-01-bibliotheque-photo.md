@@ -5,6 +5,7 @@ image: /assets/surphoto.jpg
 layout: post
 categories:
     - Photographie
+date: 2022-12-01 12:00:00 +0100
 ---
 
 Dans cet article je liste quelques recommandations de livre de photos

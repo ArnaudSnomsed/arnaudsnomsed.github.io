@@ -5,6 +5,7 @@ author: arnaudsnomsed
 layout: post
 categories:
     - Informatique
+date: 2023-05-26 12:00:00 +0100
 ---
 
 J'ai découvert récemment l'outil taskjuggler qui est une sorte de

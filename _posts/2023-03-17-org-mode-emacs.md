@@ -5,6 +5,7 @@ author: arnaudsnomsed
 layout: post
 categories:
     - Informatique
+date: 2023-03-17 12:00:00 +0100
 ---
 
 ![](/assets/orgmode.png)

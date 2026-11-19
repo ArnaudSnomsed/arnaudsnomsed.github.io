@@ -5,6 +5,7 @@ image: /assets/tty.png
 layout: post
 categories:
     - Informatique
+date: 2023-02-05 12:00:00 +0100
 ---
 
 Petit pense bête pour générer un GIF a partir de "slides" au format Markdown

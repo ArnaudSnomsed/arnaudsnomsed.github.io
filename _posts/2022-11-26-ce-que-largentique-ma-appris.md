@@ -5,6 +5,7 @@ author: arnaudsnomsed
 layout: post
 categories:
     - Photographie
+date: 2022-11-26 12:00:00 +0100
 ---
 
 Dans cet article je liste ce qui, en argentique, a influencé ma pratique en numérique.

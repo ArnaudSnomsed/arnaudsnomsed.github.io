@@ -4,6 +4,7 @@ author: arnaudsnomsed
 layout: post
 categories:
     - Informatique
+date: 2023-11-26 12:00:00 +0100
 ---
 
 Pour voir des diff sur des fichiers chiffrés avec GPG, par exemple dans Magit, utiliser les commandes suivantes

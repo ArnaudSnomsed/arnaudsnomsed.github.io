@@ -5,6 +5,7 @@ author: arnaudsnomsed
 layout: post
 categories:
     - Informatique
+date: 2023-04-23 12:00:00 +0100
 ---
 
 Pour chiffrer de façon transparente vos notes org-mode dans emacs,

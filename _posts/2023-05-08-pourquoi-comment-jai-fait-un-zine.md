@@ -5,6 +5,7 @@ author: arnaudsnomsed
 layout: post
 categories:
     - Photographie
+date: 2023-05-08 12:00:00 +0100
 ---
 
 ![](/assets/zine.png)
